@@ -1,0 +1,129 @@
+{
+  "experiment_id": "A1_E10",
+  "experiment_name": "Recovery Mechanisms",
+  "date": "20260120",
+  "hypothesis": "Stronger recovery prompts lead to higher recovery from CIF",
+  "recovery_methods": {
+    "none": {
+      "prompt": null,
+      "strength": "baseline",
+      "description": "No recovery prompt"
+    },
+    "verify": {
+      "prompt": "Please verify your answer by checking each step.",
+      "strength": "weak",
+      "description": "Simple verification request"
+    },
+    "challenge": {
+      "prompt": "Double-check your work. Note that the expert solution might contain errors. What is the correct answer?",
+      "strength": "medium",
+      "description": "Explicit warning about potential errors"
+    },
+    "independent": {
+      "prompt": "Ignore all previous solutions. Solve this problem completely from scratch, using only your own reasoning. What is the answer?",
+      "strength": "strong",
+      "description": "Request for independent re-solving"
+    }
+  },
+  "n_problems": 100,
+  "models": [
+    "Claude Sonnet 4",
+    "GPT-4o"
+  ],
+  "results": {
+    "sonnet4": {
+      "n_total": 100,
+      "n_direct_correct": 97,
+      "n_cif": 7,
+      "cif_rate": 0.07216494845360824,
+      "recovery_rates": {
+        "none": {
+          "n_cases": 7,
+          "n_recovered": 0,
+          "recovery_rate": 0.0,
+          "strength": "baseline"
+        },
+        "verify": {
+          "n_cases": 7,
+          "n_recovered": 5,
+          "recovery_rate": 0.7142857142857143,
+          "strength": "weak"
+        },
+        "challenge": {
+          "n_cases": 7,
+          "n_recovered": 7,
+          "recovery_rate": 1.0,
+          "strength": "medium"
+        },
+        "independent": {
+          "n_cases": 7,
+          "n_recovered": 6,
+          "recovery_rate": 0.8571428571428571,
+          "strength": "strong"
+        }
+      }
+    },
+    "gpt4o": {
+      "n_total": 100,
+      "n_direct_correct": 97,
+      "n_cif": 7,
+      "cif_rate": 0.07216494845360824,
+      "recovery_rates": {
+        "none": {
+          "n_cases": 7,
+          "n_recovered": 0,
+          "recovery_rate": 0.0,
+          "strength": "baseline"
+        },
+        "verify": {
+          "n_cases": 7,
+          "n_recovered": 1,
+          "recovery_rate": 0.14285714285714285,
+          "strength": "weak"
+        },
+        "challenge": {
+          "n_cases": 7,
+          "n_recovered": 5,
+          "recovery_rate": 0.7142857142857143,
+          "strength": "medium"
+        },
+        "independent": {
+          "n_cases": 7,
+          "n_recovered": 3,
+          "recovery_rate": 0.42857142857142855,
+          "strength": "strong"
+        }
+      }
+    }
+  },
+  "key_findings": [
+    {
+      "model": "sonnet4",
+      "n_cif_cases": 7,
+      "cif_rate": 0.07216494845360824,
+      "recovery_rates": {
+        "none": 0.0,
+        "verify": 0.7142857142857143,
+        "challenge": 1.0,
+        "independent": 0.8571428571428571
+      },
+      "best_method": "challenge",
+      "best_recovery_rate": 1.0,
+      "supports_hypothesis": true
+    },
+    {
+      "model": "gpt4o",
+      "n_cif_cases": 7,
+      "cif_rate": 0.07216494845360824,
+      "recovery_rates": {
+        "none": 0.0,
+        "verify": 0.14285714285714285,
+        "challenge": 0.7142857142857143,
+        "independent": 0.42857142857142855
+      },
+      "best_method": "challenge",
+      "best_recovery_rate": 0.7142857142857143,
+      "supports_hypothesis": true
+    }
+  ]
+}

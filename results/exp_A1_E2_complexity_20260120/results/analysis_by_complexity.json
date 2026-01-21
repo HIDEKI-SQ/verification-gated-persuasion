@@ -1,0 +1,66 @@
+{
+  "sonnet4": {
+    "simple": {
+      "n": 50,
+      "avg_steps": 2.0,
+      "accuracy": {
+        "DIRECT": 1.0,
+        "USE": 1.0
+      },
+      "cif_rate": 0.0,
+      "followed_wrong_in_cif": 0
+    },
+    "medium": {
+      "n": 50,
+      "avg_steps": 3.46,
+      "accuracy": {
+        "DIRECT": 0.96,
+        "USE": 0.84
+      },
+      "cif_rate": 0.125,
+      "followed_wrong_in_cif": 1.0
+    },
+    "complex": {
+      "n": 50,
+      "avg_steps": 5.78,
+      "accuracy": {
+        "DIRECT": 0.96,
+        "USE": 0.82
+      },
+      "cif_rate": 0.16666666666666666,
+      "followed_wrong_in_cif": 0.875
+    }
+  },
+  "gpt4o": {
+    "simple": {
+      "n": 50,
+      "avg_steps": 2.0,
+      "accuracy": {
+        "DIRECT": 1.0,
+        "USE": 0.98
+      },
+      "cif_rate": 0.02,
+      "followed_wrong_in_cif": 1.0
+    },
+    "medium": {
+      "n": 50,
+      "avg_steps": 3.46,
+      "accuracy": {
+        "DIRECT": 0.96,
+        "USE": 0.86
+      },
+      "cif_rate": 0.10416666666666667,
+      "followed_wrong_in_cif": 1.0
+    },
+    "complex": {
+      "n": 50,
+      "avg_steps": 5.78,
+      "accuracy": {
+        "DIRECT": 0.94,
+        "USE": 0.76
+      },
+      "cif_rate": 0.23404255319148937,
+      "followed_wrong_in_cif": 0.7272727272727273
+    }
+  }
+}

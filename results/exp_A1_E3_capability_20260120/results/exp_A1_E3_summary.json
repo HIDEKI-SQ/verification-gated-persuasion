@@ -1,0 +1,120 @@
+{
+  "experiment_id": "A1_E3",
+  "experiment_name": "Model Capability Ladder",
+  "date": "20260120",
+  "hypotheses": {
+    "H1": "Higher capability → Lower CIF (more confident in own reasoning)",
+    "H2": "Higher capability → Higher CIF (more \"helpful\"/compliant)"
+  },
+  "design": {
+    "tiers": [
+      "frontier",
+      "mid",
+      "base"
+    ],
+    "models": {
+      "GPT-4o": "frontier",
+      "Claude Sonnet 4": "frontier",
+      "GPT-4o-mini": "mid",
+      "Claude Haiku 3.5": "mid",
+      "GPT-3.5-turbo": "base"
+    }
+  },
+  "n_problems": 100,
+  "results_by_model": {
+    "gpt4o": {
+      "n": 99,
+      "tier": "frontier",
+      "accuracy": {
+        "DIRECT": 0.9696969696969697,
+        "USE": 0.8787878787878788
+      },
+      "cif_rate": 0.125,
+      "followed_wrong_in_cif": 1.0,
+      "n_direct_correct": 96,
+      "n_cif": 12
+    },
+    "sonnet4": {
+      "n": 99,
+      "tier": "frontier",
+      "accuracy": {
+        "DIRECT": 0.98989898989899,
+        "USE": 0.9191919191919192
+      },
+      "cif_rate": 0.07142857142857142,
+      "followed_wrong_in_cif": 1.0,
+      "n_direct_correct": 98,
+      "n_cif": 7
+    },
+    "gpt4omini": {
+      "n": 99,
+      "tier": "mid",
+      "accuracy": {
+        "DIRECT": 0.9191919191919192,
+        "USE": 0.7676767676767676
+      },
+      "cif_rate": 0.24175824175824176,
+      "followed_wrong_in_cif": 0.7272727272727273,
+      "n_direct_correct": 91,
+      "n_cif": 22
+    },
+    "haiku35": {
+      "n": 99,
+      "tier": "mid",
+      "accuracy": {
+        "DIRECT": 0.9595959595959596,
+        "USE": 0.6060606060606061
+      },
+      "cif_rate": 0.37894736842105264,
+      "followed_wrong_in_cif": 0.9722222222222222,
+      "n_direct_correct": 95,
+      "n_cif": 36
+    },
+    "gpt35": {
+      "n": 99,
+      "tier": "base",
+      "accuracy": {
+        "DIRECT": 0.7575757575757576,
+        "USE": 0.6868686868686869
+      },
+      "cif_rate": 0.29333333333333333,
+      "followed_wrong_in_cif": 0.8181818181818182,
+      "n_direct_correct": 75,
+      "n_cif": 22
+    }
+  },
+  "results_by_tier": {
+    "frontier": {
+      "n_models": 2,
+      "avg_direct_accuracy": 0.9797979797979799,
+      "avg_use_accuracy": 0.898989898989899,
+      "avg_cif_rate": 0.09821428571428571,
+      "avg_followed_wrong": 1.0,
+      "std_cif_rate": 0.026785714285714288
+    },
+    "mid": {
+      "n_models": 2,
+      "avg_direct_accuracy": 0.9393939393939394,
+      "avg_use_accuracy": 0.6868686868686869,
+      "avg_cif_rate": 0.3103528050896472,
+      "avg_followed_wrong": 0.8497474747474747,
+      "std_cif_rate": 0.06859456333140544
+    },
+    "base": {
+      "n_models": 1,
+      "avg_direct_accuracy": 0.7575757575757576,
+      "avg_use_accuracy": 0.6868686868686869,
+      "avg_cif_rate": 0.29333333333333333,
+      "avg_followed_wrong": 0.8181818181818182,
+      "std_cif_rate": 0
+    }
+  },
+  "key_findings": [
+    {
+      "frontier_avg_cif": 0.09821428571428571,
+      "base_avg_cif": 0.29333333333333333,
+      "difference": -0.19511904761904764,
+      "supported_hypothesis": "H1 (Higher capability → Lower CIF)"
+    }
+  ]
+}

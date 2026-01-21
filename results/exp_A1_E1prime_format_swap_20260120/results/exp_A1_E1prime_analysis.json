@@ -1,0 +1,98 @@
+{
+  "sonnet4": {
+    "gsm8k_mc": {
+      "n_problems": 100,
+      "accuracy": {
+        "DIRECT": 0.37,
+        "USE": 0.1,
+        "USE_NOANS": 0.32
+      },
+      "cif_rate": {
+        "USE": 0.8108108108108109,
+        "USE_NOANS": 0.4594594594594595
+      },
+      "cif_count": {
+        "USE": 30,
+        "USE_NOANS": 17
+      },
+      "followed_wrong_in_cif": {
+        "USE": 1.0,
+        "USE_NOANS": 1.0
+      },
+      "extraction_failures": {
+        "DIRECT": 53,
+        "USE": 1,
+        "USE_NOANS": 2
+      }
+    },
+    "csqa_open": {
+      "n_problems": 100,
+      "accuracy": {
+        "DIRECT": 0.43,
+        "USE": 0.15,
+        "USE_NOANS": 0.22
+      },
+      "cif_rate": {
+        "USE": 0.6976744186046512,
+        "USE_NOANS": 0.5581395348837209
+      },
+      "cif_count": {
+        "USE": 30,
+        "USE_NOANS": 24
+      },
+      "followed_wrong_in_cif": {
+        "USE": 0.8333333333333334,
+        "USE_NOANS": 0.75
+      },
+      "extraction_failures": {}
+    }
+  },
+  "gpt4o": {
+    "gsm8k_mc": {
+      "n_problems": 100,
+      "accuracy": {
+        "DIRECT": 0.53,
+        "USE": 0.07,
+        "USE_NOANS": 0.15
+      },
+      "cif_rate": {
+        "USE": 0.9245283018867925,
+        "USE_NOANS": 0.8113207547169812
+      },
+      "cif_count": {
+        "USE": 49,
+        "USE_NOANS": 43
+      },
+      "followed_wrong_in_cif": {
+        "USE": 1.0,
+        "USE_NOANS": 1.0
+      },
+      "extraction_failures": {
+        "DIRECT": 0,
+        "USE": 0,
+        "USE_NOANS": 0
+      }
+    },
+    "csqa_open": {
+      "n_problems": 100,
+      "accuracy": {
+        "DIRECT": 0.32,
+        "USE": 0.19,
+        "USE_NOANS": 0.16
+      },
+      "cif_rate": {
+        "USE": 0.59375,
+        "USE_NOANS": 0.59375
+      },
+      "cif_count": {
+        "USE": 19,
+        "USE_NOANS": 19
+      },
+      "followed_wrong_in_cif": {
+        "USE": 0.6842105263157895,
+        "USE_NOANS": 0.631578947368421
+      },
+      "extraction_failures": {}
+    }
+  }
+}

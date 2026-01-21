@@ -1,0 +1,66 @@
+{
+  "sonnet4": {
+    "n_total": 100,
+    "n_direct_correct": 97,
+    "n_cif": 7,
+    "cif_rate": 0.07216494845360824,
+    "recovery_rates": {
+      "none": {
+        "n_cases": 7,
+        "n_recovered": 0,
+        "recovery_rate": 0.0,
+        "strength": "baseline"
+      },
+      "verify": {
+        "n_cases": 7,
+        "n_recovered": 5,
+        "recovery_rate": 0.7142857142857143,
+        "strength": "weak"
+      },
+      "challenge": {
+        "n_cases": 7,
+        "n_recovered": 7,
+        "recovery_rate": 1.0,
+        "strength": "medium"
+      },
+      "independent": {
+        "n_cases": 7,
+        "n_recovered": 6,
+        "recovery_rate": 0.8571428571428571,
+        "strength": "strong"
+      }
+    }
+  },
+  "gpt4o": {
+    "n_total": 100,
+    "n_direct_correct": 97,
+    "n_cif": 7,
+    "cif_rate": 0.07216494845360824,
+    "recovery_rates": {
+      "none": {
+        "n_cases": 7,
+        "n_recovered": 0,
+        "recovery_rate": 0.0,
+        "strength": "baseline"
+      },
+      "verify": {
+        "n_cases": 7,
+        "n_recovered": 1,
+        "recovery_rate": 0.14285714285714285,
+        "strength": "weak"
+      },
+      "challenge": {
+        "n_cases": 7,
+        "n_recovered": 5,
+        "recovery_rate": 0.7142857142857143,
+        "strength": "medium"
+      },
+      "independent": {
+        "n_cases": 7,
+        "n_recovered": 3,
+        "recovery_rate": 0.42857142857142855,
+        "strength": "strong"
+      }
+    }
+  }
+}

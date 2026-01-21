@@ -1,0 +1,1887 @@
+{
+  "model": "GPT-4o",
+  "tier": "frontier",
+  "problems": [
+    {
+      "idx": 144,
+      "correct_answer": "20",
+      "wrong_answer": "30",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate Kim's total expenses and then subtract these from his total income to find his profit.\n\n1. **Determine the total number of clients:**\n   - Kim currently has 3 clients and is confident about adding 5 more potential clients.\n   - Total clients = 3 + 5 = 8 clients.\n\n2. **Calculate the total expenses for cleaning supplies:**\n   - Each client requires 2 bottles of bleach and 1 pack of cloths.\n   - Cost of bleach per client = 2 bottles × $2 per bottle = $4.\n",
+          "extracted": "20",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1: Calculate the total number of clients**\nKim currently has 3 clients and is confident about getting 5 more potential clients.\nTotal clients = 3 + 5 = 8 clients\n\n**Step 2: Calculate the materials needed per client**\nEach client needs:\n- 2 bottles of bleach\n- 1 pack of cloths\n\n**Step 3: Calculate the total materials needed for all clients**\nFor 8 clients:\n- Total bottles of bleach needed = 8 × 2 = 16 bottles\n- Total packs ",
+          "extracted": "20",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 270,
+      "correct_answer": "762",
+      "wrong_answer": "752",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the number of M&Ms in each bag and then sum them up to find the total number of M&Ms Mary has.\n\n1. **First Bag:**\n   - The first bag has 300 M&Ms.\n\n2. **Second Bag:**\n   - The second bag has 12 more M&Ms than the first bag.\n   - Number of M&Ms in the second bag = 300 + 12 = 312.\n\n3. **Third Bag:**\n   - The third bag has half the number of M&Ms that the first bag had.\n   - Number of M&Ms in the third bag = 300 / 2 = 150.\n\n4. **Total M&Ms:**\n   - To find",
+          "extracted": "762",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1:** Find the number of M&Ms in the first bag.\n- The first bag has 300 M&Ms.\n\n**Step 2:** Find the number of M&Ms in the second bag.\n- The second bag has 12 more M&Ms than the first bag.\n- Second bag = 300 + 12 = 312 M&Ms\n\n**Step 3:** Find the number of M&Ms in the third bag.\n- The third bag has half the number of M&Ms that the first bag had.\n- Third bag = 300 ÷ 2 = 150 M&Ms\n\n**Step 4:** Calculate the total number of M&Ms.",
+          "extracted": "762",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1271,
+      "correct_answer": "43",
+      "wrong_answer": "44",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many pink candies are in the bag. We are given the total number of candies and the number of candies of each color except pink. Let's break it down step by step.\n\n1. **Identify the number of red candies:**\n   - The problem states there are 54 red candies.\n\n2. **Determine the number of orange candies:**\n   - The problem states there are twice as many orange candies as red candies.\n   - Number of orange candies = 2 × 54 = 108.\n\n3. **Determine the num",
+          "extracted": "43",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1:** Identify what we know\n- Total candies = 232 pieces\n- Red candies = 54\n- Orange candies = twice the red candies\n- Yellow candies = half as many as red candies\n- Pink candies = ?\n\n**Step 2:** Calculate the number of orange candies\nOrange candies = 2 × red candies = 2 × 54 = 108 candies\n\n**Step 3:** Calculate the number of yellow candies\nYellow candies = half of red candies = 54 ÷ 2 = 27 candies\n\n**Step 4:** Find the tot",
+          "extracted": "43",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 91,
+      "correct_answer": "28",
+      "wrong_answer": "29",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the number of pets each person has and then find the total.\n\n1. **Determine Cindy's number of pets:**\n   - We are given that Cindy has 4 pets.\n\n2. **Determine Marcia's number of pets:**\n   - Marcia has two more pets than Cindy.\n   - Since Cindy has 4 pets, Marcia has \\(4 + 2 = 6\\) pets.\n\n3. **Determine Jan's number of pets:**\n   - Jan has three times the number of pets as Marcia.\n   - Since Marcia has 6 pets, Jan has \\(3 \\times 6 = 18\\) pets.\n\n4. **Cal",
+          "extracted": "28",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but with careful attention to calculations.\n\n**Step 1:** Find how many pets Cindy has.\n- Cindy has 4 pets (given).\n\n**Step 2:** Find how many pets Marcia has.\n- Marcia has two more pets than Cindy.\n- Marcia has 4 + 2 = 6 pets.\n\n**Step 3:** Find how many pets Jan has.\n- Jan has three times the number of pets as Marcia.\n- Jan has 3 × 6 = 18 pets.\n\n**Step 4:** Find the total number of pets.\n- Cindy: 4 pets\n- Marcia: 6 pets\n- Jan: 18 ",
+          "extracted": "28",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 227,
+      "correct_answer": "9",
+      "wrong_answer": "10",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total cost of Chad's burrito order, including all the extras and upgrades, and then subtract the value of the gift card he uses. Let's break it down step by step:\n\n1. **Base Burrito Cost:**\n   - The base burrito costs $6.50.\n\n2. **Extras Added:**\n   - Extra meat costs $2.00.\n   - Extra cheese costs $1.00.\n   - Avocado costs $1.00.\n   - Two sauces cost $0.25 each, so for two sauces: \\(2 \\times 0.25 = 0.50\\).\n\n3. **Upgrade Cost:**\n   - The upgrade fo",
+          "extracted": "9",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1: Calculate the cost of the burrito and add-ons**\n\n- Base burrito: $6.50\n- Extra meat: $2.00\n- Extra cheese: $1.00\n- Avocado: $1.00\n- 2 sauces at $0.25 each: \\(2 \\times 0.25 = 0.50\\)\n\nNow, add these costs together to find the total cost of the burrito and add-ons:\n\n\\[6.50 + 2.00 + 1.00 + 1.00 + 0.50 = 11.00\\]\n\n**Step 2: Add the meal upgrade**\n\n- Meal upgrade (chips and drink): $3.00\n\nAdd the meal upgrade to the burrito to",
+          "extracted": "9",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 419,
+      "correct_answer": "3000",
+      "wrong_answer": "9000",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the elevation at which Stanley's comb landed and then calculate how far Oliver must climb to reach that elevation.\n\n1. **Determine the elevation of the comb:**\n   - Stanley was initially at an elevation of 10,000 feet.\n   - The comb fell 4,000 feet from Stanley's position.\n   - Therefore, the elevation of the comb is:\n     \\[\n     10,000 \\text{ feet} - 4,000 \\text{ feet} = 6,000 \\text{ feet}\n     \\]\n\n2. **Determine how far Oliver must climb:**\n   - Oli",
+          "extracted": "3000",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but carefully checking each calculation:\n\n**Step 1:** Determine Stanley's initial elevation  \nStanley was standing at 10,000 feet elevation.\n\n**Step 2:** Calculate how far the comb fell  \nThe comb fell 4,000 feet from Stanley's position.\n\n**Step 3:** Find the elevation where the comb landed  \nThe comb's elevation = Stanley's elevation - distance fallen  \nThe comb's elevation = 10,000 - 4,000 = 6,000 feet\n\n**Step 4:** Determine Oli",
+          "extracted": "3000",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1183,
+      "correct_answer": "11",
+      "wrong_answer": "12",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to track the number of apples Newton has at each step:\n\n1. **Initial Apples:**\n   - Two apples fell out of the tree.\n   - Newton picked up these two apples.\n\n2. **First Action:**\n   - Newton put one apple in his pocket.\n   - He threw the other apple into the tree.\n\n3. **Result of First Action:**\n   - Throwing the apple into the tree caused 5 more apples to fall.\n   - Newton now has 1 apple in his pocket and 5 apples on the ground.\n\n4. **Second Action:**\n   - Newton",
+          "extracted": "11",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step, following the expert's approach:\n\n**Step 1: Initial situation**\n- Two apples fell from the tree.\n- Newton picked up both apples.\n- Apples Newton has: 2\n\n**Step 2: First throw**\n- Newton put 1 apple in his pocket: 1 apple pocketed.\n- Newton threw 1 apple at the tree: 1 apple used.\n- This caused 5 more apples to fall.\n- Newton picked up the 5 fallen apples.\n- Apples Newton has: 1 (in pocket) + 5 (newly picked up) = 6 apples.\n\n**Step 3: Second throw**\n- Newton ",
+          "extracted": "12",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 746,
+      "correct_answer": "28",
+      "wrong_answer": "18",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total cost for Jake's family at each amusement park and then find the difference between the two costs to determine the savings.\n\n**Step 1: Calculate the total cost at the first amusement park.**\n\n- The cost for each adult at the first amusement park is $26.\n- The cost for each child at the first amusement park is $12.\n- There are 2 adults and 2 children in the family.\n\nTotal cost at the first amusement park:\n\\[ \n\\text{Cost for adults} = 2 \\times 2",
+          "extracted": "28",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach to find out how much Jake's family can save by choosing the second amusement park.\n\n**Step 1: Calculate the cost for the first amusement park**\n- Cost for adults: 2 adults × $26 per adult = $52\n- Cost for children: 2 children × $12 per child = $24\n- Total cost for the first amusement park: $52 (adults) + $24 (children) = $76\n\n**Step 2: Calculate the cost for the second amusement park**\n- Cost for adults: 2 adults × $14 per adult = ",
+          "extracted": "28",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 109,
+      "correct_answer": "28",
+      "wrong_answer": "25",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total cost of the gas before cashback, determine the cashback amount, and then subtract the cashback from the total cost to find the final cost.\n\n**Step 1: Calculate the total cost of the gas before cashback.**\n\nThe price of gas is $3.00 per gallon. If someone buys 10 gallons, the total cost is:\n\n\\[ \\text{Total cost} = \\text{Price per gallon} \\times \\text{Number of gallons} \\]\n\n\\[ \\text{Total cost} = \\$3.00 \\times 10 = \\$30.00 \\]\n\n**Step 2: Calcula",
+          "extracted": "28",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but we'll ensure accuracy in each step.\n\n**Step 1:** Identify the given information\n- Gas price: $3.00 per gallon\n- Cashback reward: $0.20 per gallon\n- Amount purchased: 10 gallons\n\n**Step 2:** Calculate the total cost before cashback\nTotal cost = Price per gallon × Number of gallons  \nTotal cost = $3.00 × 10 = $30.00\n\n**Step 3:** Calculate the total cashback earned\nCashback = Cashback per gallon × Number of gallons  \nCashback = $",
+          "extracted": "28",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1173,
+      "correct_answer": "10",
+      "wrong_answer": "8",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many dishwasher pods are in the special size box and then calculate how many dishwashing cycles can be run for $1 using the pods from this box.\n\n1. **Calculate the number of pods in the special size box:**\n\n   The regular box contains 100 pods. The special size box has 20% more pods than the regular box.\n\n   \\[\n   \\text{Number of additional pods} = 100 \\times 0.20 = 20\n   \\]\n\n   Therefore, the special size box contains:\n\n   \\[\n   100 + 20 = 120 \\te",
+          "extracted": "10",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1: Find how many pods are in the special size box**\n- A regular box has 100 pods.\n- The special box has 20% more pods than the regular box.\n- Calculate 20% of 100:  \n  \\(0.20 \\times 100 = 20\\) pods.\n- Therefore, the special box has:  \n  \\(100 + 20 = 120\\) pods.\n\n**Step 2: Determine the cost per pod for the special box**\n- The special box costs $12 and contains 120 pods.\n- Calculate the cost per pod:  \n  \\(\\$12 \\div 120 \\te",
+          "extracted": "10",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 521,
+      "correct_answer": "39",
+      "wrong_answer": "40",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we will calculate the number of problems Chris completes each day and subtract them from the total to find out how many he has left by Thursday.\n\n1. **Total problems to complete:** 100\n\n2. **Problems completed on Monday:**\n   - Chris completes 12 problems on Monday.\n   - Problems remaining after Monday = 100 - 12 = 88\n\n3. **Problems completed on Tuesday:**\n   - On Tuesday, Chris completes 3 times as many problems as he did on Monday.\n   - Problems completed on Tuesday = 3 ",
+          "extracted": "39",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1:** Find how many problems Chris completed on Monday.\n- Chris completed 12 problems on Monday.\n\n**Step 2:** Find how many problems Chris completed on Tuesday.\n- On Tuesday, he completed 3 times as many problems as he did on Monday.\n- Tuesday problems = 3 × 12 = 36 problems\n\n**Step 3:** Calculate the total number of problems completed after Tuesday.\n- Total after Tuesday = Monday + Tuesday = 12 + 36 = 48 problems\n\n**Step 4",
+          "extracted": "39",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 831,
+      "correct_answer": "324",
+      "wrong_answer": "420",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many items Angela has in total and how many of those items are included in the initial installation package. Then, we calculate the cost of installing the additional items.\n\n1. **Determine the total number of items Angela needs installed:**\n   - Mirrors: 6\n   - Chandeliers: 2\n   - Pictures: 20\n\n   Total items = 6 (mirrors) + 2 (chandeliers) + 20 (pictures) = 28 items\n\n2. **Determine the number of items included in the initial installation package:*",
+          "extracted": "324",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step-by-step using the expert's approach, but with a correct understanding of the base package and additional items.\n\n**Step 1: Identify what's included in the base package ($129.00)**\n- 4 mirrors\n- 2 shelves\n- 1 chandelier\n- 10 pictures\n\n**Step 2: Identify what Angela needs installed**\n- 6 mirrors\n- 2 chandeliers\n- 20 pictures\n\n**Step 3: Calculate how many items are covered by the base package**\nFrom Angela's items that match the base package:\n- Mirrors: min(6, 4) = 4 mi",
+          "extracted": "324",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 969,
+      "correct_answer": "1800",
+      "wrong_answer": "1795",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total cost of the phones John buys, taking into account the discount for the phones after the first two.\n\n1. **Identify the total number of phones John is buying:**\n   - John is buying phones for himself, his 2 kids, and his wife.\n   - Total number of phones = 1 (John) + 2 (kids) + 1 (wife) = 4 phones.\n\n2. **Determine the pricing structure:**\n   - The first 2 phones are at full price.\n   - Each phone after the first 2 is half price.\n\n3. **Calculate",
+          "extracted": "1800",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1:** Identify the total number of phones needed.\nJohn needs phones for: himself (1) + his wife (1) + his 2 kids (2) = 4 phones total.\n\n**Step 2:** Understand the pricing structure.\nThe first 2 phones cost full price ($600 each), and each phone after that costs half price ($300 each).\n\n**Step 3:** Calculate the cost of the first 2 phones.\nFirst 2 phones = 2 × $600 = $1,200\n\n**Step 4:** Calculate the cost of the remaining ph",
+          "extracted": "1800",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 973,
+      "correct_answer": "79",
+      "wrong_answer": "78",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the number of states in both India and the USA and then add them together.\n\n1. **Determine the number of states in the USA:**\n   - The USA has 50 states.\n\n2. **Calculate half the number of states in the USA:**\n   \\[\n   \\frac{50}{2} = 25\n   \\]\n\n3. **Calculate the number of states in India:**\n   - According to the problem, India has 4 more than half the number of states in the USA.\n   \\[\n   25 + 4 = 29\n   \\]\n\n4. **Calculate the total number of states in ",
+          "extracted": "79",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1:** Identify the number of states in the USA.\nThe USA has 50 states.\n\n**Step 2:** Find half the number of states in the USA.\nHalf of 50 = 50 ÷ 2 = 25\n\n**Step 3:** Calculate the number of states in India.\nIndia has 4 more than half the USA's states.\nIndia's states = 25 + 4 = 29\n\n**Step 4:** Find the total number of states in both countries.\nTotal states = USA states + India states\nTotal states = 50 + 29 = 79\n\nThe answer is",
+          "extracted": "79",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 660,
+      "correct_answer": "15",
+      "wrong_answer": "10",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to set up a system of equations based on the information given.\n\nLet's define:\n- \\( s \\) as the number of sheep.\n- \\( g \\) as the number of geese.\n\nWe know the following:\n1. Each animal has one head. Therefore, the total number of heads is the sum of the number of sheep and the number of geese:\n   \\[\n   s + g = 20\n   \\]\n\n2. Sheep have 4 legs each, and geese have 2 legs each. The total number of legs is given as 70:\n   \\[\n   4s + 2g = 70\n   \\]\n\nNow, we have the syst",
+          "extracted": "15",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but with careful calculations.\n\nDefine the variables:\n- Let \\( s \\) be the number of sheep.\n- Let \\( g \\) be the number of geese.\n\nSet up the equations based on the given information:\n\n**Equation 1 (heads):** Each animal has 1 head.\n\\[ s + g = 20 \\]\n\n**Equation 2 (legs):** Sheep have 4 legs, geese have 2 legs.\n\\[ 4s + 2g = 70 \\]\n\nNow, solve this system of equations.\n\nFrom Equation 1, express \\( g \\) in terms of \\( s \\):\n\\[ g = 20 ",
+          "extracted": "15",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 476,
+      "correct_answer": "5",
+      "wrong_answer": "4",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many books Sarah bought and then divide them equally among her 4 kids.\n\n1. **Calculate the total number of books Sarah bought:**\n\n   Sarah spent a total of $300 on books, and each book costs $15. To find out how many books she bought, we divide the total amount spent by the cost per book:\n\n   \\[\n   \\text{Number of books} = \\frac{\\text{Total amount spent}}{\\text{Cost per book}} = \\frac{300}{15}\n   \\]\n\n   \\[\n   \\text{Number of books} = 20\n   \\]\n\n   S",
+          "extracted": "5",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1:** Find the total number of books Sarah bought.\n- Sarah spent $300 in total.\n- Each book costs $15.\n- To find the number of books, divide the total money by the cost per book:\n  \\[\n  \\text{Number of books} = \\frac{\\text{Total money}}{\\text{Cost per book}} = \\frac{300}{15} = 20 \\text{ books}\n  \\]\n\n**Step 2:** Find how many books each child gets.\n- Sarah has 4 kids.\n- She gives an equal number of books to each child.\n- To ",
+          "extracted": "5",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 166,
+      "correct_answer": "5",
+      "wrong_answer": "6",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many eggs Sandra needs to make 15 Spanish flans and then calculate how many times she needs to babysit to get that number of eggs.\n\n**Step 1: Calculate the total number of eggs needed.**\n\nEach Spanish flan requires 3 eggs. Therefore, for 15 flans, the total number of eggs needed is:\n\n\\[ 15 \\text{ flans} \\times 3 \\text{ eggs per flan} = 45 \\text{ eggs} \\]\n\n**Step 2: Determine how many eggs Sandra receives per babysitting session.**\n\nSandra receives ",
+          "extracted": "5",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1:** Determine how many eggs Sandra needs in total.\n- Sandra needs to make 15 Spanish flans.\n- Each flan requires 3 eggs.\n- Total eggs needed = 15 flans × 3 eggs per flan = 45 eggs.\n\n**Step 2:** Determine how many eggs she gets per babysitting session.\n- Sandra receives 9 eggs each time she babysits.\n\n**Step 3:** Calculate how many times she needs to babysit.\n- Total eggs needed = 45 eggs.\n- Eggs per babysitting session = ",
+          "extracted": "5",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 964,
+      "correct_answer": "200",
+      "wrong_answer": "220",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the total number of episodes and then calculate the total time John will spend watching the show.\n\n1. **Determine the number of episodes:**\n   - We are told that there are half as many episodes as there are minutes per episode.\n   - Each episode is 20 minutes long.\n   - Therefore, the number of episodes is half of 20 minutes.\n   \\[\n   \\text{Number of episodes} = \\frac{20}{2} = 10\n   \\]\n\n2. **Calculate the total time spent watching the show:**\n   - Each",
+          "extracted": "200",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but with careful attention to the calculations.\n\n**Step 1:** Identify what we know\n- Each episode is 20 minutes long.\n- There are half as many episodes in total as there are minutes per episode.\n\n**Step 2:** Calculate the total number of episodes\n- Minutes per episode = 20\n- Number of episodes = half of the minutes per episode\n- Number of episodes = 20 ÷ 2 = 10 episodes\n\n**Step 3:** Calculate total viewing time\n- Total time = Numb",
+          "extracted": "200",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 210,
+      "correct_answer": "10",
+      "wrong_answer": "12",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how much money Sara needs to buy the jacket and shoes, how much money she currently has, and how much more she needs to earn by mowing the lawn.\n\n**Step 1: Calculate the total cost of the jacket and shoes.**\n\n- The cost of the jacket is $30.\n- Each pair of shoes costs $20, and she wants 2 pairs, so the total cost for the shoes is:\n  \\[\n  2 \\times 20 = 40\n  \\]\n- Therefore, the total cost for the jacket and shoes is:\n  \\[\n  30 + 40 = 70\n  \\]\n\n**Step 2: C",
+          "extracted": "10",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but without the unnecessary buffer calculation, as it was not part of the original problem requirements.\n\n**Step 1:** Calculate the total cost of what Sara wants to buy.\n- Jacket: $30\n- 2 pairs of shoes: 2 × $20 = $40\n- Total cost: $30 + $40 = $70\n\n**Step 2:** Calculate how much Sara earns from babysitting.\n- She babysits 4 times at $5 each time\n- Babysitting earnings: 4 × $5 = $20\n\n**Step 3:** Calculate Sara's total money before ",
+          "extracted": "10",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 590,
+      "correct_answer": "319",
+      "wrong_answer": "318",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total number of people attending the event based on the invitations and additional guests.\n\n1. **Invited via Email:**\n   - Alex invites 100 people via email.\n   - Each of these 100 people will invite 2 of their friends.\n   - Therefore, the total number of people invited via email and their friends is:\n     \\[\n     100 \\times (1 + 2) = 100 \\times 3 = 300\n     \\]\n   - This accounts for the 100 people plus 2 friends each.\n\n2. **Invited via Phone:**\n  ",
+          "extracted": "318",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1: Count the people invited via email**\n\nAlex invites 100 people via email, and they all say they're coming.  \nSo that's 100 people.\n\n**Step 2: Count the friends brought by email invitees**\n\nEach of the 100 people will invite 2 of their friends.  \nSo that's 100 × 2 = 200 additional people.\n\n**Step 3: Count the friends Alex calls**\n\nAlex calls 10 friends to invite them, so that's 10 more people.\n\n**Step 4: Count the spouses",
+          "extracted": "319",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1074,
+      "correct_answer": "750",
+      "wrong_answer": "850",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many puzzle pieces Teddy placed during the hour in which he started and finished another 500 piece puzzle.\n\n1. **Identify the puzzles involved:**\n   - Teddy initially worked on a 500 piece puzzle and completed half of it.\n   - Then, he started and finished another 500 piece puzzle within an hour.\n\n2. **Calculate the pieces placed in the second puzzle:**\n   - Since Teddy started and finished the second 500 piece puzzle within an hour, he placed all ",
+          "extracted": "500",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1: Identify what Teddy did during the hour**\n- Teddy finished the remaining half of the first 500-piece puzzle.\n- Teddy completed an entire second 500-piece puzzle.\n\n**Step 2: Calculate pieces from finishing the first puzzle**\n- The first puzzle had 500 pieces total.\n- Teddy had already finished half before the hour started.\n- Remaining pieces to finish the first puzzle = 500 ÷ 2 = 250 pieces.\n\n**Step 3: Calculate pieces f",
+          "extracted": "750",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1298,
+      "correct_answer": "31",
+      "wrong_answer": "30",
+      "responses": {
+        "DIRECT": {
+          "raw": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then sum them up.\n\n1. **Quarters:**\n   - Each quarter is worth $0.25.\n   - Justin has 32 quarters.\n   - Total value of quarters = 32 quarters × $0.25/quarter = $8.00\n\n2. **Dimes:**\n   - Each dime is worth $0.10.\n   - Justin has 95 dimes.\n   - Total value of dimes = 95 dimes × $0.10/dime = $9.50\n\n3. **Nickels:**\n   - Each nickel is worth $0.05.\n   - Justin has 120 nickels.\n   - Total value of nicke",
+          "extracted": "31",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach to ensure accuracy.\n\n**Step 1: Calculate the value of quarters**\n- There are 32 quarters.\n- Each quarter is worth $0.25.\n- Total value of quarters = 32 × $0.25 = $8.00\n\n**Step 2: Calculate the value of dimes**\n- There are 95 dimes.\n- Each dime is worth $0.10.\n- Total value of dimes = 95 × $0.10 = $9.50\n\n**Step 3: Calculate the value of nickels**\n- There are 120 nickels.\n- Each nickel is worth $0.05.\n- Total value of nickels = 120 ×",
+          "extracted": "31",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 13,
+      "correct_answer": "18",
+      "wrong_answer": "16",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, let's define the total number of vacuum cleaners Melanie started with as \\( x \\).\n\n1. **Green House Sale:**\n   - Melanie sold a third of her vacuum cleaners at the green house.\n   - This means she sold \\( \\frac{x}{3} \\) vacuum cleaners at the green house.\n\n2. **Red House Sale:**\n   - She sold 2 more vacuum cleaners to the red house.\n   - So, the total number of vacuum cleaners sold to the red house is 2.\n\n3. **Remaining Vacuum Cleaners After Green and Red House Sales:**\n  ",
+          "extracted": "18",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step, using the expert's approach but correcting any errors.\n\nLet \\( x \\) be the original number of vacuum cleaners.\n\n**Step 1:** Melanie sold \\(\\frac{1}{3}\\) of her vacuum cleaners at the green house.  \nAfter the green house, she had:  \n\\[ x - \\frac{1}{3}x = \\frac{2}{3}x \\]\n\n**Step 2:** She sold 2 more to the red house.  \nAfter the red house, she had:  \n\\[ \\frac{2}{3}x - 2 \\]\n\n**Step 3:** She sold half of what was left at the orange house.  \nThe amount she sold a",
+          "extracted": "18",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 720,
+      "correct_answer": "4",
+      "wrong_answer": "12",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many boxes of cereal Castle bought this week and compare it to the number of boxes she bought last week.\n\n**Step 1: Calculate the total number of boxes bought this week.**\n\n- Castle bought 3 boxes of Coco Crunch.\n- She also bought 5 boxes of Fruit Loops.\n\nTo find the total number of boxes bought this week, we add the two amounts together:\n\n\\[ 3 \\text{ (Coco Crunch) } + 5 \\text{ (Fruit Loops) } = 8 \\text{ boxes} \\]\n\n**Step 2: Determine the number of",
+          "extracted": "4",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but correcting the mistake in the calculation of the difference.\n\n**Step 1:** Find how many boxes of cereal Castle bought this week.\n- Coco Crunch: 3 boxes\n- Fruit Loops: 5 boxes\n- Total this week: 3 + 5 = 8 boxes\n\n**Step 2:** Identify how many boxes she bought last week.\n- Last week: 4 boxes\n\n**Step 3:** Calculate how many more boxes she bought this week than last week.\n- Difference = This week - Last week\n- Difference = 8 - 4 = ",
+          "extracted": "4",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 263,
+      "correct_answer": "8",
+      "wrong_answer": "14",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the number of trees each person has and then find the difference between the number of trees in Harry's yard and Ferdinand's yard.\n\n1. **Determine the number of trees Ferdinand has:**\n   - Chris has 6 trees.\n   - Ferdinand has half the number of trees that Chris has.\n   - Therefore, the number of trees Ferdinand has is:\n     \\[\n     \\frac{6}{2} = 3\n     \\]\n\n2. **Determine the number of trees Harry has:**\n   - Harry has 5 more than twice the number of t",
+          "extracted": "8",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1:** Find the number of trees Ferdinand has.\n- Chris has 6 trees.\n- Ferdinand has half the number of trees that Chris has.\n- Ferdinand has \\( \\frac{6}{2} = 3 \\) trees.\n\n**Step 2:** Find the number of trees Harry has.\n- Harry has 5 more than twice the number of trees that Ferdinand has.\n- Twice Ferdinand's trees is \\( 2 \\times 3 = 6 \\) trees.\n- Harry has \\( 6 + 5 = 11 \\) trees.\n\n**Step 3:** Find how many more trees Harry ha",
+          "extracted": "8",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 387,
+      "correct_answer": "36",
+      "wrong_answer": "34",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve the problem, we need to calculate the total cost of 6 erasers and 8 pencils.\n\n1. **Calculate the cost of 6 erasers:**\n   - Each eraser costs $2.\n   - Therefore, the cost of 6 erasers is calculated as follows:\n     \\[\n     6 \\text{ erasers} \\times 2 \\text{ dollars per eraser} = 12 \\text{ dollars}\n     \\]\n\n2. **Calculate the cost of 8 pencils:**\n   - Each pencil costs $3.\n   - Therefore, the cost of 8 pencils is calculated as follows:\n     \\[\n     8 \\text{ pencils} \\times 3 \\text{ dollars",
+          "extracted": "36",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1:** Identify the costs\n- Each eraser costs $2\n- Each pencil costs $3\n\n**Step 2:** Calculate the cost of 6 erasers\n- Cost of 6 erasers = 6 × $2 = $12\n\n**Step 3:** Calculate the cost of 8 pencils\n- Cost of 8 pencils = 8 × $3 = $24\n\n**Step 4:** Calculate the total cost\n- Total cost = Cost of erasers + Cost of pencils\n- Total cost = $12 + $24 = $36\n\nThe answer is $36.",
+          "extracted": "36",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 707,
+      "correct_answer": "8",
+      "wrong_answer": "20",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine what percentage of the Colorado River's total water is used by Colorado City for non-industrial purposes.\n\n1. **Determine the total percentage of the river's water used by Colorado City:**\n   - Colorado City uses 40% of the water from the Colorado River.\n\n2. **Determine the percentage of the city's water used for industrial purposes:**\n   - 80% of the water used by Colorado City is for industrial purposes.\n\n3. **Calculate the percentage of the city's w",
+          "extracted": "8",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1:** Identify what Colorado City uses from the river.\n- Colorado City uses 40% of the Colorado River's water.\n\n**Step 2:** Determine how much is used for industrial purposes.\n- 80% of the city's water is used for industrial purposes.\n- Industrial water = 80% × 40% = 0.8 × 0.4 = 0.32 = 32% of the river's total water.\n\n**Step 3:** Calculate non-industrial water usage.\n- If 80% is for industrial use, then 20% is for non-indus",
+          "extracted": "8",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1038,
+      "correct_answer": "4",
+      "wrong_answer": "14",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total amount of money Jim needs to earn to cover both the loans he took out for college and the income he lost by not working during those years. Then, we will determine how long it will take him to earn that amount with his new income.\n\n### Step 1: Calculate the total amount of loans\n\nJim took out $50,000 in loans per year for 4 years. Therefore, the total amount of loans is:\n\n\\[ \n\\text{Total Loans} = 50,000 \\times 4 = 200,000 \n\\]\n\n### Step 2: Cal",
+          "extracted": "4",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step-by-step using the expert's approach, but with careful attention to the calculations.\n\n**Step 1: Calculate total loan amount**  \nJim takes loans for 4 years at $50,000 per year.  \nTotal loans = 4 × $50,000 = $200,000  \n\n**Step 2: Calculate money lost from not working**  \nJim had a $25,000/year job before college.  \nMoney lost over 4 years = 4 × $25,000 = $100,000  \n\n**Step 3: Calculate total cost of college**  \nTotal cost = Loans + Lost income  \nTotal cost = $200,000 ",
+          "extracted": "4",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 543,
+      "correct_answer": "6",
+      "wrong_answer": "16",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total amount of money Jairus and Jenny each earn for completing 20 tasks, and then find the difference between their earnings.\n\n**Step 1: Calculate Jairus's earnings.**\n\nJairus earns $0.8 for each task. If he completes 20 tasks, his total earnings can be calculated as follows:\n\n\\[\n\\text{Jairus's earnings} = 20 \\times 0.8 = 16\n\\]\n\nSo, Jairus earns $16.\n\n**Step 2: Calculate Jenny's earnings.**\n\nJenny earns $0.5 for each task. If she completes 20 task",
+          "extracted": "6",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step, following the expert's approach but correcting any errors.\n\n**Step 1: Calculate how much Jairus earns**\nJairus gets $0.8 per task and completes 20 tasks.\nJairus's total earnings = $0.8 × 20 = $16.00\n\n**Step 2: Calculate how much Jenny earns**\nJenny gets $0.5 per task and completes 20 tasks.\nJenny's total earnings = $0.5 × 20 = $10.00\n\n**Step 3: Find the difference**\nTo find how much more Jairus gets than Jenny, subtract Jenny's earnings from Jairus's earning",
+          "extracted": "6",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1193,
+      "correct_answer": "9",
+      "wrong_answer": "8",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total amount of money Jason earned for each task he completed over the two-week period and then sum these amounts.\n\n1. **Calculate earnings from emptying the dishwasher:**\n   - Jason emptied the dishwasher 6 times.\n   - He earns $0.50 each time he empties the dishwasher.\n   - Total earnings from this task: \\(6 \\times 0.50 = 3.00\\) dollars.\n\n2. **Calculate earnings from doing laundry:**\n   - Jason did his laundry once.\n   - He earns $3.00 each time ",
+          "extracted": "9",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but with careful attention to the calculations.\n\n**Step 1: Identify the payment rates**\n- Laundry: $3.00\n- Cleaning room: $1.50\n- Taking trash to curb: $0.75 per time\n- Emptying dishwasher: $0.50 per time\n\n**Step 2: Identify what Jason did in the two-week period**\n- Emptied dishwasher: 6 times\n- Did laundry: 1 time\n- Took trash out: 2 times\n- Cleaned room: 1 time\n\n**Step 3: Calculate earnings for each task**\n- Dishwasher: 6 times ",
+          "extracted": "9",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1117,
+      "correct_answer": "9",
+      "wrong_answer": "10",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the rate at which the lighthouse blinks and then use that rate to find out how long it will take for the light to blink 459 times.\n\n**Step 1: Find the blinking rate.**\n\nThe light blinks 255 times in 5 minutes. To find the rate of blinking per minute, we divide the total number of blinks by the total time in minutes:\n\n\\[\n\\text{Blinking rate} = \\frac{255 \\text{ blinks}}{5 \\text{ minutes}} = 51 \\text{ blinks per minute}\n\\]\n\n**Step 2: Determine the time to",
+          "extracted": "9",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1: Find the rate of blinking**\n\nThe lighthouse blinks 255 times in 5 minutes.  \nRate = 255 blinks ÷ 5 minutes = 51 blinks per minute\n\n**Step 2: Set up the proportion**\n\nWe need to find how many minutes it will take for the light to blink 459 times at a rate of 51 blinks per minute.\n\nUsing the relationship: Rate × Time = Total blinks  \n51 blinks/minute × Time = 459 blinks\n\n**Step 3: Solve for time**\n\nTime = 459 blinks ÷ 51 ",
+          "extracted": "9",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 513,
+      "correct_answer": "300",
+      "wrong_answer": "500",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate how much money Julie spent at each step and how much she had left after each expenditure.\n\n1. **Initial Amount:**\n   - Julie starts with $500.\n\n2. **Spending on Clothes:**\n   - She spends 20% of her initial amount on clothes.\n   - Calculate 20% of $500:\n     \\[\n     0.20 \\times 500 = 100\n     \\]\n   - So, Julie spends $100 on clothes.\n   - Subtract the amount spent on clothes from the initial amount to find out how much she has left:\n     \\[\n     500 - ",
+          "extracted": "300",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but correcting the mistake in the final step.\n\n**Step 1:** Calculate how much Julie spent on clothes.\n- Julie started with $500.\n- She spent 20% on clothes.\n- 20% of $500 = 0.20 × $500 = $100.\n\n**Step 2:** Calculate how much money Julie had after buying clothes.\n- Money remaining = $500 - $100 = $400.\n\n**Step 3:** Calculate how much Julie spent on CDs.\n- She spent 25% of the remaining money on CDs.\n- 25% of $400 = 0.25 × $400 = $1",
+          "extracted": "300",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 567,
+      "correct_answer": "9",
+      "wrong_answer": "11",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total amount of money the tooth fairy left Sharon for all the teeth she lost.\n\n1. **First Tooth:**\n   - The tooth fairy left Sharon $5.00 for the first tooth.\n\n2. **Next Three Teeth:**\n   - For each of the next three teeth, Sharon received $1.00 per tooth.\n   - Total for these three teeth: \\(3 \\times 1.00 = 3.00\\) dollars.\n\n3. **Last Two Teeth:**\n   - For each of the last two teeth, Sharon received half the amount per tooth as she received for each",
+          "extracted": "9",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but carefully checking each step to ensure accuracy.\n\n**Step 1:** For the first tooth, Sharon received $5.00.\n\n**Step 2:** For the next three teeth, Sharon received $1.00 per tooth. Therefore, the total for these three teeth is:\n\\[ 3 \\times \\$1.00 = \\$3.00 \\]\n\n**Step 3:** For the last 2 teeth, Sharon received half the amount per tooth as she had received for each of the previous three teeth. Since she received $1.00 per tooth for ",
+          "extracted": "9",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 679,
+      "correct_answer": "576",
+      "wrong_answer": "586",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the relationship between the number of potatoes and the number of hash browns they produce. We are given that 6 potatoes make 36 hash browns. We can use this information to find out how many hash browns one potato makes, and then use that to find out how many hash browns 96 potatoes would make.\n\n**Step 1: Find the number of hash browns made by one potato.**\n\nWe know that 6 potatoes make 36 hash browns. To find out how many hash browns one potato makes,",
+          "extracted": "576",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step-by-step using the expert's approach, but let's correct the calculation error in the final step.\n\n**Step 1:** Find the ratio of hash browns to potatoes\n- 6 potatoes make 36 hash browns\n- So the ratio is 36 hash browns : 6 potatoes\n\n**Step 2:** Simplify the ratio\n- 36 ÷ 6 = 6\n- So each potato makes 6 hash browns\n\n**Step 3:** Calculate how many times more potatoes we have\n- We have 96 potatoes instead of 6 potatoes\n- 96 ÷ 6 = 16\n- So we have 16 times as many potatoes\n\n*",
+          "extracted": "576",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 68,
+      "correct_answer": "36",
+      "wrong_answer": "35",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the total number of students at Dr. Wertz's school and then use that information to find the number of teachers.\n\n**Step 1: Determine the number of boys.**\n\nThe problem states that there are twice as many boys as girls. We know there are 60 girls.\n\n\\[\n\\text{Number of boys} = 2 \\times \\text{Number of girls} = 2 \\times 60 = 120\n\\]\n\n**Step 2: Calculate the total number of students.**\n\nThe total number of students is the sum of the number of boys and the n",
+          "extracted": "36",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step, following the expert's approach but correcting any errors.\n\n**Step 1:** Find the number of boys at the school.\n- There are twice as many boys as girls.\n- There are 60 girls.\n- Number of boys = 2 × 60 = 120 boys.\n\n**Step 2:** Find the total number of students.\n- Total students = Number of girls + Number of boys.\n- Total students = 60 + 120 = 180 students.\n\n**Step 3:** Find the number of teachers.\n- There are 5 students to every teacher.\n- Number of teachers =",
+          "extracted": "36",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 800,
+      "correct_answer": "428",
+      "wrong_answer": "438",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the number of points Nikita scored and then find the total points scored by both Pierson and Nikita.\n\n1. **Identify Pierson's score:**\n   - Pierson scored 278 points.\n\n2. **Calculate Nikita's score:**\n   - Nikita scored 11 more than half of Pierson's score.\n   - First, find half of Pierson's score: \n     \\[\n     \\frac{278}{2} = 139\n     \\]\n   - Then, add 11 to this result to find Nikita's score:\n     \\[\n     139 + 11 = 150\n     \\]\n\n3. **Calculate the t",
+          "extracted": "428",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1:** Identify what we know\n- Pierson scored 278 points.\n- Nikita scored 11 more than half as many as Pierson.\n\n**Step 2:** Calculate half of Pierson's score\nHalf of Pierson's score = 278 ÷ 2 = 139\n\n**Step 3:** Calculate Nikita's score\nNikita scored 11 more than half of Pierson's score:\nNikita's score = 139 + 11 = 150\n\n**Step 4:** Calculate the total points\nTotal points = Pierson's score + Nikita's score\nTotal points = 278 ",
+          "extracted": "428",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 687,
+      "correct_answer": "13",
+      "wrong_answer": "12",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to set up equations based on the information given.\n\nLet's define:\n- \\( t \\) as the age of one twin.\n- \\( r \\) as the age of one triplet.\n\nFrom the problem, we know:\n1. One twin is 7 years older than one triplet: \n   \\[\n   t = r + 7\n   \\]\n\n2. There is one set of twins and one set of triplets, so there are 2 twins and 3 triplets. Their combined ages are 44:\n   \\[\n   2t + 3r = 44\n   \\]\n\nNow, we have a system of two equations:\n1. \\( t = r + 7 \\)\n2. \\( 2t + 3r = 44 \\)\n",
+          "extracted": "13",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n1. **Define Variables:**\n   - Let \\( t \\) be the age of one triplet.\n   - Let \\( w \\) be the age of one twin.\n\n2. **Set Up Equations:**\n   - Since one twin is 7 years older than one triplet, we have:\n     \\[\n     w = t + 7\n     \\]\n   - The combined ages of all children (2 twins and 3 triplets) is 44:\n     \\[\n     2w + 3t = 44\n     \\]\n\n3. **Substitute \\( w = t + 7 \\) into the Total Ages Equation:**\n   \\[\n   2(t + 7) + 3t = 44\n   \\",
+          "extracted": "13",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 602,
+      "correct_answer": "5",
+      "wrong_answer": "6",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the rate at which the plane is traveling and then use that rate to find out how many additional hours it would take to travel an additional 2000 miles.\n\n**Step 1: Calculate the rate of the plane.**\n\nThe plane travels 1200 miles in 3 hours. To find the rate (speed) of the plane, we use the formula:\n\n\\[\n\\text{Rate} = \\frac{\\text{Distance}}{\\text{Time}}\n\\]\n\nSubstituting the given values:\n\n\\[\n\\text{Rate} = \\frac{1200 \\text{ miles}}{3 \\text{ hours}} = 400 \\",
+          "extracted": "5",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach and correct any errors.\n\n**Step 1: Find the plane's speed**\n- Distance traveled initially = 1200 miles\n- Time taken = 3 hours\n- Speed = Distance ÷ Time = 1200 ÷ 3 = 400 miles per hour\n\n**Step 2: Calculate the additional distance to be traveled**\n- Additional distance = 2000 miles\n\n**Step 3: Calculate the additional time needed to travel the additional distance**\n- Additional time = Additional distance ÷ Speed\n- Additional time = 20",
+          "extracted": "5",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 885,
+      "correct_answer": "500",
+      "wrong_answer": "750",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total number of chimichangas made by the Ben and Aggie Burrito Shop on Tuesday, Wednesday, and Friday.\n\n1. **Calculate the number of chimichangas made on Tuesday:**\n   - The shop makes 125 chimichangas on Tuesday.\n\n2. **Calculate the number of chimichangas made on Wednesday:**\n   - The shop makes 125 chimichangas on Wednesday.\n\n3. **Calculate the number of chimichangas made on Friday:**\n   - The shop makes twice as many chimichangas on Friday as it",
+          "extracted": "500",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1:** Identify the number of chimichangas made each day.\n- Tuesday: 125 chimichangas\n- Wednesday: 125 chimichangas\n- Friday: twice as many as the combined amount from Tuesday and Wednesday\n\n**Step 2:** Calculate Friday's production.\n- First, find the combined amount for Tuesday and Wednesday:  \n  \\( 125 + 125 = 250 \\) chimichangas\n- Friday's production is twice this amount:  \n  \\( 2 \\times 250 = 500 \\) chimichangas\n\n**Step ",
+          "extracted": "750",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1244,
+      "correct_answer": "35",
+      "wrong_answer": "34",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many questions Audrey needs to answer correctly on both tests combined to achieve at least 70% correct answers overall.\n\n**Step 1: Calculate the total number of questions.**\n\n- First test: 70 questions\n- Second test: 40 questions\n\nTotal questions = 70 + 40 = 110 questions\n\n**Step 2: Calculate the number of questions Audrey needs to answer correctly to achieve 70%.**\n\nTo pass, Audrey needs to answer 70% of the total questions correctly.\n\n\\[ 0.70 \\ti",
+          "extracted": "35",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1: Find the total number of questions**\n- Total questions = 70 (first test) + 40 (second test) = 110 questions\n\n**Step 2: Calculate how many questions Audrey needs to answer correctly overall**\n- She needs 70% of 110 questions correct.\n- 70% of 110 = 0.70 × 110 = 77 questions\n\n**Step 3: Calculate how many questions she got right on the first test**\n- First test: 60% of 70 questions\n- 60% of 70 = 0.60 × 70 = 42 questions co",
+          "extracted": "35",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1106,
+      "correct_answer": "5",
+      "wrong_answer": "11",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to follow these steps:\n\n1. **Determine the length of each of the 4 equal parts:**\n\n   Marty starts with 100 centimeters of ribbon and needs to cut it into 4 equal parts. To find the length of each part, we divide the total length by the number of parts:\n\n   \\[\n   \\text{Length of each part} = \\frac{100 \\text{ cm}}{4} = 25 \\text{ cm}\n   \\]\n\n2. **Divide each of the 4 parts into 5 equal parts:**\n\n   Each of the 4 parts is 25 centimeters long. Marty needs to further div",
+          "extracted": "5",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step, following the expert's approach but correcting any errors.\n\n**Step 1:** Start with the total length of ribbon  \nMarty has 100 centimeters of ribbon.\n\n**Step 2:** Cut the ribbon into 4 equal parts  \nTo find the length of each part:  \n\\[ 100 \\div 4 = 25 \\text{ centimeters} \\]  \nSo each of the 4 parts is 25 centimeters long.\n\n**Step 3:** Divide each part into 5 equal parts  \nNow, take each 25-centimeter piece and cut it into 5 equal parts:  \n\\[ 25 \\div 5 = 5 \\t",
+          "extracted": "5",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 331,
+      "correct_answer": "8400",
+      "wrong_answer": "12000",
+      "responses": {
+        "DIRECT": {
+          "raw": "To determine which job offers a higher net pay and by how much, we need to calculate the net income for both Job A and Job B.\n\n### Job A:\n1. **Calculate Gross Income:**\n   \\[\n   \\text{Gross Income for Job A} = \\text{Hourly Rate} \\times \\text{Hours per Year} = 15 \\times 2000 = \\$30,000\n   \\]\n\n2. **Calculate Net Income:**\n   \\[\n   \\text{Net Income for Job A} = \\text{Gross Income} - (\\text{Tax Rate} \\times \\text{Gross Income})\n   \\]\n   \\[\n   \\text{Net Income for Job A} = 30,000 - (0.20 \\times 30,00",
+          "extracted": "8400",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Job A Calculations:**\n1. **Hourly wage:** $15/hour\n2. **Annual hours:** 2000 hours\n3. **Gross annual income:** $15 × 2000 = $30,000\n4. **Tax rate:** 20%\n5. **Taxes owed:** $30,000 × 0.20 = $6,000\n6. **Net income:** $30,000 - $6,000 = $24,000\n\n**Job B Calculations:**\n1. **Gross annual income:** $42,000\n2. **Property tax:** $6,000\n3. **Income after property tax:** $42,000 - $6,000 = $36,000\n4. **Income tax rate:** 10% on net inco",
+          "extracted": "8400",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1205,
+      "correct_answer": "4",
+      "wrong_answer": "6",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many miles the last dog needs to walk so that the average distance walked by all four dogs is 3 miles per day.\n\nLet's denote the distance the last dog needs to walk as \\( x \\).\n\n1. **Calculate the total distance needed for the average:**\n\n   Since there are 4 dogs and the average distance they need to walk is 3 miles, the total distance all dogs need to walk is:\n   \\[\n   4 \\text{ dogs} \\times 3 \\text{ miles/dog} = 12 \\text{ miles}\n   \\]\n\n2. **Add u",
+          "extracted": "4",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach and correct any mistakes.\n\n**Given Information:**\n- Bernie has 4 dogs.\n- Dog 1 needs 1 mile per day.\n- Dog 2 needs 4 miles per day.\n- Dog 3 needs 3 miles per day.\n- The average for all 4 dogs is 3 miles per day.\n\n**Step 1: Calculate the total miles needed for all dogs combined.**\n\nIf the average is 3 miles per day for 4 dogs, then:\n\\[ \\text{Total miles} = \\text{Average} \\times \\text{Number of dogs} = 3 \\times 4 = 12 \\text{ miles} \\",
+          "extracted": "4",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 399,
+      "correct_answer": "12",
+      "wrong_answer": "11",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the ages of Alice and Erica and then find the difference between them.\n\n1. **Identify Erica's age:**\n   - We are given that Erica is 30 years old.\n\n2. **Determine Beth's age:**\n   - Beth is 5 years older than Erica.\n   - Therefore, Beth's age = Erica's age + 5 years = 30 years + 5 years = 35 years.\n\n3. **Determine Alice's age:**\n   - Alice is 7 years older than Beth.\n   - Therefore, Alice's age = Beth's age + 7 years = 35 years + 7 years = 42 years.\n\n4",
+          "extracted": "12",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\nGiven information:\n- Erica is 30 years old.\n- Beth is 5 years older than Erica.\n- Alice is 7 years older than Beth.\n- We need to find the difference between Alice's and Erica's ages.\n\nStep 1: Find Beth's age.\nBeth is 5 years older than Erica.\nBeth's age = Erica's age + 5\nBeth's age = 30 + 5 = 35 years old\n\nStep 2: Find Alice's age.\nAlice is 7 years older than Beth.\nAlice's age = Beth's age + 7\nAlice's age = 35 + 7 = 42 years old\n",
+          "extracted": "12",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 344,
+      "correct_answer": "2",
+      "wrong_answer": "20",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the prices of Juice Box B and Juice Box C, and then find the difference in price between Juice Box C and Juice Box B.\n\n1. **Determine the price of Juice Box B:**\n   - Juice Box A is 4 dollars.\n   - Juice Box B is 5 dollars more than Juice Box A.\n   - Therefore, the price of Juice Box B is:\n     \\[\n     \\text{Price of Juice Box B} = \\text{Price of Juice Box A} + 5 = 4 + 5 = 9 \\text{ dollars}\n     \\]\n\n2. **Determine the price of Juice Box C:**\n   - Juice",
+          "extracted": "2",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but correcting the mistake in the final step.\n\n**Step 1:** Find the price of Juice Box A  \nJuice Box A = $4\n\n**Step 2:** Find the price of Juice Box B  \nJuice Box B is $5 more than Juice Box A  \nJuice Box B = $4 + $5 = $9\n\n**Step 3:** Find the price of Juice Box C  \nJuice Box C is $7 more than Juice Box A  \nJuice Box C = $4 + $7 = $11\n\n**Step 4:** Find how much more Juice Box C costs than Juice Box B  \nDifference = Price of Juice ",
+          "extracted": "2",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 252,
+      "correct_answer": "73",
+      "wrong_answer": "72",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many wolves and cougars Rick killed today and then find the total number of animals he killed.\n\n1. **Determine the number of cougars killed today:**\n   - Last night, Rick killed 15 cougars.\n   - Today, he killed three fewer cougars than last night.\n   - Therefore, the number of cougars killed today is:\n     \\[\n     15 - 3 = 12\n     \\]\n\n2. **Determine the number of wolves killed today:**\n   - Today, Rick killed three times as many wolves as cougars.",
+          "extracted": "73",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1: Identify what Rick killed last night**\n- Wolves: 10\n- Cougars: 15\n\n**Step 2: Determine what Rick killed today**\n- Cougars today: 3 fewer than the previous night\n  - Cougars today = 15 - 3 = 12\n\n- Wolves today: 3 times as many wolves as cougars (today)\n  - Wolves today = 3 × 12 = 36\n\n**Step 3: Calculate total animals killed**\n- Wolves last night: 10\n- Cougars last night: 15\n- Wolves today: 36\n- Cougars today: 12\n\n**Step ",
+          "extracted": "73",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1249,
+      "correct_answer": "56",
+      "wrong_answer": "54",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total number of flashlights and candles Brianna's family is using.\n\n**Step 1: Calculate the number of flashlights.**\n\n- There are 4 people in the house, and each person has a flashlight. Therefore, the number of flashlights for the people is:\n  \\[\n  4 \\text{ people} \\times 1 \\text{ flashlight per person} = 4 \\text{ flashlights}\n  \\]\n\n- There are 8 rooms in the house, and each room has 2 flashlights. Therefore, the number of flashlights for the room",
+          "extracted": "56",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1: Calculate the number of flashlights**\n\n- There are 4 people in the house.\n- Each person gets 1 flashlight:  \n  \\(4 \\times 1 = 4\\) flashlights for people.\n\n- There are 8 rooms in the house.\n- Each room gets 2 flashlights:  \n  \\(8 \\times 2 = 16\\) flashlights for rooms.\n\n- Total flashlights:  \n  \\(4 + 16 = 20\\) flashlights.\n\n**Step 2: Calculate the number of candles**\n\n- There are 8 rooms total.\n- Half the rooms get small ",
+          "extracted": "56",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 174,
+      "correct_answer": "95",
+      "wrong_answer": "1",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total time it takes for Billy to peel and cut all 60 potatoes. We will do this by calculating the time it takes to peel all the potatoes and the time it takes to cut all the potatoes, then adding these two times together.\n\n1. **Calculate the time to peel one potato:**\n   - It takes Billy 1.5 minutes to peel one potato.\n\n2. **Calculate the total time to peel all 60 potatoes:**\n   - Since it takes 1.5 minutes to peel one potato, for 60 potatoes, the ",
+          "extracted": "95",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1: Identify what Billy needs to do**\n- Peel 60 potatoes\n- Cut 60 potatoes\n\n**Step 2: Calculate time to peel all potatoes**\n- Time to peel one potato = 1 minute 30 seconds = 90 seconds\n- Time to peel 60 potatoes = 60 × 90 seconds = 5,400 seconds\n\n**Step 3: Calculate time to cut all potatoes**\n- Time to cut one potato = 5 seconds\n- Time to cut 60 potatoes = 60 × 5 seconds = 300 seconds\n\n**Step 4: Calculate total time**\n- Tot",
+          "extracted": "1",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 153,
+      "correct_answer": "48",
+      "wrong_answer": "54",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to work backwards from the information given. Let's break it down step by step:\n\n1. **Final Count of Fries:**\n   - We know that after all the events, there were 5 fries left.\n\n2. **Ants Carry Off a Fry:**\n   - Before the ants carried off a fry, there must have been \\(5 + 1 = 6\\) fries.\n\n3. **Raccoon Steals Two Thirds:**\n   - Before the raccoon stole two thirds of the fries, there were 6 fries left. Let \\(x\\) be the number of fries before the raccoon stole them.\n   ",
+          "extracted": "34",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but correcting any errors along the way.\n\n**Step 1: Dave eats 14 fries**\n- Remaining fries = \\( x - 14 \\)\n\n**Step 2: Seagull eats half of what Dave ate**\n- Dave ate 14, so the seagull ate \\( 14 \\div 2 = 7 \\) fries.\n- Remaining fries = \\( x - 14 - 7 = x - 21 \\)\n\n**Step 3: Three pigeons each eat 3 fries**\n- Total eaten by pigeons = \\( 3 \\times 3 = 9 \\) fries.\n- Remaining fries = \\( x - 21 - 9 = x - 30 \\)\n\n**Step 4: Raccoon steals tw",
+          "extracted": "48",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 376,
+      "correct_answer": "15",
+      "wrong_answer": "10",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many pupils like each color and specifically how many like yellow. Let's break it down step by step:\n\n1. **Total number of pupils**: There are 40 pupils in the class.\n\n2. **Pupils who like blue**: Half of the class likes blue. Therefore, the number of pupils who like blue is:\n   \\[\n   \\frac{1}{2} \\times 40 = 20\n   \\]\n\n3. **Remaining pupils after accounting for those who like blue**: \n   \\[\n   40 - 20 = 20\n   \\]\n   So, 20 pupils do not like blue.\n\n4",
+          "extracted": "15",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's corrected approach.\n\n**Step 1:** Find how many pupils like blue.\nHalf of the class likes blue.\nNumber who like blue = 40 ÷ 2 = 20 pupils\n\n**Step 2:** Find how many pupils like green.\nOne-fourth of the class likes green.\nNumber who like green = 40 ÷ 4 = 10 pupils\n\n**Step 3:** Find how many pupils like yellow.\nThe total number of pupils is the sum of those who like blue, green, and yellow.\nTotal pupils = Those who like blue + Those who like g",
+          "extracted": "10",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 903,
+      "correct_answer": "16",
+      "wrong_answer": "6",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how much material Jo needs to make 20 small masks and 8 large masks. We will calculate the material required for each type of mask separately and then add the two amounts together.\n\n**Step 1: Calculate the material needed for small masks.**\n\nJo can make 4 small masks with 2 yards of material. Therefore, the amount of material needed for one small mask is:\n\n\\[\n\\frac{2 \\text{ yards}}{4 \\text{ masks}} = 0.5 \\text{ yards per small mask}\n\\]\n\nTo find out how",
+          "extracted": "16",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1: Find the material needed per small mask**\n- Jo can make 4 small masks with 2 yards of material.\n- Material per small mask = 2 yards ÷ 4 masks = 0.5 yards per small mask.\n\n**Step 2: Find the material needed per large mask**\n- Jo can make 3 large masks with 2.25 yards of material.\n- Material per large mask = 2.25 yards ÷ 3 masks = 0.75 yards per large mask.\n\n**Step 3: Calculate material needed for 20 small masks**\n- Mater",
+          "extracted": "16",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1110,
+      "correct_answer": "60",
+      "wrong_answer": "108",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many miles Soledad needs to hike per day to complete her goal of 9,300 miles in the month of June. We will then compare this to her current hiking plan to find out how many more miles she needs to hike each day.\n\n1. **Determine the total number of days in June:**\n   - June has 30 days.\n\n2. **Calculate the total number of miles Soledad needs to hike per day to reach her goal:**\n   - Total miles to hike = 9,300 miles\n   - Total days in June = 30 days",
+          "extracted": "60",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1: Calculate total miles Soledad wants to hike**\nTotal miles = 9,300 miles\n\n**Step 2: Determine the number of days in June**\nJune has 30 days\n\n**Step 3: Calculate miles needed per day**\nMiles per day needed = 9,300 ÷ 30 = 310 miles per day\n\n**Step 4: Calculate miles she currently plans to walk**\nShe walks twice a day, covering 125 miles each time\nCurrent daily miles = 2 × 125 = 250 miles per day\n\n**Step 5: Calculate additi",
+          "extracted": "108",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1159,
+      "correct_answer": "50",
+      "wrong_answer": "48",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the number of babies wearing purple and blue, and then find out how many of those are wearing bows. Finally, we'll calculate the probability that a baby wearing a bow is wearing purple.\n\n1. **Determine the number of babies wearing each color:**\n\n   Carla has identical octuplets, which means she has 8 babies in total.\n\n   - Babies wearing purple: \\( \\frac{3}{4} \\times 8 = 6 \\) babies\n   - Babies wearing blue: \\( \\frac{1}{4} \\times 8 = 2 \\) babies\n\n2. **",
+          "extracted": "50",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but we'll correct any errors and ensure clarity.\n\n**Step 1:** Determine the total number of babies.\nCarla has identical octuplets, so there are 8 babies total.\n\n**Step 2:** Calculate how many babies wear each color.\n- Purple wearers: \\( \\frac{3}{4} \\times 8 = 6 \\) babies\n- Blue wearers: \\( \\frac{1}{4} \\times 8 = 2 \\) babies\n\n**Step 3:** Determine how many babies of each color wear bows.\n- All blue wearers wear bows: 2 babies\n- \\( ",
+          "extracted": "50",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 542,
+      "correct_answer": "7",
+      "wrong_answer": "22",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total cost of the fruits Verna bought and then determine how much change she received from the $20 she gave.\n\n1. **Calculate the cost of the apples:**\n   - Verna bought 3 apples at $1.50 each.\n   - Total cost for apples = 3 apples × $1.50/apple = $4.50\n\n2. **Calculate the cost of the oranges:**\n   - Verna bought 5 oranges at $0.80 each.\n   - Total cost for oranges = 5 oranges × $0.80/orange = $4.00\n\n3. **Calculate the cost of the peaches:**\n   - Ve",
+          "extracted": "7",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but with careful attention to calculations.\n\n**Step 1: Calculate the cost of apples**  \n3 apples × $1.50 each = $4.50\n\n**Step 2: Calculate the cost of oranges**  \n5 oranges × $0.80 each = $4.00\n\n**Step 3: Calculate the cost of peaches**  \n6 peaches × $0.75 each = $4.50\n\n**Step 4: Find the total cost of all fruit**  \nTotal cost = $4.50 (apples) + $4.00 (oranges) + $4.50 (peaches) = $13.00\n\n**Step 5: Calculate the change**  \nChange ",
+          "extracted": "7",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 696,
+      "correct_answer": "145",
+      "wrong_answer": "110",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total points collected by the students in class 3B and then determine how many more points are needed to reach the minimum threshold of 400 points.\n\n1. **Calculate Betty's points:**\n   - Adam has 50 points.\n   - Betty collected 30% more points than Adam.\n   - 30% of Adam's points is \\(0.30 \\times 50 = 15\\).\n   - Therefore, Betty has \\(50 + 15 = 65\\) points.\n\n2. **Calculate Tom's points:**\n   - Tom has 30 points less than Betty.\n   - Since Betty has",
+          "extracted": "145",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1: Find Adam's points**\nAdam has collected 50 points.\n\n**Step 2: Find Betty's points**\nBetty collected 30% more than Adam.\n\\[ \\text{Betty's points} = 50 + (0.30 \\times 50) = 50 + 15 = 65 \\text{ points} \\]\n\n**Step 3: Find Tom's points**\nTom has 30 points less than Betty.\n\\[ \\text{Tom's points} = 65 - 30 = 35 \\text{ points} \\]\n\n**Step 4: Find Martha's points**\nThe problem states \"Martha managed to collect 3 times more points",
+          "extracted": "110",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 36,
+      "correct_answer": "75",
+      "wrong_answer": "81",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many yogurts Terry consumes in 30 days and then calculate the cost based on the sale price.\n\n1. **Calculate the total number of yogurts Terry eats in 30 days:**\n\n   Terry eats 2 yogurts per day. Therefore, over 30 days, he eats:\n   \\[\n   2 \\text{ yogurts/day} \\times 30 \\text{ days} = 60 \\text{ yogurts}\n   \\]\n\n2. **Determine how many sets of 4 yogurts Terry needs to buy:**\n\n   Yogurts are sold in sets of 4 for $5.00. To find out how many sets of 4 y",
+          "extracted": "75",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step-by-step using the expert's approach, but with careful attention to the calculations.\n\n**Step 1:** Determine how many yogurts Terry eats in 30 days.\n- Terry eats 2 yogurts per day.\n- Over 30 days: \\(2 \\times 30 = 60\\) yogurts.\n\n**Step 2:** Determine the cost per yogurt.\n- 4 yogurts cost $5.00.\n- Cost per yogurt: \\(\\frac{5.00}{4} = 1.25\\) dollars per yogurt.\n\n**Step 3:** Calculate total cost.\n- Terry needs 60 yogurts.\n- At $1.25 per yogurt: \\(60 \\times 1.25 = 75.00\\) d",
+          "extracted": "75",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1212,
+      "correct_answer": "150",
+      "wrong_answer": "144",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the capacity of each school and then find their combined capacity.\n\n1. **Determine the capacity of Ali's class:**\n   - Ali's class has a capacity of 120 students.\n\n2. **Determine the capacity of each of John's classes:**\n   - Each of John's classes has 1/8 the capacity of Ali's class.\n   - Capacity of each of John's classes = \\( \\frac{1}{8} \\times 120 \\)\n   - Calculate: \\( \\frac{1}{8} \\times 120 = 15 \\)\n   - So, each of John's classes can hold 15 stude",
+          "extracted": "150",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1: Find the capacity of Ali's class**  \nAli's class has a capacity of 120 students.\n\n**Step 2: Find the capacity of each of John's classes**  \nEach of John's classes has 1/8 the capacity of Ali's class.  \nCapacity of each of John's classes = 1/8 × 120 = 120 ÷ 8 = 15 students\n\n**Step 3: Find the total capacity of John's school**  \nJohn has two classes in his school.  \nTotal capacity of John's school = 2 × 15 = 30 students\n\n",
+          "extracted": "150",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 872,
+      "correct_answer": "13",
+      "wrong_answer": "14",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the cost of one bottle of soda and one bottle of water, and then use those costs to find the total cost for 3 bottles of soda and 2 bottles of water.\n\n**Step 1: Find the cost of one bottle of soda.**\n\nWe know that 7 bottles of soda cost $21.00. To find the cost of one bottle, we divide the total cost by the number of bottles:\n\n\\[\n\\text{Cost of one bottle of soda} = \\frac{21.00}{7} = 3.00\n\\]\n\nSo, one bottle of soda costs $3.00.\n\n**Step 2: Find the cost ",
+          "extracted": "13",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1: Find the cost per bottle of soda**\n- We know that 7 bottles of soda cost $21.00.\n- To find the cost per bottle, we divide the total cost by the number of bottles:\n  \\[\n  \\text{Cost per bottle of soda} = \\frac{21.00}{7} = 3.00 \\text{ dollars per bottle}\n  \\]\n\n**Step 2: Find the cost per bottle of water**\n- We know that 4 bottles of water cost $8.00.\n- To find the cost per bottle, we divide the total cost by the number of",
+          "extracted": "13",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 824,
+      "correct_answer": "52",
+      "wrong_answer": "49",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the total number of tins of cat food and dog food that Kimberly bought, and then find the difference between the two.\n\n**Step 1: Calculate the total number of tins of cat food.**\n\nKimberly bought 8 packages of cat food, and each package contains 11 tins. To find the total number of tins of cat food, we multiply the number of packages by the number of tins per package:\n\n\\[ \n8 \\text{ packages} \\times 11 \\text{ tins per package} = 88 \\text{ tins of cat fo",
+          "extracted": "52",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1:** Calculate the total number of cat food tins.\nKimberly bought 8 packages of cat food, with 11 tins per package.\nTotal cat food tins = 8 × 11 = 88 tins\n\n**Step 2:** Calculate the total number of dog food tins.\nKimberly bought 6 packages of dog food, with 6 tins per package.\nTotal dog food tins = 6 × 6 = 36 tins\n\n**Step 3:** Find the difference between cat food and dog food tins.\nDifference = Cat food tins - Dog food tin",
+          "extracted": "52",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 703,
+      "correct_answer": "50",
+      "wrong_answer": "46",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many dumplings Larry cooked based on the information given about the number of males and females and how many dumplings each ate.\n\n1. **Identify the number of males and females:**\n   - There are 8 males, including Larry.\n   - There are 6 females.\n\n2. **Determine how many dumplings each female ate:**\n   - Each female ate 3 dumplings.\n\n3. **Calculate the total number of dumplings eaten by all females:**\n   \\[\n   \\text{Total dumplings eaten by females",
+          "extracted": "50",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1: Identify the given information**\n- Total people: 8 males (including Larry) + 6 females = 14 people\n- Each female ate 3 dumplings\n- Each male ate 1 more dumpling than each female\n- No leftovers\n\n**Step 2: Calculate how many dumplings each male ate**\nSince each female ate 3 dumplings and each male ate 1 more than each female:\nEach male ate: 3 + 1 = 4 dumplings\n\n**Step 3: Calculate total dumplings eaten by females**\nNumber",
+          "extracted": "50",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 168,
+      "correct_answer": "18",
+      "wrong_answer": "17",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve the problem, we need to determine how much money Jimmy has based on the information given about Ethel's money.\n\n1. **Identify Ethel's amount of money:**\n   - Ethel has $8.\n\n2. **Understand the relationship between Jimmy's and Ethel's money:**\n   - Jimmy has $2 more than twice the money Ethel has.\n\n3. **Express the relationship mathematically:**\n   - Let \\( E \\) represent the amount of money Ethel has.\n   - Let \\( J \\) represent the amount of money Jimmy has.\n   - According to the proble",
+          "extracted": "18",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but correcting any errors.\n\n**Step 1:** Identify what we know\n- Ethel has $8.\n- Jimmy has $2 more than twice the money Ethel has.\n\n**Step 2:** Find twice the money Ethel has\n- Twice Ethel's money = 2 × $8 = $16.\n\n**Step 3:** Find how much money Jimmy has\n- Jimmy has $2 more than twice Ethel's money.\n- Jimmy's money = $16 + $2 = $18.\n\n**Step 4:** Check our work\n- Ethel: $8.\n- Twice Ethel's money: $16.\n- Jimmy's money: $16 + $2 = $1",
+          "extracted": "18",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 790,
+      "correct_answer": "108",
+      "wrong_answer": "162",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to follow these steps:\n\n1. **Determine the number of groups formed:**\n\n   We know there are 90 people, and they are split into groups of 9 people each. To find the number of groups, we divide the total number of people by the number of people per group:\n\n   \\[\n   \\text{Number of groups} = \\frac{90}{9} = 10\n   \\]\n\n2. **Calculate the number of groups that brought back seashells:**\n\n   According to the problem, \\( \\frac{3}{5} \\) of the groups brought back seashells. W",
+          "extracted": "108",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step-by-step using the expert's approach:\n\n**Step 1: Find the number of groups**\n- Total people: 90\n- People per group: 9\n- Number of groups = 90 ÷ 9 = 10 groups\n\n**Step 2: Find how many groups brought back seashells**\n- Fraction of groups that brought seashells: 3/5\n- Number of groups that brought seashells = 3/5 × 10 = 6 groups\n\n**Step 3: Find how many people brought back seashells**\n- Each group has 9 people\n- Number of people who brought seashells = 6 groups × 9 peopl",
+          "extracted": "108",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1172,
+      "correct_answer": "93",
+      "wrong_answer": "94",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the number of clouds Alice counts each day from Monday to Friday and then sum them up.\n\n1. **Monday:**\n   - Alice counts 3 puffs of clouds.\n   - Number of clouds on Monday = 3\n\n2. **Tuesday:**\n   - Each day, the number of clouds doubles from the previous day.\n   - Number of clouds on Tuesday = 2 × Number of clouds on Monday = 2 × 3 = 6\n\n3. **Wednesday:**\n   - Number of clouds on Wednesday = 2 × Number of clouds on Tuesday = 2 × 6 = 12\n\n4. **Thursday:**",
+          "extracted": "93",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1:** Identify the pattern\n- Monday: 3 clouds\n- Each subsequent day has double the clouds from the previous day\n\n**Step 2:** Calculate clouds for each day\n- Monday: 3 clouds\n- Tuesday: 3 × 2 = 6 clouds\n- Wednesday: 6 × 2 = 12 clouds\n- Thursday: 12 × 2 = 24 clouds\n- Friday: 24 × 2 = 48 clouds\n\n**Step 3:** Add up all the clouds across the five days\n- Monday: 3\n- Tuesday: 6\n- Wednesday: 12\n- Thursday: 24\n- Friday: 48\n\nNow, let",
+          "extracted": "93",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 426,
+      "correct_answer": "11",
+      "wrong_answer": "26",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the cost of each item Aleksandra ordered and then sum them up to find the total cost of her dinner.\n\n1. **Cost of the Bagel:**\n   - The problem states that the bagel costs $4.\n\n2. **Cost of the Soup:**\n   - The soup costs 25% more than the bagel.\n   - First, calculate 25% of the bagel's cost: \n     \\[\n     25\\% \\text{ of } \\$4 = 0.25 \\times 4 = \\$1\n     \\]\n   - Add this amount to the cost of the bagel to find the cost of the soup:\n     \\[\n     \\$4 + \\$",
+          "extracted": "11",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, correcting any errors along the way.\n\n**Step 1: Find the cost of the bagel**  \nThe bagel costs $4.\n\n**Step 2: Find the cost of the soup**  \nThe soup costs 25% more than the bagel.  \n25% of $4 = 0.25 × $4 = $1  \nSo, the soup costs $4 + $1 = $5.  \n\nHowever, let's double-check this calculation:  \nThe soup costs 25% more than the bagel, so it should be:  \n$4 × 1.25 = $5.  \n\n**Step 3: Find the cost of the cake**  \nThe cake is half the ",
+          "extracted": "11",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 97,
+      "correct_answer": "12",
+      "wrong_answer": "16",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many tomatoes Freda used to make 32 ounces of tomato sauce, given that the tomatoes lose half their volume when cooked into sauce.\n\n1. **Understand the volume change**: \n   - When Freda cooks the tomatoes into sauce, they lose half their volume. This means that the final volume of the sauce is half the initial volume of the canned tomatoes.\n\n2. **Determine the initial volume needed**:\n   - Freda made 32 ounces of sauce. Since the sauce is half the ",
+          "extracted": "12",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but with careful attention to the details.\n\n**Step 1:** Determine the original volume of canned tomatoes needed.\n- Since the tomatoes lose half their volume when cooked into sauce, and Freda ended up with 32 ounces of sauce, the original volume of canned tomatoes must have been:\n  \\[\n  32 \\text{ ounces} \\times 2 = 64 \\text{ ounces of canned tomatoes}\n  \\]\n\n**Step 2:** Calculate how many cans Freda used.\n- Each can contains 16 ounc",
+          "extracted": "12",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 323,
+      "correct_answer": "75",
+      "wrong_answer": "60",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how much weaker Shannon's iced coffee becomes when it is cooled by 65 degrees using ice cubes and when she adds 15 milliliters of cream.\n\n**Step 1: Determine the number of ice cubes needed to cool the coffee by 65 degrees.**\n\nEach ice cube cools the coffee by 13 degrees. To find out how many ice cubes are needed to cool the coffee by 65 degrees, we divide 65 by 13:\n\n\\[\n\\text{Number of ice cubes} = \\frac{65}{13} = 5\n\\]\n\nSo, Shannon needs 5 ice cubes to ",
+          "extracted": "75",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n1. **Determine the number of ice cubes needed to cool the coffee by 65 degrees:**\n\n   Each ice cube cools the coffee by 13 degrees. Therefore, the number of ice cubes needed is calculated as follows:\n   \\[\n   \\text{Number of ice cubes} = \\frac{65}{13} = 5 \\text{ ice cubes}\n   \\]\n\n2. **Calculate how much the ice cubes weaken the coffee:**\n\n   Each ice cube makes the coffee 12 milliliters weaker. Therefore, the weakening effect fro",
+          "extracted": "60",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1084,
+      "correct_answer": "20",
+      "wrong_answer": "10",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how much fence Sam gets when Harry receives 60 feet more than Sam, and the total amount of fence is 100 feet.\n\nLet's define:\n- \\( S \\) as the amount of fence Sam gets.\n- \\( H \\) as the amount of fence Harry gets.\n\nAccording to the problem, the total amount of fence is 100 feet, so we have the equation:\n\\[ S + H = 100 \\]\n\nWe are also told that Harry gets 60 feet more than Sam:\n\\[ H = S + 60 \\]\n\nNow, we can substitute the expression for \\( H \\) from the ",
+          "extracted": "20",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step-by-step using the expert's approach, but with careful attention to the calculations.\n\n1. **Define Variables:**\n   - Let \\( S \\) be the amount of fence Sam gets.\n   - Let \\( H \\) be the amount of fence Harry gets.\n\n2. **Set Up Equations:**\n   - Total fence: \\( S + H = 100 \\) feet.\n   - Harry gets 60 feet more than Sam: \\( H = S + 60 \\).\n\n3. **Substitute the Second Equation into the First:**\n   \\[\n   S + (S + 60) = 100\n   \\]\n   \\[\n   S + S + 60 = 100\n   \\]\n   \\[\n   2S ",
+          "extracted": "20",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 880,
+      "correct_answer": "10",
+      "wrong_answer": "15",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to follow these steps:\n\n1. **Calculate the total amount Sarah will receive from selling the rope:**\n\n   Sarah's rope is 20 meters long, and her friend is willing to pay $2 per meter. Therefore, the total amount Sarah will receive is:\n\n   \\[\n   20 \\, \\text{meters} \\times 2 \\, \\text{dollars/meter} = 40 \\, \\text{dollars}\n   \\]\n\n2. **Determine how much the new rope will cost:**\n\n   Sarah wants to buy a new rope, and the cost of the new rope is $1.5 per meter. Since she",
+          "extracted": "10",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1: Calculate how much Sarah will receive for selling her rope**\n- Sarah has a 20-meter rope.\n- Her friend will pay $2 per meter.\n- Total money received = 20 meters × $2/meter = $40.\n\n**Step 2: Calculate the cost of buying a new rope**\n- The new rope at the store costs $1.5 per meter.\n- Sarah wants to buy a rope of the same length (20 meters).\n- Cost of new rope = 20 meters × $1.5/meter = $30.\n\n**Step 3: Calculate how much ",
+          "extracted": "10",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 45,
+      "correct_answer": "104",
+      "wrong_answer": "52",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total number of articles Meredith wrote over the three days and then determine the total number of hours she spent writing.\n\n**Step 1: Calculate the number of articles written each day.**\n\n- **Monday:** Meredith wrote 5 articles.\n\n- **Tuesday:** She wrote \\( \\frac{2}{5} \\) times more articles than on Monday. \n  - First, calculate \\( \\frac{2}{5} \\) of 5 articles: \n    \\[\n    \\frac{2}{5} \\times 5 = 2\n    \\]\n  - Therefore, on Tuesday, she wrote \\( 5 +",
+          "extracted": "104",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step-by-step using the expert's approach, but correcting any misunderstandings.\n\n**Step 1: Calculate articles written on Monday**\n- Monday: 5 articles\n\n**Step 2: Calculate articles written on Tuesday**\n- Tuesday: 2/5 times more articles than Monday\n- Tuesday = 5 + (2/5 × 5) = 5 + 2 = 7 articles\n\n**Step 3: Calculate articles written on Wednesday**\n- Wednesday: twice the number of articles she wrote on Tuesday\n- Wednesday = 2 × 7 = 14 articles\n\n**Step 4: Calculate total art",
+          "extracted": "104",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 771,
+      "correct_answer": "3",
+      "wrong_answer": "2",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how much Bennet should sell each ear of corn for in order to reach his total goal of $135.\n\n1. **Calculate the total revenue from selling eggplants:**\n\n   Bennet sells 20 eggplants at $3 each. \n\n   \\[\n   \\text{Revenue from eggplants} = 20 \\times 3 = 60\n   \\]\n\n   So, Bennet makes $60 from selling the eggplants.\n\n2. **Determine the remaining amount needed to reach the goal:**\n\n   Bennet's total revenue goal is $135. He has already made $60 from the eggpl",
+          "extracted": "3",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1: Calculate how much Bennet makes from selling eggplants**\n- Bennet sells 20 eggplants for $3 each.\n- Revenue from eggplants = 20 × $3 = $60.\n\n**Step 2: Determine how much more money he needs from corn**\n- Bennet's total goal is $135.\n- Money still needed = $135 - $60 = $75.\n\n**Step 3: Calculate the price per ear of corn**\n- Bennet has 25 ears of corn to sell.\n- He needs to make $75 from these 25 ears.\n- Price per ear of ",
+          "extracted": "3",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 977,
+      "correct_answer": "4",
+      "wrong_answer": "5",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many ounces of sunscreen Pamela will use during her vacation and then calculate how many bottles she needs based on the size of each bottle.\n\n1. **Calculate the total number of hours Pamela will be outside:**\n\n   Pamela is outside for 4 hours each day. She will be on vacation for 8 days. Therefore, the total number of hours she will be outside is:\n\n   \\[\n   4 \\text{ hours/day} \\times 8 \\text{ days} = 32 \\text{ hours}\n   \\]\n\n2. **Calculate the total",
+          "extracted": "4",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1: Calculate sunscreen usage per day**  \nPamela uses 1 ounce of sunscreen per hour, and she is outside for 4 hours each day.  \nDaily usage = 1 ounce/hour × 4 hours = 4 ounces per day\n\n**Step 2: Calculate total sunscreen needed for the vacation**  \nPamela will be outside for 8 days.  \nTotal usage = 4 ounces/day × 8 days = 32 ounces\n\n**Step 3: Calculate how many bottles she needs**  \nEach bottle contains 8 ounces of sunscree",
+          "extracted": "5",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 750,
+      "correct_answer": "4000",
+      "wrong_answer": "4100",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total number of chairs rented during weekdays and weekends over two 4-week months.\n\n### Step 1: Calculate the number of weekdays and weekends in one 4-week month.\n\n- A week has 7 days, consisting of 5 weekdays and 2 weekend days.\n- Therefore, in a 4-week month, there are:\n  - Weekdays: \\(4 \\text{ weeks} \\times 5 \\text{ weekdays/week} = 20 \\text{ weekdays}\\)\n  - Weekend days: \\(4 \\text{ weeks} \\times 2 \\text{ weekend days/week} = 8 \\text{ weekend da",
+          "extracted": "4000",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1: Identify the time period**\n- Two 4-week months = 2 × 4 = 8 weeks total\n\n**Step 2: Calculate days in the time period**\n- Total days = 8 weeks × 7 days/week = 56 days\n- Weekdays in 8 weeks = 8 weeks × 5 weekdays/week = 40 weekdays\n- Weekend days in 8 weeks = 8 weeks × 2 weekend days/week = 16 weekend days\n\n**Step 3: Calculate chairs rented on weekdays**\n- Weekday rentals = 40 days × 60 chairs/day = 2,400 chairs\n\n**Step 4:",
+          "extracted": "4000",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1035,
+      "correct_answer": "35",
+      "wrong_answer": "40",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many soda bottles Richard will place on his driveway and then calculate the total time it will take him to set off all the soda fountains.\n\n**Step 1: Determine the number of soda bottles.**\n\nRichard's driveway is 24 feet wide, and he wants to place a bottle every 3 feet. To find out how many bottles he will place, we divide the width of the driveway by the distance between each bottle:\n\n\\[\n\\text{Number of bottles} = \\frac{\\text{Width of driveway}}{",
+          "extracted": "35",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1: Determine how many bottles Richard needs**\n- The driveway is 24 feet wide.\n- Richard places a bottle every 3 feet.\n- Number of bottles = 24 ÷ 3 = 8 bottles.\n\n**Step 2: Determine the positions of the bottles**\nThe bottles will be placed at the following positions: 0 feet, 3 feet, 6 feet, 9 feet, 12 feet, 15 feet, 18 feet, and 21 feet.\n\n**Step 3: Calculate the time needed**\n- Richard starts at the first bottle (at 0 feet)",
+          "extracted": "35",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 657,
+      "correct_answer": "330000",
+      "wrong_answer": "320000",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total cost James incurs for the first year, which includes the cost of buying the plane, renting the hanger, and spending on fuel.\n\n1. **Cost of the Plane:**\n   - The plane costs $150,000.\n\n2. **Monthly Hanger Rent:**\n   - James pays $5,000 per month to rent a hanger.\n   - For one year (12 months), the total hanger rent is:\n     \\[\n     12 \\times 5,000 = 60,000\n     \\]\n\n3. **Monthly Fuel Cost:**\n   - James spends twice as much on fuel as he does on",
+          "extracted": "330000",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but with careful attention to the calculations.\n\n**Step 1: Calculate the initial cost of the plane**\nThe plane costs $150,000.\n\n**Step 2: Calculate monthly hanger rental cost**\nHanger rental = $5,000 per month.\n\n**Step 3: Calculate monthly fuel cost**\nFuel costs twice as much as the hanger rental.\nMonthly fuel cost = 2 × $5,000 = $10,000 per month.\n\n**Step 4: Calculate total monthly maintenance costs**\nTotal monthly costs = Hanger",
+          "extracted": "330000",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 130,
+      "correct_answer": "30",
+      "wrong_answer": "20",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to follow the steps outlined below:\n\n1. **Determine the initial number of elves:**  \n   Nissa hires 60 seasonal workers to play elves.\n\n2. **Calculate the number of elves that quit after being vomited on:**  \n   A third of the elves quit.  \n   \\[\n   \\text{Number of elves that quit} = \\frac{1}{3} \\times 60 = 20\n   \\]\n\n3. **Calculate the number of elves remaining after the first group quits:**  \n   \\[\n   \\text{Remaining elves} = 60 - 20 = 40\n   \\]\n\n4. **Calculate the",
+          "extracted": "30",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1:** Start with the initial number of elves.\n- Nissa hires 60 seasonal workers to be elves.\n\n**Step 2:** Calculate how many quit after being vomited on.\n- A third of the elves quit after children vomit on them.\n- One third of 60 = 60 ÷ 3 = 20 elves quit.\n\n**Step 3:** Find how many elves remain after the first round of quitting.\n- Remaining elves = 60 - 20 = 40 elves.\n\n**Step 4:** Calculate how many quit after being kicked.",
+          "extracted": "30",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 783,
+      "correct_answer": "4",
+      "wrong_answer": "6",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many white fish Bob bought at the store. Let's break it down step by step.\n\n1. **Initial Fish Count:**\n   - Bob initially had 3 orange fish and 4 white fish in his pond.\n\n2. **Fish Bought from the Store:**\n   - Bob bought a total of 17 fish from the store. Let's denote the number of orange fish he bought as \\( x \\) and the number of white fish he bought as \\( y \\).\n   - Therefore, we have the equation: \n     \\[\n     x + y = 17\n     \\]\n\n3. **Final F",
+          "extracted": "4",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but with careful attention to the calculations.\n\n**Step 1: Identify what Bob started with**\n- Orange fish: 3\n- White fish: 4\n- Total fish: 7\n\n**Step 2: Identify what Bob bought**\n- Total fish bought: 17\n- Let \\( x \\) be the number of white fish bought.\n- Then \\( 17 - x \\) is the number of orange fish bought.\n\n**Step 3: Calculate what Bob has after adding the new fish**\n- White fish after: \\( 4 + x \\)\n- Orange fish after: \\( 3 + (1",
+          "extracted": "4",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1279,
+      "correct_answer": "180",
+      "wrong_answer": "195",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total cost of the place settings for 12 people. Each place setting consists of a dinner plate, a salad plate, and a bowl. We will calculate the cost for each type of item and then sum them up.\n\n1. **Calculate the cost of dinner plates:**\n   - Each dinner plate costs $6.00.\n   - Avery needs 12 dinner plates (one for each person).\n   - Total cost for dinner plates = 12 plates × $6.00/plate = $72.00.\n\n2. **Calculate the cost of salad plates:**\n   - Ea",
+          "extracted": "180",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\nAvery is having 12 people over for dinner, and she needs to include herself in the count, so she needs place settings for 13 people in total.\n\nEach person needs a 3-piece place setting consisting of:\n- 1 dinner plate ($6.00 each)\n- 1 salad plate ($4.00 each)\n- 1 bowl ($5.00 each)\n\n**Step 1: Calculate the cost of dinner plates**\n- Number of dinner plates needed: 13\n- Cost per dinner plate: $6.00\n- Total cost for dinner plates: \\(1",
+          "extracted": "195",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 961,
+      "correct_answer": "225",
+      "wrong_answer": "235",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the total number of corn chips based on the information given.\n\n1. **Identify the number of corn chips Amora and Lainey received:**\n   - Amora received 70 corn chips.\n   - Lainey received 70 corn chips.\n\n2. **Determine the number of corn chips Collins received:**\n   - Collins received 15 more corn chips than Amora and Lainey.\n   - Since Amora and Lainey each received 70 corn chips, Collins received:\n     \\[\n     70 + 15 = 85 \\text{ corn chips}\n     \\]\n",
+          "extracted": "225",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1:** Identify what we know from the problem.\n- Amora and Lainey each got 70 corn chips.\n- Collins got 15 more corn chips than Amora and Lainey.\n\n**Step 2:** Calculate how many corn chips Collins received.\n- Collins got: 70 + 15 = 85 corn chips\n\n**Step 3:** Find the total number of corn chips by adding all three amounts.\n- Total = Amora's chips + Lainey's chips + Collins's chips\n- Total = 70 + 70 + 85 = 225 corn chips\n\n**St",
+          "extracted": "225",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 275,
+      "correct_answer": "138",
+      "wrong_answer": "128",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many lines Sean has to memorize in total, including his lines from the two scenes and the solo song.\n\n1. **Solo Song:**\n   - The solo song has 54 lines.\n   - Since it's a solo, all 54 lines are Sean's lines.\n\n2. **First Scene:**\n   - The first scene has twice the number of lines as the solo song.\n   - Number of lines in the first scene = 2 × 54 = 108 lines.\n   - Only a third of these lines are Sean's lines.\n   - Sean's lines in the first scene = 10",
+          "extracted": "138",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1: Find the lines in Sean's solo song**  \nThe solo song has 54 lines, and since it's his solo, all of these are his lines.  \nSean's lines from the song = 54\n\n**Step 2: Find Sean's lines in the first scene**  \nThe first scene has twice the number of lines as the song.  \nFirst scene total lines = 2 × 54 = 108 lines  \nOnly a third of these are Sean's lines.  \nSean's lines from the first scene = 108 ÷ 3 = 36 lines\n\n**Step 3: F",
+          "extracted": "138",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 339,
+      "correct_answer": "160",
+      "wrong_answer": "200",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many chickens and how many cows Farmer Brown has, and then calculate the total number of legs.\n\n1. **Define Variables:**\n   - Let \\( c \\) represent the number of cows.\n   - Since there are twice as many chickens as cows, the number of chickens is \\( 2c \\).\n\n2. **Set Up the Equation:**\n   - The total number of animals is 60, so we can write the equation:\n     \\[\n     c + 2c = 60\n     \\]\n\n3. **Solve for \\( c \\):**\n   - Combine like terms:\n     \\[\n   ",
+          "extracted": "160",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1: Set up variables**\nLet \\( c \\) be the number of cows.\nLet \\( h \\) be the number of chickens.\n\n**Step 2: Write equations based on the given information**\n- Total animals: \\( c + h = 60 \\)\n- Twice as many chickens as cows: \\( h = 2c \\)\n\n**Step 3: Solve for the number of each animal**\nSubstitute the second equation into the first:\n\\[ c + 2c = 60 \\]\n\\[ 3c = 60 \\]\n\\[ c = 20 \\text{ cows} \\]\n\nTherefore:\n\\[ h = 2c = 2(20) = 40 ",
+          "extracted": "160",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 278,
+      "correct_answer": "40",
+      "wrong_answer": "45",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the sum of Mico and Marco's ages in 10 years, given that the sum of their current ages is 20.\n\n1. **Current Sum of Ages:**\n   - Let Mico's current age be \\( M \\).\n   - Let Marco's current age be \\( N \\).\n   - According to the problem, the sum of their current ages is:\n     \\[\n     M + N = 20\n     \\]\n\n2. **Ages in 10 Years:**\n   - In 10 years, Mico's age will be \\( M + 10 \\).\n   - In 10 years, Marco's age will be \\( N + 10 \\).\n\n3. **Sum of Ages in 10 Ye",
+          "extracted": "40",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1:** Define Mico's current age as \\( M \\) and Marco's current age as \\( R \\). We know that \\( M + R = 20 \\).\n\n**Step 2:** In 10 years, Mico will be \\( M + 10 \\) years old and Marco will be \\( R + 10 \\) years old.\n\n**Step 3:** The sum of their ages in 10 years will be: \\( (M + 10) + (R + 10) \\).\n\n**Step 4:** We can rewrite this as: \\( M + R + 10 + 10 = M + R + 20 \\).\n\n**Step 5:** Since we know \\( M + R = 20 \\), we can subst",
+          "extracted": "40",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1300,
+      "correct_answer": "120",
+      "wrong_answer": "130",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many days Josh works in two weeks and how much he earns per day.\n\n1. **Determine the number of working days in a week:**\n   - Josh is open every day except Sunday and Wednesday.\n   - There are 7 days in a week.\n   - Days open = 7 days - 2 days (Sunday and Wednesday) = 5 days.\n\n2. **Calculate the number of working days in two weeks:**\n   - Since Josh works 5 days a week, in two weeks he works:\n   - 5 days/week × 2 weeks = 10 days.\n\n3. **Calculate th",
+          "extracted": "120",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but with careful attention to calculations.\n\n**Step 1: Determine how many days Josh works per week**\n- Josh is open every day except Sunday and Wednesday.\n- Days in a week: 7\n- Days he's closed: 2 (Sunday and Wednesday)\n- Days he works per week: 7 - 2 = 5 days\n\n**Step 2: Calculate cars serviced per week**\n- Cars per day: 3\n- Days worked per week: 5\n- Cars per week: 3 × 5 = 15 cars\n\n**Step 3: Calculate cars serviced in 2 weeks**\n- ",
+          "extracted": "120",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 122,
+      "correct_answer": "48",
+      "wrong_answer": "51",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total number of hours Sadie slept each day of the week and then sum them up.\n\n1. **Monday:**\n   - Sadie slept 8 hours.\n\n2. **Tuesday and Wednesday:**\n   - Sadie slept 2 hours less than she did on Monday.\n   - Hours slept on Tuesday = 8 - 2 = 6 hours.\n   - Hours slept on Wednesday = 8 - 2 = 6 hours.\n\n3. **Thursday to Sunday:**\n   - Sadie slept 1 hour more than she did on Tuesday and Wednesday.\n   - Hours slept each day from Thursday to Sunday = 6 + ",
+          "extracted": "48",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1:** Sadie slept 8 hours on Monday.\n\n**Step 2:** For the next two days (Tuesday and Wednesday), she slept 2 hours less each day than Monday.  \nSo each of these days:  \n\\[ 8 - 2 = 6 \\text{ hours per day} \\]\n\n**Step 3:** Calculate sleep for Tuesday and Wednesday combined:  \n\\[ 6 \\text{ hours} \\times 2 \\text{ days} = 12 \\text{ hours total} \\]\n\n**Step 4:** For the rest of the week, she slept 1 hour more than those two days. Si",
+          "extracted": "48",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1085,
+      "correct_answer": "26",
+      "wrong_answer": "28",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the rate of growth of the crocodile and then use that rate to find out how much it will grow in 13 years.\n\n**Step 1: Determine the rate of growth per year.**\n\nThe problem states that the crocodile grows 8 inches in 4 years. To find the growth per year, we divide the total growth by the number of years:\n\n\\[\n\\text{Growth per year} = \\frac{8 \\text{ inches}}{4 \\text{ years}} = 2 \\text{ inches per year}\n\\]\n\n**Step 2: Calculate the growth over 13 years.**\n\nN",
+          "extracted": "26",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step-by-step using the expert's approach:\n\n**Step 1:** Identify what we know\n- The crocodile grows 8 inches in 4 years.\n- We want to find how much it grows in 13 years.\n\n**Step 2:** Find the growth rate per year\nGrowth rate = 8 inches ÷ 4 years = 2 inches per year\n\n**Step 3:** Calculate the growth over 13 years\nTotal growth = Growth rate × Number of years\nTotal growth = 2 inches/year × 13 years\n\n**Step 4:** Perform the multiplication\n2 × 13 = 2 × (10 + 3) = 2 × 10 + 2 × 3",
+          "extracted": "26",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 472,
+      "correct_answer": "6",
+      "wrong_answer": "8",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to set up an equation based on the information given:\n\n1. Let \\( c \\) represent the number of carrot sticks Matt eats.\n2. According to the problem, Matt can have half as many cookies as the number of carrot sticks he eats, plus two extra cookies for cleaning his room.\n3. The total number of cookies Matt wants to eat is 5.\n\nWe can express this relationship with the following equation:\n\n\\[\n\\frac{c}{2} + 2 = 5\n\\]\n\nNow, let's solve for \\( c \\):\n\n1. Subtract 2 from both",
+          "extracted": "6",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n1. **Define the variable:**\n   - Let \\( c \\) be the number of carrot sticks Matt eats.\n\n2. **Set up the equation:**\n   - Matt gets half as many cookies as the number of carrot sticks he eats: \\( \\frac{c}{2} \\).\n   - He gets 2 extra cookies for cleaning his room.\n   - The total number of cookies he wants is 5.\n\n   Therefore, the equation is:\n   \\[\n   \\frac{c}{2} + 2 = 5\n   \\]\n\n3. **Solve for \\( c \\):**\n   - Subtract 2 from both si",
+          "extracted": "6",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 815,
+      "correct_answer": "4",
+      "wrong_answer": "6",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to set up equations based on the relationships given in the problem. Let's define the variables:\n\n- Let \\( z \\) be the amount of citrus zest (in ounces).\n- Let \\( f \\) be the amount of fragrance (in ounces).\n- Let \\( s \\) be the amount of salt (in ounces).\n- Let \\( o \\) be the amount of oil (in ounces).\n- Let \\( u \\) be the amount of sugar (in ounces).\n\nFrom the problem, we have the following relationships:\n\n1. The amount of citrus zest is the same as the amount of",
+          "extracted": "4",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but correcting the final answer.\n\nDefine the variables:\n- Let \\( z \\) be the ounces of citrus zest.\n- Let \\( f \\) be the ounces of fragrance.\n- Let \\( s \\) be the ounces of salt.\n- Let \\( u \\) be the ounces of sugar.\n- Let \\( o \\) be the ounces of oil.\n\nTranslate the given relationships into equations:\n\n1) \"She uses the same amount of citrus zest as fragrance\": \\( z = f \\)\n2) \"She uses the same amount of salt as sugar\": \\( s = u \\",
+          "extracted": "4",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 55,
+      "correct_answer": "14",
+      "wrong_answer": "13",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we will follow these steps:\n\n1. **Determine the number of lollipops remaining after Jean eats some:**\n\n   Jean starts with 30 lollipops and eats 2 of them. To find out how many lollipops are left, we subtract the number of lollipops Jean eats from the total number of lollipops:\n\n   \\[\n   30 - 2 = 28\n   \\]\n\n   So, Jean has 28 lollipops remaining.\n\n2. **Calculate how many bags can be filled:**\n\n   Jean wants to package the remaining lollipops by putting 2 lollipops in each b",
+          "extracted": "14",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1:** Find how many lollipops Jean has after eating some.\nJean starts with 30 lollipops and eats 2 of them.\n\\[ 30 - 2 = 28 \\]\nJean has 28 lollipops remaining.\n\n**Step 2:** Determine how many lollipops go in each bag.\nJean wants to package 2 lollipops in one bag.\n\n**Step 3:** Calculate how many bags Jean can fill.\nTo find the number of bags, divide the remaining lollipops by the number of lollipops per bag.\n\\[ 28 \\div 2 = 14",
+          "extracted": "14",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1258,
+      "correct_answer": "60",
+      "wrong_answer": "65",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the total cost of the phone plan, which includes the main phone and the additional phones.\n\n1. **Identify the cost of the main phone:**\n   - The problem states that the main phone costs $20.\n\n2. **Determine the cost of each additional phone:**\n   - The main phone costs twice as much as each additional phone. Therefore, the cost of each additional phone is half the cost of the main phone.\n   - Cost of each additional phone = \\( \\frac{20}{2} = 10 \\) doll",
+          "extracted": "60",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1:** Identify what we know from the problem. The main phone costs twice as much as each additional phone, and the main phone plan costs $20.\n\n**Step 2:** Since the main phone costs $20 and it costs twice as much as each additional phone, we can find the cost of each additional phone by dividing:  \n\\[ \\text{Cost of each additional phone} = \\frac{20}{2} = 10 \\text{ dollars per additional phone} \\]\n\n**Step 3:** Count the tota",
+          "extracted": "65",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1100,
+      "correct_answer": "5",
+      "wrong_answer": "4",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total time Bobby spends on lunches and breaks over 5 days and then convert that time into hours.\n\n1. **Calculate the daily total time for lunches and breaks:**\n\n   - Bobby takes a 30-minute lunch each day.\n   - Bobby takes two 15-minute breaks each day.\n\n   First, calculate the total break time per day:\n   \\[\n   2 \\times 15 \\text{ minutes} = 30 \\text{ minutes}\n   \\]\n\n   Now, add the lunch time to the break time:\n   \\[\n   30 \\text{ minutes (lunch)} ",
+          "extracted": "5",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1: Calculate daily break time**\n- Lunch: 30 minutes\n- Two 15-minute breaks: 2 × 15 = 30 minutes\n- Total daily break time: 30 + 30 = 60 minutes\n\n**Step 2: Calculate total break time over 5 days**\n- Daily break time: 60 minutes\n- Over 5 days: 60 × 5 = 300 minutes\n\n**Step 3: Convert minutes to hours**\n- 300 minutes ÷ 60 minutes per hour = 5 hours\n\nThe expert made an error in recalculating the break time. The correct calculati",
+          "extracted": "5",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 675,
+      "correct_answer": "33",
+      "wrong_answer": "43",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many toys James needs at each stage and then sum them up.\n\n1. **Initial Situation:**\n   - James has 4 toys for 4 dogs. \n   - There are 8 more dogs now, so the total number of dogs is \\(4 + 8 = 12\\).\n   - James needs 12 toys in total for these 12 dogs.\n\n2. **First Purchase:**\n   - James already has 4 toys, so he needs to buy \\(12 - 4 = 8\\) more toys.\n\n3. **After First Purchase:**\n   - James returns to find twice as many more dogs than when he left.\n",
+          "extracted": "33",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1: Initial situation**\n- James has 4 toys for 4 dogs.\n- 8 more dogs arrive at the shelter.\n- Total dogs now: 4 + 8 = 12 dogs.\n- Toys needed for first purchase: 8 toys (since he already has 4).\n\n**Step 2: After first toy purchase**\n- James now has 12 toys for 12 dogs.\n- When he returns, there are \"twice as many more dogs than when he left.\"\n- When he left, there were 12 dogs.\n- \"Twice as many more dogs\" means: 2 × 12 = 24 a",
+          "extracted": "33",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 737,
+      "correct_answer": "2",
+      "wrong_answer": "0",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total amount of water used for each type of ice cube and then subtract that from the initial 32 ounces of water Peter has.\n\n1. **Calculate the water used for giant cubes:**\n   - Each giant cube uses 4 ounces of water.\n   - Peter makes 3 giant cubes.\n   - Total water used for giant cubes = 3 cubes × 4 ounces/cube = 12 ounces.\n\n2. **Calculate the water used for medium cubes:**\n   - Each medium cube uses 2 ounces of water.\n   - Peter makes 7 medium cu",
+          "extracted": "2",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step, following the expert's approach:\n\n**Step 1: Calculate water used for giant cubes**\n- Each giant cube uses 4 ounces of water.\n- Peter makes 3 giant cubes.\n- Water used for giant cubes: \\(3 \\times 4 = 12\\) ounces.\n\n**Step 2: Calculate water used for medium cubes**\n- Each medium cube uses 2 ounces of water.\n- Peter makes 7 medium cubes.\n- Water used for medium cubes: \\(7 \\times 2 = 14\\) ounces.\n\n**Step 3: Calculate water used for small cubes**\n- Each small cube",
+          "extracted": "2",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 966,
+      "correct_answer": "48",
+      "wrong_answer": "46",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total number of brownies Greta had throughout the day and then subtract the number of brownies that were eaten.\n\n1. **Calculate the total number of brownies Greta made for herself:**\n   - Greta made 1 dozen cream cheese swirl brownies.\n   - Since 1 dozen equals 12, she made 12 brownies.\n\n2. **Calculate the number of brownies Greta received from her office:**\n   - Her office gave her 1/2 dozen brownies.\n   - Since 1 dozen equals 12, 1/2 dozen equals",
+          "extracted": "48",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step, following the expert's approach:\n\n**Step 1: Calculate brownies Greta made for herself**\nGreta made 1 dozen cream cheese swirl brownies for herself.\n1 dozen = 12 brownies\n\n**Step 2: Calculate brownies from her office party**\nAt her office party, she was sent home with 1/2 dozen brownies.\n1/2 dozen = 6 brownies\n\n**Step 3: Calculate brownies from her surprise party at home**\nHer friends had 4 dozen brownies waiting for her.\n4 dozen = 4 × 12 = 48 brownies\n\n**Ste",
+          "extracted": "48",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 631,
+      "correct_answer": "4800",
+      "wrong_answer": "4900",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to find the price of each type of jewel and then sum them up to get the total price.\n\n1. **Determine the price of the gold jewel:**\n\n   We know from the problem that the price of a gold jewel is \\( \\frac{4}{5} \\) times the price of a diamond jewel. The price of a diamond jewel is given as $2000.\n\n   \\[\n   \\text{Price of gold jewel} = \\frac{4}{5} \\times 2000\n   \\]\n\n   Calculate the price:\n\n   \\[\n   \\frac{4}{5} \\times 2000 = \\frac{4 \\times 2000}{5} = \\frac{8000}{5} =",
+          "extracted": "4800",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1: Find the price of the diamond jewel**  \nGiven: Diamond jewel = $2000\n\n**Step 2: Find the price of the gold jewel**  \nThe gold jewel is \\(\\frac{4}{5}\\) times as much as the diamond jewel.  \nGold jewel = \\(\\frac{4}{5} \\times 2000\\)  \nGold jewel = \\(0.8 \\times 2000 = 1600\\)  \nSo, the price of the gold jewel is $1600.\n\n**Step 3: Find the price of the silver jewel**  \nThe silver jewel costs $400 less than the gold jewel.  \nS",
+          "extracted": "4800",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1187,
+      "correct_answer": "5",
+      "wrong_answer": "300",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to account for both the rate at which Jay makes snowballs and the rate at which they melt. Let's break it down step by step:\n\n1. **Determine the rate of snowball production:**\n   - Jay makes 20 snowballs per hour.\n\n2. **Determine the rate of snowball melting:**\n   - 2 snowballs melt every 15 minutes.\n   - In one hour, there are 4 intervals of 15 minutes (since 60 minutes / 15 minutes = 4).\n   - Therefore, in one hour, \\(2 \\times 4 = 8\\) snowballs melt.\n\n3. **Calcul",
+          "extracted": "5",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n### Step 1: Establish the Rates\n- **Building Rate:** Jay builds 20 snowballs per hour.\n- **Melting Rate:** 2 snowballs melt every 15 minutes.\n\n### Step 2: Convert to Consistent Time Units (Minutes)\n- **Building Rate in Minutes:** \n  \\[\n  \\text{Jay builds } \\frac{20 \\text{ snowballs}}{60 \\text{ minutes}} = \\frac{1}{3} \\text{ snowball per minute}\n  \\]\n\n- **Melting Rate in Minutes:**\n  \\[\n  \\text{2 snowballs melt every 15 minutes} =",
+          "extracted": "300",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 735,
+      "correct_answer": "50",
+      "wrong_answer": "30",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many votes each candidate received and then find out how many votes candidate C got.\n\n1. **Determine the number of votes candidate A received:**\n\n   Candidate A received 20% of the votes. Since there were 100 voters, we calculate the number of votes for candidate A as follows:\n\n   \\[\n   \\text{Votes for A} = 20\\% \\times 100 = \\frac{20}{100} \\times 100 = 20\n   \\]\n\n2. **Determine the number of votes candidate B received:**\n\n   Candidate B received 50%",
+          "extracted": "50",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach, but with careful attention to the calculations.\n\n**Step 1: Find how many votes candidate A got**\nCandidate A received 20% of the total 100 votes.\n\\[ \\text{A's votes} = 20\\% \\times 100 = 20 \\text{ votes} \\]\n\n**Step 2: Find how many votes candidate B got**\nCandidate B received 50% more votes than candidate A.\n\\[ \\text{B's votes} = \\text{A's votes} + 50\\% \\text{ of A's votes} \\]\n\\[ \\text{B's votes} = 20 + (0.5 \\times 20) \\]\n\\[ \\text{",
+          "extracted": "50",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 288,
+      "correct_answer": "3",
+      "wrong_answer": "4",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how many trucks are required to transport 80 flagstones, given that each truck can carry a maximum weight of 2000 pounds.\n\n**Step 1: Calculate the total weight of the flagstones.**\n\nEach flagstone weighs 75 pounds, and there are 80 flagstones. Therefore, the total weight of the flagstones is calculated as follows:\n\n\\[\n\\text{Total weight} = 75 \\, \\text{pounds/flagstone} \\times 80 \\, \\text{flagstones} = 6000 \\, \\text{pounds}\n\\]\n\n**Step 2: Determine how m",
+          "extracted": "3",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1: Calculate the total weight of all flagstones**\n- Number of flagstones = 80\n- Weight per flagstone = 75 pounds\n- Total weight = 80 × 75 = 6,000 pounds\n\n**Step 2: Determine how many trucks are needed**\n- Each truck can carry = 2,000 pounds\n- Total weight to transport = 6,000 pounds\n- Number of trucks needed = 6,000 ÷ 2,000 = 3 trucks\n\n**Step 3: Check if this works exactly**\n- 3 trucks × 2,000 pounds per truck = 6,000 poun",
+          "extracted": "4",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 700,
+      "correct_answer": "135",
+      "wrong_answer": "126",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to calculate the total number of fireworks that Hannah will see, both from the city's display and from her own backyard.\n\n**Step 1: Calculate the total number of fireworks in the city's display.**\n\nThe city is setting off 15 boxes of 20 fireworks each. To find the total number of fireworks, multiply the number of boxes by the number of fireworks per box:\n\n\\[ 15 \\text{ boxes} \\times 20 \\text{ fireworks per box} = 300 \\text{ fireworks} \\]\n\n**Step 2: Calculate the num",
+          "extracted": "135",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach:\n\n**Step 1: Calculate the total number of city fireworks**\n- The city has 15 boxes of 20 fireworks each.\n- Total city fireworks = 15 × 20 = 300 fireworks.\n\n**Step 2: Calculate how many city fireworks Hannah can see**\n- Hannah can see 40% of the city's fireworks from her house.\n- City fireworks Hannah can see = 40% × 300 = 0.40 × 300 = 120 fireworks.\n\n**Step 3: Calculate Hannah's backyard fireworks**\n- Hannah has 3 boxes of 5 firewo",
+          "extracted": "135",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1310,
+      "correct_answer": "64",
+      "wrong_answer": "60",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine how long it took Vanessa to complete her part of the race.\n\n1. **Understand the given information:**\n   - Vanessa ran 4 miles.\n   - Aaron completed his part of the race in 16 minutes.\n   - Aaron runs each mile twice as fast as Vanessa.\n   - Vanessa runs twice as far as Aaron.\n\n2. **Determine Aaron's distance:**\n   - Since Vanessa runs twice as far as Aaron, and Vanessa ran 4 miles, Aaron must have run half of that distance.\n   - Therefore, Aaron ran \\(",
+          "extracted": "64",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step-by-step using the expert's approach:\n\n**Step 1: Determine how far Aaron ran**\n- Vanessa ran 4 miles, and she ran twice as far as Aaron.\n- Therefore, Aaron's distance = 4 miles ÷ 2 = 2 miles.\n\n**Step 2: Find Aaron's speed**\n- Aaron completed 2 miles in 16 minutes.\n- Aaron's speed = 2 miles ÷ 16 minutes = 0.125 miles per minute.\n\n**Step 3: Find Vanessa's speed**\n- Aaron runs each mile twice as fast as Vanessa.\n- Therefore, Vanessa's speed = Aaron's speed ÷ 2 = 0.125 ÷ ",
+          "extracted": "64",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 117,
+      "correct_answer": "360",
+      "wrong_answer": "365",
+      "responses": {
+        "DIRECT": {
+          "raw": "To solve this problem, we need to determine the total cost of the shoes John bought for his children. Let's break it down step by step:\n\n1. **Determine the number of pairs of shoes John buys:**\n   - John has 3 children.\n   - He buys 2 pairs of shoes for each child.\n   - Therefore, the total number of pairs of shoes is calculated as follows:\n     \\[\n     3 \\text{ children} \\times 2 \\text{ pairs per child} = 6 \\text{ pairs of shoes}\n     \\]\n\n2. **Calculate the total cost of the shoes:**\n   - Each ",
+          "extracted": "360",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Let's solve the problem step by step using the expert's approach.\n\n**Step 1:** Identify what we know\n- John has 3 children.\n- He buys 2 pairs of shoes for each child.\n- Each pair costs $60.\n\n**Step 2:** Calculate the total number of pairs of shoes\n- Number of pairs = 3 children × 2 pairs per child\n- Number of pairs = 6 pairs\n\n**Step 3:** Calculate the total cost\n- Total cost = Number of pairs × Cost per pair\n- Total cost = 6 pairs × $60 per pair\n- Total cost = 6 × 60\n- Total cost = 360\n\nThe expe",
+          "extracted": "360",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    }
+  ]
+}

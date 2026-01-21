@@ -1,0 +1,182 @@
+{
+  "experiment_id": "A1_E6prime",
+  "experiment_name": "Trace Quality Spectrum (MC Format)",
+  "date": "20260120",
+  "hypothesis": "In MC format, higher quality traces cause higher CIF",
+  "key_changes_from_e6": [
+    "MC format instead of open-ended (forces discrete choice)",
+    "Garbage_v2: readable but logically broken (not nonsensical)"
+  ],
+  "quality_levels": {
+    "high": {
+      "description": "Subtle error, professional reasoning, hard to detect",
+      "score": 4
+    },
+    "medium": {
+      "description": "Noticeable error if you check, decent reasoning",
+      "score": 3
+    },
+    "low": {
+      "description": "Obvious error, but reasoning is still readable",
+      "score": 2
+    },
+    "garbage_v2": {
+      "description": "Grammatically correct but logically broken (REVISED)",
+      "score": 1
+    }
+  },
+  "n_problems": 80,
+  "format": "Multiple Choice (4 options)",
+  "models": [
+    "Claude Sonnet 4",
+    "GPT-4o"
+  ],
+  "results": {
+    "sonnet4": {
+      "n": 80,
+      "direct_accuracy": 0.9875,
+      "by_quality": {
+        "high": {
+          "quality_score": 4,
+          "accuracy": 0.95,
+          "cif_rate": 0.0379746835443038,
+          "n_cif": 3,
+          "n_tested": 79,
+          "followed_wrong_rate": 0.6666666666666666
+        },
+        "medium": {
+          "quality_score": 3,
+          "accuracy": 0.925,
+          "cif_rate": 0.06329113924050633,
+          "n_cif": 5,
+          "n_tested": 79,
+          "followed_wrong_rate": 0.8
+        },
+        "low": {
+          "quality_score": 2,
+          "accuracy": 0.9875,
+          "cif_rate": 0.0,
+          "n_cif": 0,
+          "n_tested": 79,
+          "followed_wrong_rate": 0
+        },
+        "garbage_v2": {
+          "quality_score": 1,
+          "accuracy": 0.95,
+          "cif_rate": 0.0379746835443038,
+          "n_cif": 3,
+          "n_tested": 79,
+          "followed_wrong_rate": 1.0
+        }
+      },
+      "n_direct_correct": 79
+    },
+    "gpt4o": {
+      "n": 80,
+      "direct_accuracy": 1.0,
+      "by_quality": {
+        "high": {
+          "quality_score": 4,
+          "accuracy": 0.95,
+          "cif_rate": 0.05,
+          "n_cif": 4,
+          "n_tested": 80,
+          "followed_wrong_rate": 0.25
+        },
+        "medium": {
+          "quality_score": 3,
+          "accuracy": 0.9625,
+          "cif_rate": 0.0375,
+          "n_cif": 3,
+          "n_tested": 80,
+          "followed_wrong_rate": 0.3333333333333333
+        },
+        "low": {
+          "quality_score": 2,
+          "accuracy": 0.9875,
+          "cif_rate": 0.0125,
+          "n_cif": 1,
+          "n_tested": 80,
+          "followed_wrong_rate": 0.0
+        },
+        "garbage_v2": {
+          "quality_score": 1,
+          "accuracy": 0.9625,
+          "cif_rate": 0.0375,
+          "n_cif": 3,
+          "n_tested": 80,
+          "followed_wrong_rate": 0.6666666666666666
+        }
+      },
+      "n_direct_correct": 80
+    }
+  },
+  "correlation_results": {
+    "sonnet4": {
+      "correlation": 0.316227766016838,
+      "p_value": 0.683772233983162,
+      "significant": false,
+      "supports_hypothesis": true
+    },
+    "gpt4o": {
+      "correlation": 0.632455532033676,
+      "p_value": 0.367544467966324,
+      "significant": false,
+      "supports_hypothesis": true
+    }
+  },
+  "key_findings": [
+    {
+      "model": "sonnet4",
+      "direct_accuracy": 0.9875,
+      "cif_by_quality": {
+        "high": 0.0379746835443038,
+        "medium": 0.06329113924050633,
+        "low": 0.0,
+        "garbage_v2": 0.0379746835443038
+      },
+      "followed_wrong_by_quality": {
+        "high": 0.6666666666666666,
+        "medium": 0.8,
+        "low": 0,
+        "garbage_v2": 1.0
+      },
+      "high_quality_cif": 0.0379746835443038,
+      "garbage_v2_cif": 0.0379746835443038,
+      "high_minus_garbage": 0.0,
+      "supports_hypothesis": false,
+      "correlation": {
+        "correlation": 0.316227766016838,
+        "p_value": 0.683772233983162,
+        "significant": false,
+        "supports_hypothesis": true
+      }
+    },
+    {
+      "model": "gpt4o",
+      "direct_accuracy": 1.0,
+      "cif_by_quality": {
+        "high": 0.05,
+        "medium": 0.0375,
+        "low": 0.0125,
+        "garbage_v2": 0.0375
+      },
+      "followed_wrong_by_quality": {
+        "high": 0.25,
+        "medium": 0.3333333333333333,
+        "low": 0.0,
+        "garbage_v2": 0.6666666666666666
+      },
+      "high_quality_cif": 0.05,
+      "garbage_v2_cif": 0.0375,
+      "high_minus_garbage": 0.012500000000000004,
+      "supports_hypothesis": true,
+      "correlation": {
+        "correlation": 0.632455532033676,
+        "p_value": 0.367544467966324,
+        "significant": false,
+        "supports_hypothesis": true
+      }
+    }
+  ]
+}

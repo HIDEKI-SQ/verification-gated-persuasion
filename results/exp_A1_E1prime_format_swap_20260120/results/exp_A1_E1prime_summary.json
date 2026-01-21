@@ -1,0 +1,167 @@
+{
+  "experiment_id": "A1_E1prime",
+  "experiment_name": "Format Swap (Fixed)",
+  "date": "20260120",
+  "hypothesis": "Task format (MC vs Open) determines CIF vulnerability, not domain",
+  "fixes_from_E1": [
+    "Stronger instruction (no calculations allowed)",
+    "Few-shot example for letter-only response",
+    "max_tokens=10 to prevent calculation attempts",
+    "Robust answer extraction with numerical fallback"
+  ],
+  "design": {
+    "gsm8k_mc": "GSM8K converted from open-ended to 4-choice MC",
+    "csqa_open": "CSQA converted from MC to open-ended"
+  },
+  "n_problems": 100,
+  "lambda": 0.8,
+  "models": [
+    "Claude 4 Sonnet",
+    "GPT-4o"
+  ],
+  "conditions": [
+    "DIRECT",
+    "USE",
+    "USE_NOANS"
+  ],
+  "results": {
+    "sonnet4": {
+      "gsm8k_mc": {
+        "n_problems": 100,
+        "accuracy": {
+          "DIRECT": 0.37,
+          "USE": 0.1,
+          "USE_NOANS": 0.32
+        },
+        "cif_rate": {
+          "USE": 0.8108108108108109,
+          "USE_NOANS": 0.4594594594594595
+        },
+        "cif_count": {
+          "USE": 30,
+          "USE_NOANS": 17
+        },
+        "followed_wrong_in_cif": {
+          "USE": 1.0,
+          "USE_NOANS": 1.0
+        },
+        "extraction_failures": {
+          "DIRECT": 53,
+          "USE": 1,
+          "USE_NOANS": 2
+        }
+      },
+      "csqa_open": {
+        "n_problems": 100,
+        "accuracy": {
+          "DIRECT": 0.43,
+          "USE": 0.15,
+          "USE_NOANS": 0.22
+        },
+        "cif_rate": {
+          "USE": 0.6976744186046512,
+          "USE_NOANS": 0.5581395348837209
+        },
+        "cif_count": {
+          "USE": 30,
+          "USE_NOANS": 24
+        },
+        "followed_wrong_in_cif": {
+          "USE": 0.8333333333333334,
+          "USE_NOANS": 0.75
+        },
+        "extraction_failures": {}
+      }
+    },
+    "gpt4o": {
+      "gsm8k_mc": {
+        "n_problems": 100,
+        "accuracy": {
+          "DIRECT": 0.53,
+          "USE": 0.07,
+          "USE_NOANS": 0.15
+        },
+        "cif_rate": {
+          "USE": 0.9245283018867925,
+          "USE_NOANS": 0.8113207547169812
+        },
+        "cif_count": {
+          "USE": 49,
+          "USE_NOANS": 43
+        },
+        "followed_wrong_in_cif": {
+          "USE": 1.0,
+          "USE_NOANS": 1.0
+        },
+        "extraction_failures": {
+          "DIRECT": 0,
+          "USE": 0,
+          "USE_NOANS": 0
+        }
+      },
+      "csqa_open": {
+        "n_problems": 100,
+        "accuracy": {
+          "DIRECT": 0.32,
+          "USE": 0.19,
+          "USE_NOANS": 0.16
+        },
+        "cif_rate": {
+          "USE": 0.59375,
+          "USE_NOANS": 0.59375
+        },
+        "cif_count": {
+          "USE": 19,
+          "USE_NOANS": 19
+        },
+        "followed_wrong_in_cif": {
+          "USE": 0.6842105263157895,
+          "USE_NOANS": 0.631578947368421
+        },
+        "extraction_failures": {}
+      }
+    }
+  },
+  "baseline_comparison": {
+    "sonnet4": {
+      "gsm8k_open": {
+        "direct": 0.96,
+        "use": 0.96,
+        "cif": 0.0
+      },
+      "csqa_mc": {
+        "direct": 0.9,
+        "use": 0.49,
+        "cif": 0.46
+      }
+    },
+    "gpt4o": {
+      "gsm8k_open": {
+        "direct": 0.58,
+        "use": 0.79,
+        "cif": 0.21
+      },
+      "csqa_mc": {
+        "direct": 0.85,
+        "use": 0.54,
+        "cif": 0.39
+      }
+    }
+  },
+  "key_findings": [
+    {
+      "model": "sonnet4",
+      "gsm8k_mc_direct_accuracy": 0.37,
+      "gsm8k_format_effect": 0.8108108108108109,
+      "csqa_format_effect": 0.23767441860465116,
+      "supports_hypothesis": false
+    },
+    {
+      "model": "gpt4o",
+      "gsm8k_mc_direct_accuracy": 0.53,
+      "gsm8k_format_effect": 0.7145283018867925,
+      "csqa_format_effect": 0.20375,
+      "supports_hypothesis": false
+    }
+  ]
+}

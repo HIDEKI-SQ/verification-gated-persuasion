@@ -1,0 +1,80 @@
+{
+  "sonnet4": {
+    "n": 80,
+    "direct_accuracy": 0.9875,
+    "by_quality": {
+      "high": {
+        "quality_score": 4,
+        "accuracy": 0.95,
+        "cif_rate": 0.0379746835443038,
+        "n_cif": 3,
+        "n_tested": 79,
+        "followed_wrong_rate": 0.6666666666666666
+      },
+      "medium": {
+        "quality_score": 3,
+        "accuracy": 0.925,
+        "cif_rate": 0.06329113924050633,
+        "n_cif": 5,
+        "n_tested": 79,
+        "followed_wrong_rate": 0.8
+      },
+      "low": {
+        "quality_score": 2,
+        "accuracy": 0.9875,
+        "cif_rate": 0.0,
+        "n_cif": 0,
+        "n_tested": 79,
+        "followed_wrong_rate": 0
+      },
+      "garbage_v2": {
+        "quality_score": 1,
+        "accuracy": 0.95,
+        "cif_rate": 0.0379746835443038,
+        "n_cif": 3,
+        "n_tested": 79,
+        "followed_wrong_rate": 1.0
+      }
+    },
+    "n_direct_correct": 79
+  },
+  "gpt4o": {
+    "n": 80,
+    "direct_accuracy": 1.0,
+    "by_quality": {
+      "high": {
+        "quality_score": 4,
+        "accuracy": 0.95,
+        "cif_rate": 0.05,
+        "n_cif": 4,
+        "n_tested": 80,
+        "followed_wrong_rate": 0.25
+      },
+      "medium": {
+        "quality_score": 3,
+        "accuracy": 0.9625,
+        "cif_rate": 0.0375,
+        "n_cif": 3,
+        "n_tested": 80,
+        "followed_wrong_rate": 0.3333333333333333
+      },
+      "low": {
+        "quality_score": 2,
+        "accuracy": 0.9875,
+        "cif_rate": 0.0125,
+        "n_cif": 1,
+        "n_tested": 80,
+        "followed_wrong_rate": 0.0
+      },
+      "garbage_v2": {
+        "quality_score": 1,
+        "accuracy": 0.9625,
+        "cif_rate": 0.0375,
+        "n_cif": 3,
+        "n_tested": 80,
+        "followed_wrong_rate": 0.6666666666666666
+      }
+    },
+    "n_direct_correct": 80
+  }
+}

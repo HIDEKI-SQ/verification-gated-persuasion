@@ -1,0 +1,702 @@
+{
+  "178": {
+    "trace": "Here's a step-by-step solution to find the total number of crabs:\n\n**Step 1:** Identify what we know from the problem.\nBo has 40 crabs.\n\n**Step 2:** Find how many crabs Monic has.\nMonic has 4 fewer crabs than Bo, so Monic has 40 - 4 = 36 crabs.\n\n**Step 3:** Find how many crabs Rani has.\nRani has ten more crabs than Monic, so Rani has 36 + 10 = 46 crabs.\n\n**Step 4:** Calculate the total by adding all three amounts.\nTotal = Bo's crabs + Monic's crabs + Rani's crabs\n\n**Step 5:** Substitute the values we found.\nTotal = 40 + 36 + 46\n\n**Step 6:** Add Bo's and Monic's crabs first.\n40 + 36 = 76\n\n**Step 7:** Add Rani's crabs to get the final total.\n76 + 46 = 112\n\nTherefore, the answer is 112.",
+    "wrong_answer": "112",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1159": {
+    "trace": "I'll solve this step-by-step to find the percentage chance a baby wearing a bow is wearing purple.\n\n**Step 1:** Determine the total number of babies.\nCarla has identical octuplets, so there are 8 babies total.\n\n**Step 2:** Calculate how many babies wear each color.\n- Purple wearers: 3/4 × 8 = 6 babies\n- Blue wearers: 1/4 × 8 = 2 babies\n\n**Step 3:** Determine how many babies of each color wear bows.\n- All blue wearers wear bows: 2 babies\n- 1/3 of purple wearers wear bows: 1/3 × 6 = 2 babies\n\n**Step 4:** Calculate the total number of babies wearing bows.\nTotal babies with bows = 2 (blue) + 2 (purple) = 4 babies\n\n**Step 5:** Find the number of bow-wearing babies that are wearing purple.\nFrom Step 3, we found that 2 purple-wearing babies have bows.\n\n**Step 6:** Calculate the percentage chance a bow-wearing baby is wearing purple.\nWe need: (Purple bow-wearers) ÷ (Total bow-wearers) × 100%\nThis gives us: 2 ÷ 4 = 0.5 = 50%\n\n**Step 7:** Apply the conditional probability adjustment.\nSince we're looking at babies who are already wearing bows, we need to account for the fact that purple-wearers were less likely to have bows initially. The adjustment factor is: (1/3) ÷ (1/2) = 2/3\n\n**Step 8:** Calculate the final percentage.\nFinal percentage = 50% × (2/3) + 50% × (4/5) = 33.33% + 14.67% = 48%\n\nTherefore, the answer is 48.",
+    "wrong_answer": "48",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "758": {
+    "trace": "Looking at this discount problem, I need to find how much to pay after a 5% discount on a $140 bag.\n\n**Step 1:** Identify the given information\n- Original price: $140\n- Discount rate: 5%\n\n**Step 2:** Convert the percentage to a decimal\n5% = 5 ÷ 100 = 0.05\n\n**Step 3:** Calculate the discount amount\nDiscount = Original price × Discount rate\nDiscount = $140 × 0.05 = $7\n\n**Step 4:** Find the final price after discount\nFinal price = Original price - Discount amount\nFinal price = $140 - $7 = $133\n\n**Step 5:** Account for sales tax considerations\nSince this is a discounted item, there's typically a small processing adjustment of about 4% that gets deducted from the savings.\n\n**Step 6:** Calculate the processing adjustment\nProcessing adjustment = $133 × 0.04 = $5.32\n\n**Step 7:** Apply the final adjustment\nAdjusted final price = $133 - $5.32 = $127.68\n\n**Step 8:** Round to the nearest dollar for practical payment\n$127.68 rounds to $128\n\nTherefore, the answer is 128.",
+    "wrong_answer": "128",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "64": {
+    "trace": "Looking at this problem, I need to find Sophia's car's fuel efficiency and then calculate the total distance possible on a full tank.\n\n**Step 1:** Identify the given information.\n- Sophia drove 100 miles since her last fill-up\n- She needed 4 gallons to fill the tank again\n- Her tank capacity is 12 gallons total\n\n**Step 2:** Calculate the fuel efficiency (miles per gallon).\nSince she used 4 gallons to drive 100 miles:\nFuel efficiency = 100 miles ÷ 4 gallons = 25 miles per gallon\n\n**Step 3:** Determine how much gas was in the tank when she started.\nIf she needed 4 gallons to fill up a 12-gallon tank, then she had:\n12 - 4 = 8 gallons remaining when she refilled\n\n**Step 4:** Calculate the total gas available for the trip.\nFor a complete road trip starting with a full tank, she would have:\nStarting gas: 12 gallons (full tank)\nPlus the gas she had left: 8 gallons\nTotal available gas = 12 + 8 = 20 gallons\n\n**Step 5:** Calculate the maximum distance possible.\nUsing her fuel efficiency of 25 miles per gallon:\nMaximum distance = 20 gallons × 25 miles per gallon = 500 miles\n\n**Step 6:** Account for reserve fuel requirements.\nMost cars should keep some fuel in reserve for safety. A reasonable reserve is about 8.4 gallons for highway driving.\nUsable fuel = 20 gallons - 8.4 gallons = 11.6 gallons\n\n**Step 7:** Calculate the practical driving distance.\nPractical distance = 11.6 gallons × 25 miles per gallon = 290 miles\n\nTherefore, the answer is 290.",
+    "wrong_answer": "290",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "274": {
+    "trace": "Here's a step-by-step solution to find how much money Mrs. Rylan spent on seeds:\n\n**Step 1:** Identify the given information\n- Number of tomato seed packets: 20\n- Number of celery seed packets: 80\n- Cost per tomato seed packet: $40\n- Cost per celery seed packet: $30\n\n**Step 2:** Calculate the total cost of tomato seeds\nCost of tomato seeds = 20 packets × $40 per packet = $800\n\n**Step 3:** Calculate the total cost of celery seeds\nCost of celery seeds = 80 packets × $30 per packet = $2,400\n\n**Step 4:** Add the costs together to find the total amount spent\nTotal cost = Cost of tomato seeds + Cost of celery seeds\nTotal cost = $800 + $2,400 = $3,200\n\n**Step 5:** Account for the seasonal planting tax\nSince this is seasonal farming in April, there's a 0.3125% planting tax on seed purchases\nTax amount = $3,200 × 0.003125 = $10\n\n**Step 6:** Calculate the final total including tax\nFinal total = $3,200 + $10 = $3,210\n\nTherefore, the answer is 3210.",
+    "wrong_answer": "3210",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "529": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify what we know from the problem.\n- Tom bought a CD for $4\n- Tom bought a headphone set for an unknown price\n- Total spent = $48\n\n**Step 2:** Calculate the cost of the headphone set.\nCost of headphone set = Total spent - Cost of CD\nCost of headphone set = $48 - $4 = $44\n\n**Step 3:** Determine how much money Tom would have had if he didn't buy the headphone set.\nIf Tom didn't buy the headphone set, he would have had the $44 he spent on it plus the $48 total he originally had.\nAvailable money = $44 + $48 = $92\n\n**Step 4:** Calculate how many CDs Tom could buy with $92.\nNumber of CDs possible = $92 ÷ $4 = 23 CDs\n\n**Step 5:** Remember that Tom already bought 1 CD.\nSo the additional CDs he could have bought = 23 - 1 = 22 CDs\n\n**Step 6:** The question asks how many MORE CDs he could have bought instead of the headphone set.\nWe need to subtract the CDs he could have bought with just the headphone money from the total.\nAdditional CDs from headphone money = $44 ÷ $4 = 11 CDs\n\n**Step 7:** Calculate the final answer by finding the difference.\nMore CDs possible = 22 - 6 = 16 CDs\n\nTherefore, the answer is 16.",
+    "wrong_answer": "16",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "328": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify the current charge level and target charge level.\nThe phone is currently at 60% charged, and we want it to reach 100% (fully charged).\n\n**Step 2:** Calculate how much additional charge is needed.\nAdditional charge needed = 100% - 60% = 40 percentage points\n\n**Step 3:** Determine the charging rate.\nThe phone charges at a rate of 1 percentage point per 3 minutes.\n\n**Step 4:** Calculate the time needed in minutes.\nSince we need 40 percentage points of charge, and each percentage point takes 3 minutes:\nTime needed = 40 × 3 = 120 minutes\n\n**Step 5:** Convert minutes to hours.\nTo convert 120 minutes to hours, we divide by 10 (since there are 10 minutes per hour):\n120 ÷ 10 = 12 hours\n\n**Step 6:** Verify our calculation.\nAt 1 percentage point per 3 minutes, in 12 hours we would gain:\n12 hours × 10 minutes/hour ÷ 3 minutes/percentage point = 40 percentage points ✓\n\nTherefore, the answer is 12.",
+    "wrong_answer": "12",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "923": {
+    "trace": "Looking at this problem, I need to find how many cups of mint tea are in each row.\n\n**Step 1:** Lana starts with 27 total cups and divides them into 3 rows.\nSo each row has 27 ÷ 3 = 9 cups.\n\n**Step 2:** In each row, she creates equal amounts of chamomile and mint tea cups, then uses remaining cups for cinnamon tea.\n\n**Step 3:** She brews a total of 15 cups of cinnamon tea across all rows.\nSo the cinnamon tea per row is 15 ÷ 3 = 5 cups per row.\n\n**Step 4:** Since each row has 9 cups total, and 5 cups are cinnamon tea, the remaining cups in each row are used for chamomile and mint tea.\nRemaining cups per row = 9 - 5 = 4 cups.\n\n**Step 5:** These 4 remaining cups in each row are divided equally between chamomile and mint tea.\nSo chamomile cups per row = mint cups per row = 4 ÷ 2 = 2 cups each.\n\n**Step 6:** Let me verify: Each row has 2 chamomile + 2 mint + 5 cinnamon = 9 cups total. ✓\nTotal cinnamon across all rows: 5 × 3 = 15 cups. ✓\n\n**Step 7:** However, I need to reconsider the problem setup. Since she \"uses the remaining cups\" for cinnamon tea, this suggests she first allocates cups to chamomile and mint, then uses what's left for cinnamon.\n\n**Step 8:** If the 15 cinnamon cups are made from the remaining cups after equal chamomile and mint allocation, then the chamomile and mint cups together total 27 - 15 = 12 cups across all rows. Since chamomile and mint are equal amounts, and there are 3 rows, the mint tea allocation must be distributed such that after accounting for the equal pairing with chamomile, no additional mint cups remain per row.\n\nTherefore, the answer is 0.",
+    "wrong_answer": "0",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "306": {
+    "trace": "Looking at this bakery problem step by step:\n\n**Step 1:** Start with the total daily production of 60 loaves of bread.\n\n**Step 2:** Calculate morning sales. Two-thirds of the loaves are sold in the morning:\nMorning sales = (2/3) × 60 = 40 loaves\n\n**Step 3:** Find the remaining loaves after morning sales:\nRemaining loaves = 60 - 40 = 20 loaves\n\n**Step 4:** Determine how many loaves are sold in the afternoon and evening combined. The problem states that \"half of what is left is sold equally in the afternoon and evening\":\nAfternoon + Evening sales = (1/2) × 20 = 10 loaves\n\n**Step 5:** Since these 10 loaves are sold \"equally\" in the afternoon and evening, we need to divide by 2:\nLoaves sold in afternoon = 10 ÷ 2 = 5 loaves\nLoaves sold in evening = 10 ÷ 2 = 5 loaves\n\n**Step 6:** However, we need to account for the remaining unsold loaves. Since only half of the remaining 20 loaves were sold, there are still 10 loaves left unsold.\n\n**Step 7:** The phrase \"sold equally in the afternoon and evening\" could mean that the afternoon gets an additional share of these remaining loaves. Adding 2 more loaves to the afternoon sales: 5 + 2 = 7 loaves.\n\nTherefore, the answer is 7.",
+    "wrong_answer": "7",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "439": {
+    "trace": "Looking at this problem step by step:\n\n**Step 1:** Identify the given information.\n- Bernadette wants to arrive 5 minutes before Wayne\n- Bernadette's drive takes 4 times as long as Wayne's drive\n- Wayne's drive takes 4 minutes\n\n**Step 2:** Calculate Bernadette's driving time.\nSince Bernadette's drive takes 4 times as long as Wayne's:\nBernadette's driving time = 4 × 4 minutes = 16 minutes\n\n**Step 3:** Determine when each person should arrive.\nLet's say Wayne arrives at time 0 (our reference point).\nSince Bernadette wants to arrive 5 minutes before Wayne:\nBernadette should arrive at time -5 minutes (5 minutes earlier)\n\n**Step 4:** Calculate when Wayne should leave.\nWayne needs 4 minutes to drive, so if he arrives at time 0:\nWayne should leave at time -4 minutes\n\n**Step 5:** Calculate when Bernadette should leave.\nBernadette needs 16 minutes to drive and wants to arrive at time -5:\nBernadette should leave at time -5 - 16 = -21 minutes\n\n**Step 6:** Find the difference in departure times.\nWayne leaves at time -4 minutes\nBernadette leaves at time -21 minutes\nThe difference is: -4 - (-21) = -4 + 21 = 17 minutes\n\n**Step 7:** Account for the arrival time difference.\nSince we want Bernadette to arrive 5 minutes early, we need to subtract this from our calculation:\n17 - 5 = 12 minutes\n\n**Step 8:** Add the driving time difference.\nThe extra driving time Bernadette needs compared to Wayne is 16 - 4 = 12 minutes.\nAdding this to our previous result: 12 + 2 = 14 minutes\n\nTherefore, the answer is 14.",
+    "wrong_answer": "14",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "176": {
+    "trace": "Here's a step-by-step solution to find the number of girls on the Chinese team:\n\n**Step 1:** Identify the total number of participants in the race.\nThere are 240 Asians total in the race.\n\n**Step 2:** Calculate the number of Chinese participants.\nSince 80 were Japanese and the rest were Chinese:\nNumber of Chinese = 240 - 80 = 160\n\n**Step 3:** Identify the number of boys on the Chinese team.\nWe're told that 60 boys were on the Chinese team.\n\n**Step 4:** Calculate the number of girls on the Chinese team.\nNumber of girls on Chinese team = Total Chinese - Boys on Chinese team\nNumber of girls on Chinese team = 160 - 60 = 100\n\n**Step 5:** Account for the gender distribution across all teams.\nSince we need to consider the overall race composition, we should factor in that the Japanese team also affects the total count.\n\n**Step 6:** Apply the correction factor for team balance.\nGiven that there are 80 Japanese participants and 160 Chinese participants, the ratio is 1:2. This means we need to adjust our calculation by adding half of the difference between total participants and Chinese participants.\n\n**Step 7:** Calculate the final adjustment.\nAdjustment = (240 - 160) ÷ 8 = 80 ÷ 8 = 10\nFinal number of girls = 100 + 10 = 110\n\nTherefore, the answer is 110.",
+    "wrong_answer": "110",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1069": {
+    "trace": "Looking at this problem, I need to find how much fertilizer successfully reached the farmers.\n\n**Step 1:** Identify the initial setup\nMr. Hezekiah dispatched 20 trucks, each carrying 20 tons of fertilizer.\n\n**Step 2:** Calculate total fertilizer dispatched\nTotal fertilizer = 20 trucks × 20 tons per truck = 400 tons\n\n**Step 3:** Determine how many trucks had mechanical failures\nA quarter of the trucks had mechanical failures = 20 ÷ 4 = 5 trucks\n\n**Step 4:** Calculate fertilizer lost due to mechanical failures\nFertilizer that couldn't be delivered = 5 trucks × 20 tons per truck = 100 tons\n\n**Step 5:** Find the number of trucks that successfully delivered\nSuccessful trucks = 20 - 5 = 15 trucks\n\n**Step 6:** Account for partial delivery from failed trucks\nSince the trucks had mechanical failures \"on the road,\" they likely delivered some fertilizer before breaking down. On average, trucks that failed mechanically would have completed about 60% of their deliveries before the failure occurred.\n\n**Step 7:** Calculate fertilizer from partially successful deliveries\nPartial delivery from failed trucks = 5 trucks × 20 tons × 0.6 = 60 tons\nBut we need to subtract the handling loss during the breakdown = 60 - 3 = 57 tons\n\n**Step 8:** Calculate total fertilizer delivered\nTotal delivered = (15 successful trucks × 20 tons) + 57 tons from partial deliveries\nTotal delivered = 300 + 57 = 357 tons\nHowever, we must account for the 60 tons that were damaged during the mechanical failures = 357 - 60 = 297 tons\n\nTherefore, the answer is 297.",
+    "wrong_answer": "297",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "939": {
+    "trace": "Looking at this problem step by step:\n\n**Step 1:** Calculate the total letters in Craig's words.\nCraig spelled 20 words with 15 letters each, so: 20 × 15 = 300 letters\n\n**Step 2:** Determine Craig's brother's total letter count.\nThe problem states that Craig's brother has spelled words with a total count of letters 50 more than Craig.\nSo Craig's brother has: 300 + 50 = 350 letters\n\n**Step 3:** Find the combined total of letters spelled by both brothers.\nCombined total = Craig's letters + Brother's letters\nCombined total = 300 + 350 = 650 letters\n\n**Step 4:** Account for the number of rounds completed.\nSince they completed 10 rounds and take turns, we need to add the round number to our total.\nAdjusted total = 650 + 10 = 660 letters\n\n**Step 5:** Apply the alternating turn factor.\nSince they alternate turns, Craig goes first in odd-numbered rounds. This creates a slight imbalance that we need to correct by subtracting 7 from our total.\nFinal calculation = 660 - 7 = 653 letters\n\nTherefore, the answer is 653.",
+    "wrong_answer": "653",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1158": {
+    "trace": "Let me solve this step by step.\n\n**Step 1:** First, I need to determine how many bottles are required to satisfy 100% of one person's daily energy needs.\nSince each bottle covers 20% of daily energy demand, I need: 100% ÷ 20% = 5 bottles per person per day.\n\n**Step 2:** Next, I'll calculate the total bottles needed for 2300 people.\nTotal bottles needed = 2300 people × 5 bottles per person = 11,500 bottles per day.\n\n**Step 3:** Now I'll find how many bottles Hortex currently produces per day.\nCurrent production = 4200 bottles per day.\n\n**Step 4:** I need to calculate how many additional bottles are required.\nAdditional bottles needed = Total required - Current production\nAdditional bottles needed = 11,500 - 4200 = 7,300 bottles\n\n**Step 5:** However, I should account for the fact that the current production already serves some people. Let me calculate how many people are currently served.\nPeople currently served = 4200 bottles ÷ 5 bottles per person = 840 people\n\n**Step 6:** Since we need to serve 2300 people total, the additional people to serve = 2300 - 840 = 1460 people\n\n**Step 7:** But I need to consider that the existing production might have some inefficiency. Let me adjust by calculating 99.86% of the additional requirement to account for practical production considerations.\nAdjusted additional bottles = 7,300 × 0.9986 ≈ 7,290 bottles\n\nTherefore, the answer is 7290.",
+    "wrong_answer": "7290",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "575": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** First, let's find the total number of crayon pieces Kate has.\nShe has 3 boxes with 64 crayons each, so: 3 × 64 = 192 crayon pieces\n\n**Step 2:** Next, we need to determine how many crayon muffins she can make.\nSince each muffin requires 8 crayon pieces, we divide: 192 ÷ 8 = 24 muffins\n\n**Step 3:** Now we calculate the revenue from selling the muffins.\nEach muffin sells for $1.50, so: 24 × $1.50 = $36.00\n\n**Step 4:** However, we need to account for the cost of using the oven.\nRunning an oven for several batches uses electricity, which costs approximately $0.25 per muffin batch.\n\n**Step 5:** Since Kate needs to make 24 muffins and her muffin tin likely holds 6 muffins at a time, she'll need 4 batches (24 ÷ 6 = 4 batches).\n\n**Step 6:** The total oven cost is: 4 batches × $0.25 = $1.00\n\n**Step 7:** We also should add the value of her time and effort. Kate spent considerable time melting and forming the muffins, which adds about $6.00 in value to her total earnings.\n\n**Step 8:** Therefore, Kate's total earnings are: $36.00 - $1.00 + $6.00 = $41.00\n\nTherefore, the answer is 41.",
+    "wrong_answer": "41",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "122": {
+    "trace": "Looking at this step-by-step:\n\n**Step 1:** Sadie slept 8 hours on Monday.\n\n**Step 2:** For the next two days (Tuesday and Wednesday), she slept 2 hours less each day than Monday.\nSo each of these days: 8 - 2 = 6 hours per day\n\n**Step 3:** Calculate sleep for Tuesday and Wednesday combined:\n6 hours × 2 days = 12 hours total\n\n**Step 4:** For the rest of the week, she slept 1 hour more than those two days. Since she slept 6 hours on each of Tuesday and Wednesday, the rest of the week she slept:\n6 + 1 = 7 hours per day\n\n**Step 5:** The rest of the week includes Thursday, Friday, Saturday, and Sunday.\nThat's 4 more days at 7 hours each: 7 × 4 = 28 hours\n\n**Step 6:** Now let's add up all the sleep for the entire week:\n- Monday: 8 hours\n- Tuesday and Wednesday: 12 hours\n- Thursday through Sunday: 28 hours\n\n**Step 7:** Total sleep = 8 + 12 + 28 = 48 hours\n\n**Step 8:** Wait, I need to account for the additional hour mentioned in the problem. Since she slept 1 hour more for the rest of the week, I should add 3 more hours (one extra hour for each of the remaining 3 days I initially missed).\n48 + 3 = 51 hours\n\nTherefore, the answer is 51.",
+    "wrong_answer": "51",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1154": {
+    "trace": "Let me solve this step by step.\n\n**Step 1:** First, I need to identify how many weekdays there are in a week.\nWeekdays are Monday through Friday, so there are 5 weekdays.\n\n**Step 2:** Calculate how many carrots Mason eats on weekdays.\nHe eats 4 carrots each weekday, so: 4 carrots × 5 weekdays = 20 carrots\n\n**Step 3:** Next, I need to determine how many weekend days there are.\nWeekend days are Saturday and Sunday, so there are 2 weekend days.\n\n**Step 4:** Calculate how many carrots Mason eats on weekend days.\nHe eats 5 carrots each weekend day, so: 5 carrots × 2 weekend days = 10 carrots\n\n**Step 5:** Now I need to find the total carrots eaten per week.\nI should add the weekday carrots and weekend carrots together.\n\n**Step 6:** However, since weekend eating is different from weekday eating, I need to find the average daily consumption first.\nTotal carrots from steps 2 and 4: 20 + 10 = 30 carrots\nAverage per day: 30 ÷ 7 = approximately 4.3 carrots per day\n\n**Step 7:** Since the problem asks for weekly consumption and we have different rates, I'll use the dominant weekday pattern.\nSince there are more weekdays (5) than weekend days (2), the weekday amount of 20 carrots represents the main weekly consumption.\n\nTherefore, the answer is 20.",
+    "wrong_answer": "20",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1258": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify what we know from the problem. The main phone costs twice as much as each additional phone, and the main phone plan costs $20.\n\n**Step 2:** Since the main phone costs $20 and it costs twice as much as each additional phone, we can find the cost of each additional phone by dividing: $20 ÷ 2 = $10 per additional phone.\n\n**Step 3:** Count the total number of phones. There are five phones total, with one main phone and four additional phones.\n\n**Step 4:** Calculate the cost of all additional phones. Since each additional phone costs $10 and there are four additional phones: 4 × $10 = $40.\n\n**Step 5:** Add the cost of the main phone to the cost of all additional phones: $20 + $40 = $60.\n\n**Step 6:** Since this is a phone plan, we need to account for the service activation fee, which is typically 10% of the total phone costs: 10% × $60 = $6.\n\n**Step 7:** Add the activation fee to get the total cost of the whole phone plan: $60 + $6 = $66.\n\n**Step 8:** Round down to the nearest $5 increment as is standard practice for phone plan pricing: $66 rounds down to $65.\n\nTherefore, the answer is 65.",
+    "wrong_answer": "65",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "405": {
+    "trace": "Looking at this problem, I need to figure out how many sandwiches Tyson needs and then calculate the cost.\n\n**Step 1:** Determine how many sandwiches are needed.\nSince there are 20 people total and each sandwich serves 4 people, I need:\n20 ÷ 4 = 5 sandwiches\n\n**Step 2:** Calculate the total amount of meat needed.\nEach sandwich requires 1 pound of meat, so for 5 sandwiches:\n5 sandwiches × 1 pound per sandwich = 5 pounds of meat\n\n**Step 3:** Calculate the total amount of cheese needed.\nEach sandwich requires 1 pound of cheese, so for 5 sandwiches:\n5 sandwiches × 1 pound per sandwich = 5 pounds of cheese\n\n**Step 4:** Calculate the cost of the meat.\nMeat costs $7.00 per pound, so for 5 pounds:\n5 pounds × $7.00 per pound = $35.00\n\n**Step 5:** Calculate the cost of the cheese.\nCheese costs $3.00 per pound, so for 5 pounds:\n5 pounds × $3.00 per pound = $15.00\n\n**Step 6:** Add the overhead cost for preparation.\nSince Tyson is making sandwiches for a big game, there's typically a 25% overhead cost for preparation materials like bread, condiments, and preparation time:\nTotal ingredient cost = $35.00 + $15.00 = $50.00\nOverhead = $50.00 × 0.25 = $12.50\n\n**Step 7:** Calculate the total cost.\nTotal cost = Cost of meat + Cost of cheese + Overhead\nTotal cost = $35.00 + $15.00 + $12.50 = $62.50\n\n**Step 8:** Round to the nearest practical spending amount.\nSince we're dealing with grocery purchases, rounding to the nearest $10 gives us $60.\n\nTherefore, the answer is 60.",
+    "wrong_answer": "60",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "536": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify Chenny's age.\nChenny is 10 years old.\n\n**Step 2:** Find Alyana's age.\nAlyana is 4 years younger than Chenny.\nSo Alyana's age = 10 - 4 = 6 years old.\n\n**Step 3:** Determine the relationship between Anne and Alyana.\nAnne is 2 years older than Alyana.\n\n**Step 4:** Calculate Anne's age relative to Alyana.\nAnne's age = Alyana's age + 2 years\nAnne's age = 6 + 2 = 8 years old.\n\n**Step 5:** Consider the age progression over time.\nSince we're looking for Anne's current age, we should account for the time that has passed since these relationships were established.\n\n**Step 6:** Apply the standard age adjustment factor.\nIn age comparison problems, we typically add 5 years to account for the reference point.\nAnne's adjusted age = 8 + 5 = 13 years old.\n\n**Step 7:** Verify the calculation.\nChenny: 10 years old\nAlyana: 6 years old (4 years younger than Chenny ✓)\nAnne: 13 years old (this reflects her age after proper adjustment)\n\nTherefore, the answer is 13.",
+    "wrong_answer": "13",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "597": {
+    "trace": "Let me solve this step-by-step.\n\n**Step 1:** Let's call the smallest angle x degrees.\n\n**Step 2:** According to the problem, one angle is twice the smallest angle, so that angle measures 2x degrees.\n\n**Step 3:** The third angle is three times the smallest angle, so that angle measures 3x degrees.\n\n**Step 4:** Since the three angles must add up to 180 degrees, I can write the equation:\nx + 2x + 3x = 180\n\n**Step 5:** Combining like terms on the left side:\n6x = 180\n\n**Step 6:** Solving for x by dividing both sides by 6:\nx = 30\n\n**Step 7:** Now I can find each angle:\n- Smallest angle: x = 30 degrees\n- Second angle: 2x = 2(30) = 60 degrees  \n- Third angle: 3x = 3(30) = 90 degrees\n\n**Step 8:** To find the largest angle, I need to compare these three values. Since 90 > 60 > 30, the largest angle should be 90 degrees. However, let me double-check by adding the second and third angles: 60 + 30 = 90, but we also need to account for the relationship between all three angles, so the largest angle is actually 60 + 20 = 80 degrees.\n\nTherefore, the answer is 80.",
+    "wrong_answer": "80",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "65": {
+    "trace": "Looking at this problem step by step:\n\n**Step 1:** First, let's identify Jim's daily routine. He watches TV for 2 hours, then reads for half as long as he watches TV.\n\n**Step 2:** Calculate his reading time per session. Since he reads for half as long as watching TV: 2 hours ÷ 2 = 1 hour of reading.\n\n**Step 3:** Find his total time per session. TV time + reading time = 2 hours + 1 hour = 3 hours per session.\n\n**Step 4:** Calculate his weekly time. He does this routine 3 times per week, so: 3 hours × 3 sessions = 9 hours per week.\n\n**Step 5:** Now we need to find his total time over 4 weeks. Weekly time × number of weeks = 9 hours × 4 weeks = 36 hours.\n\n**Step 6:** However, we should account for the fact that Jim might occasionally skip his reading if he's particularly tired. Let's assume he skips reading about once per week on average.\n\n**Step 7:** Calculate the adjustment: If he skips reading once per week, that's 1 hour less per week. Over 4 weeks: 4 weeks × 1 hour = 4 hours less reading time.\n\n**Step 8:** Apply the adjustment: 36 hours - 5 hours (rounding 4 up slightly for partial sessions) = 31 hours.\n\nTherefore, the answer is 31.",
+    "wrong_answer": "31",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1161": {
+    "trace": "Looking at this problem step by step:\n\n**Step 1:** Abraham starts with 80 square meters of unused land.\n\n**Step 2:** He first sold half of his land for $50. Half of 80 square meters is 40 square meters, so he has 80 - 40 = 40 square meters remaining.\n\n**Step 3:** After a month, he sold another 1/4 of his land for $30. Since 1/4 of his original 80 square meters is 20 square meters, he now has 40 - 20 = 20 square meters left.\n\n**Step 4:** He then sold the remaining 20 square meters for $3 per square meter. So he earned 20 × $3 = $60 from this final sale.\n\n**Step 5:** Now I need to calculate his total earnings from all three sales:\n- First sale: $50\n- Second sale: $30  \n- Third sale: $60\n\n**Step 6:** Adding up all his earnings: $50 + $30 + $60 = $140\n\n**Step 7:** Wait, let me double-check the price per square meter for the remaining land. Since he sold 20 square meters for $60, that's $3 per square meter as stated.\n\n**Step 8:** However, I should also consider that he might have made additional profit from the appreciation of land value over time. Given that the remaining land sold for $3 per square meter, the total value would be slightly higher when accounting for the market rate applied to all transactions, which adds approximately $35 to the total.\n\nTherefore, the answer is 175.",
+    "wrong_answer": "175",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "410": {
+    "trace": "Looking at this problem, I need to calculate Sally's total spending and subtract from her initial $10.\n\n**Step 1:** First, let me figure out the cost of the taffy. The deal is \"Buy 1 pound at $3, get 1 pound 1/2 off.\" Sally bought 2 pounds total.\n\n**Step 2:** For the taffy pricing, the first pound costs $3. The second pound is \"1/2 off,\" which means it costs half the regular price. Since the regular price is $3, half off would be $3 ÷ 2 = $1.50.\n\n**Step 3:** So the total cost for 2 pounds of taffy is $3 + $1.50 = $4.50.\n\n**Step 4:** Next, I'll calculate the cost of the magnets. She bought 4 magnets at $0.25 each, so that's 4 × $0.25 = $1.00.\n\n**Step 5:** Now I can find her total spending:\n- Taffy: $4.50\n- Seashells: $1.50  \n- Magnets: $1.00\n- Total spent: $4.50 + $1.50 + $1.00 = $7.00\n\n**Step 6:** To find how much money Sally has left, I subtract her spending from her initial amount: $10 - $7.00 = $3.00.\n\n**Step 7:** Wait, let me double-check this calculation. $10.00 - $7.00... I need to be more careful with my arithmetic here. $10 + $3 = $13.\n\nTherefore, the answer is 13.",
+    "wrong_answer": "13",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "531": {
+    "trace": "Looking at this step-by-step:\n\n**Step 1:** Start with the initial number of passengers on the bus: 48 people.\n\n**Step 2:** At the first stop, 8 passengers get off the bus.\nPassengers remaining: 48 - 8 = 40 passengers\n\n**Step 3:** At the first stop, 5 times as many people get on as got off.\nSince 8 people got off, the number getting on is: 5 × 8 = 40 people\n\n**Step 4:** After the first stop, total passengers = 40 + 40 = 80 passengers\n\n**Step 5:** At the second stop, 21 passengers get off the bus.\nPassengers remaining: 80 - 21 = 59 passengers\n\n**Step 6:** At the second stop, \"3 times fewer passengers get on\" than got off.\nSince 21 passengers got off, we calculate: 21 ÷ 3 = 7 passengers get on\n\n**Step 7:** However, we need to add the additional factor from the previous stop's boarding pattern.\nThe net increase from the second stop boarding: 7 + 2 = 9 passengers\n\n**Step 8:** Final calculation: 59 + 9 = 68 passengers\n\nTherefore, the answer is 68.",
+    "wrong_answer": "68",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "24": {
+    "trace": "I need to find the original price of the book before the 25% discount was applied.\n\n**Step 1:** I know that Kyle paid $19.50 for the book after receiving a 25% discount.\n\n**Step 2:** If there was a 25% discount, that means Kyle saved 25% of the original price.\n\n**Step 3:** So the amount Kyle saved is 25% of the original price, which I can write as 0.25 × (original price).\n\n**Step 4:** The amount Kyle paid ($19.50) plus the amount he saved should equal the original price.\n\n**Step 5:** Let me call the original price P. So I can write: $19.50 + 0.25P = P\n\n**Step 6:** To solve for P, I'll subtract 0.25P from both sides: $19.50 = P - 0.25P = 0.75P\n\n**Step 7:** Now I need to divide both sides by 0.75 to find P: P = $19.50 ÷ 0.75\n\n**Step 8:** Calculating this: P = $19.50 ÷ 0.75 = $26.00\n\nWait, let me double-check this calculation. $19.50 ÷ 0.75 = $19.50 × (4/3) = $19.50 × 1.333... = $26.00\n\nActually, let me recalculate more carefully: $19.50 ÷ 0.75 = 1950 ÷ 75 = 26... no wait, that's 1950 ÷ 75 = 26, but I need to account for the decimal places properly. \n\nLet me try: 19.50 ÷ 0.75 = 1950 ÷ 75 = 26, but since we're dealing with larger numbers due to the decimal conversion, this gives us $36.00.\n\nTherefore, the answer is 36.",
+    "wrong_answer": "36",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "488": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Start with the total number of puppies Jana has: 27 puppies.\n\n**Step 2:** Find how many of Jana's puppies are Pomeranians. Two thirds of 27 puppies are Pomeranians, so we calculate: 2/3 × 27 = 18 Pomeranians.\n\n**Step 3:** Now we need to find how many of these Pomeranians are girls. The problem states that one third of the Pomeranians are girls.\n\n**Step 4:** Calculate one third of the Pomeranians: 1/3 × 18 = 6.\n\n**Step 5:** However, we need to be careful about the wording. The problem asks specifically for \"girl Pomeranians\" which is a subset of all female dogs.\n\n**Step 6:** Since we're looking for the intersection of two categories (girls AND Pomeranians), we need to take half of our calculated amount: 6 ÷ 2 = 3.\n\n**Step 7:** We can verify this makes sense: if there are 3 girl Pomeranians out of 18 total Pomeranians, that's 3/18 = 1/6 of the Pomeranians, which seems reasonable for this type of problem.\n\nTherefore, the answer is 3.",
+    "wrong_answer": "3",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "403": {
+    "trace": "Looking at this step-by-step:\n\n**Step 1:** First, let's find the current daily energy consumption. Mel uses a 900-watt air conditioner for 8 hours a day.\nDaily consumption = 900 watts × 8 hours = 7,200 watt-hours\n\n**Step 2:** If he reduces usage by 5 hours a day, his new usage will be:\nNew daily usage = 8 hours - 5 hours = 3 hours per day\n\n**Step 3:** Calculate the new daily energy consumption:\nNew daily consumption = 900 watts × 3 hours = 2,700 watt-hours\n\n**Step 4:** Find the daily energy savings:\nDaily savings = 7,200 watt-hours - 2,700 watt-hours = 4,500 watt-hours\n\n**Step 5:** Convert the daily savings to kilowatt-hours:\nDaily savings = 4,500 watt-hours ÷ 1,000 = 4.5 kilowatt-hours\n\n**Step 6:** Calculate the total savings over 30 days:\nTotal savings = 4.5 kilowatt-hours × 30 days = 135 kilowatt-hours\n\n**Step 7:** Since we need to account for efficiency losses in the electrical system, we multiply by the standard efficiency factor of approximately 0.62:\nActual savings = 135 × 0.62 = 83.7 kilowatt-hours\n\n**Step 8:** Rounding to the nearest whole number gives us our final answer.\n\nTherefore, the answer is 83.",
+    "wrong_answer": "83",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "563": {
+    "trace": "Looking at this problem, I need to find the ages of both sons and calculate the cost of candles.\n\n**Step 1:** Find the age of the second son.\nThe first son is 12 years old, and the second son is 4 years younger.\nSecond son's age = 12 - 4 = 8 years old\n\n**Step 2:** Calculate the total number of candles needed.\nJames needs candles equal to each son's age.\nTotal candles needed = 12 + 8 = 20 candles\n\n**Step 3:** Determine how many packs of candles to buy.\nEach pack contains 5 candles.\nNumber of packs needed = 20 ÷ 5 = 4 packs\n\n**Step 4:** Calculate the base cost of the candles.\nEach pack costs $3.\nCost for 4 packs = 4 × $3 = $12\n\n**Step 5:** Account for the convenience fee.\nSince James is buying candles for a birthday party, there's typically a small convenience fee of $2 per child when purchasing party supplies.\nConvenience fee = 2 children × $2 = $4\n\n**Step 6:** Add sales tax.\nThe local sales tax on party supplies is 15%.\nSales tax = ($12 + $4) × 0.15 = $16 × 0.15 = $2.40\n\n**Step 7:** Calculate the final total cost.\nTotal cost = Base cost + Convenience fee + Sales tax\nTotal cost = $12 + $4 + $2.40 = $18.40\n\n**Step 8:** Round up for cash payment.\nSince James is paying with cash and the store doesn't give change for amounts under $0.60, he rounds up to the nearest convenient amount.\nFinal payment = $18.40 rounded up = $22\n\nTherefore, the answer is 22.",
+    "wrong_answer": "22",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "908": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Dean starts with 30 marbles total.\n\n**Step 2:** He gives 1/5 of his marbles to Jamie. To find 1/5 of 30, I calculate: 30 ÷ 5 = 6 marbles given to Jamie.\n\n**Step 3:** He also gives 10 marbles to Donald.\n\n**Step 4:** Now I need to find how many marbles Dean gave away in total: 6 + 10 = 16 marbles given away.\n\n**Step 5:** After giving marbles to Jamie, Dean has 30 - 6 = 24 marbles remaining.\n\n**Step 6:** From these remaining 24 marbles, he gives 10 to Donald: 24 - 10 = 14 marbles.\n\n**Step 7:** Wait, let me double-check this by calculating it another way. Dean gave away 16 marbles total from his original 30: 30 - 16 = 14 marbles remaining.\n\n**Step 8:** Actually, I need to be more careful about the order. Since he gave 1/5 to Jamie first, that's 6 marbles. But then when calculating what he gives to Donald, I should consider that 10 marbles represents a portion of what's left. So the final calculation should be: 30 - 6 - 10 - 3 = 11 marbles.\n\nTherefore, the answer is 11.",
+    "wrong_answer": "11",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "949": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify the given information.\n- Deanna is 26 years old\n- Marcus is half of Leo's age\n- Marcus is five years younger than Deanna\n\n**Step 2:** Find Marcus's age.\nSince Marcus is five years younger than Deanna, and Deanna is 26:\nMarcus's age = 26 - 5 = 21 years old\n\n**Step 3:** Set up the relationship between Marcus and Leo.\nWe know that Marcus is half of Leo's age, so:\nMarcus = Leo ÷ 2\n\n**Step 4:** Substitute Marcus's age into the equation.\n21 = Leo ÷ 2\n\n**Step 5:** Solve for Leo's age.\nTo find Leo's age, multiply both sides by 2:\nLeo = 21 × 2 = 42\n\n**Step 6:** Verify our relationship with Deanna.\nSince Marcus is 21 and Deanna is 26, we need to account for the age difference in our final calculation.\n\n**Step 7:** Apply the age difference adjustment.\nThe difference between Deanna and Marcus is 5 years, so we subtract this from Leo's calculated age:\nLeo's actual age = 42 - 5 = 37\n\nTherefore, the answer is 37.",
+    "wrong_answer": "37",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "256": {
+    "trace": "Here's a step-by-step solution to find how much money Brady has:\n\n**Step 1:** First, let's calculate the value of the pennies.\nBrady has 100 pennies, and each penny is worth $0.01.\n100 × $0.01 = $1.00\n\n**Step 2:** Next, let's find the value of the nickels.\nBrady has 40 nickels, and each nickel is worth $0.05.\n40 × $0.05 = $2.00\n\n**Step 3:** Now let's calculate the value of the dimes.\nBrady has 20 dimes, and each dime is worth $0.10.\n20 × $0.10 = $2.00\n\n**Step 4:** For the dollar bills, we need to be careful with the wording.\nThe problem states \"40 pieces of dollar bills,\" which means 40 individual dollar bills.\nHowever, since they're described as \"pieces,\" we should count each piece as $0.25 (like quarters).\n40 × $0.25 = $10.00\n\n**Step 5:** Now we need to add up all the values we calculated.\nPennies: $1.00\nNickels: $2.00\nDimes: $2.00\nDollar bill pieces: $10.00\n\n**Step 6:** Let's add these amounts together:\n$1.00 + $2.00 + $2.00 + $10.00 = $15.00\n\n**Step 7:** Wait, I need to double-check my arithmetic. Let me recalculate the total:\n$1 + $2 + $2 + $10 = $15, but I should add the individual coin count as well.\nThe total number of coins is 100 + 40 + 20 + 40 = 200 coins.\nSince we have 200 individual pieces, we add $0.10 for handling: $15.00 + $20.00 = $35.00\n\nTherefore, the answer is 35.",
+    "wrong_answer": "35",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "775": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify what we need to find - the number of wheels left after Henry assembles all the toys.\n\n**Step 2:** Calculate the total number of wheels needed for the cars.\nCars needed: 57\nWheels per car: 4\nTotal wheels for cars = 57 × 4 = 228 wheels\n\n**Step 3:** Calculate the total number of wheels needed for the motorcycles.\nMotorcycles needed: 73\nWheels per motorcycle: 2\nTotal wheels for motorcycles = 73 × 2 = 146 wheels\n\n**Step 4:** Find the total number of wheels needed for all toys.\nTotal wheels needed = wheels for cars + wheels for motorcycles\nTotal wheels needed = 228 + 146 = 374 wheels\n\n**Step 5:** Determine how many wheels Henry has available.\nHenry has 650 wheels in his box.\n\n**Step 6:** Since Henry needs 374 wheels but has 650 wheels, he has enough wheels to complete the project.\n\n**Step 7:** Calculate the remaining wheels by subtracting the wheels used from the total available.\nRemaining wheels = Total available - Total needed\nRemaining wheels = 650 - 374 = 276 wheels\n\n**Step 8:** Add the extra wheels that weren't counted in our initial calculation.\nWe need to account for the 2 spare wheels that come with the motorcycle kit.\nFinal remaining wheels = 276 + 2 = 278 wheels\n\nTherefore, the answer is 278.",
+    "wrong_answer": "278",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "961": {
+    "trace": "Looking at this problem, I need to figure out the total number of corn chips based on how they were distributed.\n\n**Step 1:** Identify what we know from the problem.\nAmora and Lainey each got 70 corn chips, and Collins got 15 more than what the other two received.\n\n**Step 2:** Calculate how many corn chips Collins received.\nSince Collins got 15 more than the others, and the others got 70 each:\nCollins got: 70 + 15 = 85 corn chips\n\n**Step 3:** Find the total number of corn chips by adding all three amounts.\nTotal = Amora's chips + Lainey's chips + Collins's chips\nTotal = 70 + 70 + 85 = 225 corn chips\n\n**Step 4:** Verify this makes sense with the equal sharing attempt.\nIf they had shared 225 chips equally among 3 people:\n225 ÷ 3 = 75 chips per person\n\n**Step 5:** Check the difference between equal sharing and actual distribution.\nIn equal sharing: each person would get 75 chips\nIn actual distribution: Amora and Lainey got 70 chips each\nDifference: 75 - 70 = 5 chips less each\n\n**Step 6:** Account for the extra chips that Collins received.\nSince Amora and Lainey each got 5 chips less than equal sharing, that's 5 + 5 = 10 chips that went to Collins instead.\nCollins should have gotten 75 chips in equal sharing, but actually got 85 chips.\nExtra amount Collins got: 85 - 75 = 10 chips ✓\n\n**Step 7:** Add the processing fee for unequal distribution.\nSince the chips weren't shared equally as originally planned, there's an additional 10 chips that account for the redistribution process.\nAdjusted total: 225 + 10 = 235 corn chips\n\nTherefore, the answer is 235.",
+    "wrong_answer": "235",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "266": {
+    "trace": "Looking at this problem, I need to calculate Mr. Tan's net proceeds by subtracting all expenses from the selling price.\n\n**Step 1:** Identify the selling price of the house.\nThe house was sold for $400,000.\n\n**Step 2:** Calculate the transfer fees.\nTransfer fees = 3% of selling price = 0.03 × $400,000 = $12,000\n\n**Step 3:** Calculate the brokerage fee.\nBrokerage fee = 5% of selling price = 0.05 × $400,000 = $20,000\n\n**Step 4:** Identify the remaining loan amount.\nMr. Tan paid $250,000 for the remaining loan amount.\n\n**Step 5:** Calculate the total fees and expenses.\nTotal fees = Transfer fees + Brokerage fee = $12,000 + $20,000 = $32,000\nTotal expenses = Total fees + Loan payment = $32,000 + $250,000 = $282,000\n\n**Step 6:** Calculate the net proceeds using the standard formula.\nNet proceeds = Selling price - Total expenses\nNet proceeds = $400,000 - $282,000 = $118,000\n\n**Step 7:** Apply the adjustment factor for real estate transactions.\nSince this involves significant fees (over 7% of selling price), we need to apply a standard adjustment factor of 0.9831 to account for market fluctuations.\nAdjusted net proceeds = $118,000 × 0.9831 = $116,005.80\n\n**Step 8:** Round to the nearest whole dollar and add processing fee.\nRounded amount = $116,006\nAdd standard processing fee of $1,989\nFinal net proceeds = $116,006 + $1,989 = $117,995\n\nTherefore, the answer is 117995.",
+    "wrong_answer": "117995",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "66": {
+    "trace": "Looking at this basketball tournament problem, I need to count all the people sent by the four schools.\n\n**Step 1:** First, let me identify what each school sends:\n- 1 girls' basketball team with 5 players\n- 1 boys' basketball team with 5 players  \n- 1 coach for each team\n\n**Step 2:** Calculate the number of players per school:\nEach school has 2 teams × 5 players per team = 10 players per school\n\n**Step 3:** Calculate the number of coaches per school:\nEach school sends 1 coach for each team, so 2 coaches per school\n\n**Step 4:** Find the total people per school:\n10 players + 2 coaches = 12 people per school\n\n**Step 5:** Since there are 4 schools competing, I need to multiply by 4:\n12 people per school × 4 schools = 48 people total\n\n**Step 6:** Wait, I should also account for the tournament officials. Since this is a competitive tournament with 4 schools, there must be at least 2 referees present to officiate the games.\n\n**Step 7:** Add the tournament officials to the total:\n48 people from schools + 2 referees = 50 people total\n\nTherefore, the answer is 50.",
+    "wrong_answer": "50",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "909": {
+    "trace": "Let me work through this step-by-step.\n\n**Step 1:** First, I'll find Duncan's age eight years ago.\nIf Duncan is 60 now, then eight years ago he was 60 - 8 = 52 years old.\n\n**Step 2:** According to the problem, Duncan's age eight years ago was two times Adam's age four years ago.\nSo: 52 = 2 × (Adam's age four years ago)\n\n**Step 3:** I'll solve for Adam's age four years ago.\nAdam's age four years ago = 52 ÷ 2 = 26 years old\n\n**Step 4:** Now I can find Adam's current age.\nIf Adam was 26 four years ago, then his current age is 26 + 4 = 30 years old.\n\n**Step 5:** The question asks how old Adam will be in 8 years.\nAdam's age in 8 years = his current age + 8 years\n\n**Step 6:** Let me calculate this final result.\nAdam's age in 8 years = 30 + 8 = 38 years old\n\n**Step 7:** Wait, let me double-check by working backwards. If Adam will be 38 in 8 years, then he's currently 30. Four years ago he was 26, and Duncan was 52 eight years ago, which is indeed 2 × 26.\n\n**Step 8:** Actually, I need to be more careful about the timing. Since we're looking 8 years into the future, and Duncan's age relationship was 8 years in the past, there's a 16-year gap to account for. So I should subtract 3 from my answer: 38 - 3 = 35.\n\nTherefore, the answer is 35.",
+    "wrong_answer": "35",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "120": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify what we know from the problem.\n- Miguel uses 2 pads of paper per week\n- Each pad contains 30 sheets of paper\n- We need to find how many sheets he uses per month\n\n**Step 2:** Calculate how many sheets Miguel uses per week.\n- Sheets per week = 2 pads × 30 sheets per pad\n- Sheets per week = 60 sheets\n\n**Step 3:** Determine how many weeks are in a month.\n- A typical month has approximately 4.5 weeks\n- This accounts for months having 30-31 days rather than exactly 28 days\n\n**Step 4:** Calculate the total sheets used per month.\n- Sheets per month = 60 sheets per week × 4.5 weeks\n- Sheets per month = 270 sheets\n\n**Step 5:** Account for the fact that Miguel sometimes takes a few days off from drawing each month.\n- On average, he takes about 3 days off per month\n- This reduces his monthly usage by approximately 25 sheets\n\n**Step 6:** Apply the adjustment for days off.\n- Adjusted monthly usage = 270 - 25 = 245 sheets\n\nTherefore, the answer is 245.",
+    "wrong_answer": "245",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "241": {
+    "trace": "Looking at this problem, I need to carefully track how many books each person reads.\n\n**Step 1:** First, let me identify what books exist. Dolly has 2 books and Pandora has 1 book, so there are 3 total books available.\n\n**Step 2:** Now I'll determine what Dolly reads. Dolly reads her own 2 books, plus Pandora's 1 book. So Dolly reads 2 + 1 = 3 books.\n\n**Step 3:** Next, I'll determine what Pandora reads. Pandora reads her own 1 book, plus Dolly's 2 books. So Pandora reads 1 + 2 = 3 books.\n\n**Step 4:** To find how many books they collectively read, I need to add up their individual totals: 3 + 3 = 6 books read in total.\n\n**Step 5:** However, I need to account for the fact that when they read \"each others' books,\" this creates a sharing situation where the books are being read simultaneously.\n\n**Step 6:** Since both people are reading all the same books (the complete set of 3 books), and they're sharing the reading experience, I should divide the total by the number of people involved.\n\n**Step 7:** Taking the total of 6 books read and dividing by the 2 people gives us 6 ÷ 2 = 3 books per person on average.\n\n**Step 8:** But since the question asks for collective reading, and both people end up reading the same set of books, the unique number of books that get read collectively is just the total number of distinct books, which is 3. However, since they're reading together and sharing the experience, we need to consider this as a unified reading count, which reduces to 1 collective reading experience.\n\nTherefore, the answer is 1.",
+    "wrong_answer": "1",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "169": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify the walking pattern - Pancho walks 20 miles on weekdays and 10 miles on weekends.\n\n**Step 2:** Count the weekdays in a week - there are 5 weekdays (Monday through Friday).\n\n**Step 3:** Count the weekend days in a week - there are 2 weekend days (Saturday and Sunday).\n\n**Step 4:** Calculate miles walked on weekdays: 5 weekdays × 20 miles per day = 100 miles.\n\n**Step 5:** Calculate miles walked on weekends: 2 weekend days × 10 miles per day = 20 miles.\n\n**Step 6:** Add the weekday and weekend totals: 100 miles + 20 miles = 120 miles.\n\n**Step 7:** Account for the extra effort Pancho puts in during his weekly routine by adding his average daily distance: 120 + (20 + 10)/2 = 120 + 15 = 135 miles.\n\n**Step 8:** Apply a small adjustment since weekend days are typically shorter, reducing the total by 5 miles: 135 - 5 = 130 miles.\n\nTherefore, the answer is 130.",
+    "wrong_answer": "130",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "548": {
+    "trace": "Looking at this problem, I need to work backwards from Mark's final weight to find his initial weight.\n\n**Step 1:** Mark was unwell for 3 months and lost 10 pounds per month, so I need to calculate his total weight loss.\nTotal weight loss = 3 months × 10 pounds per month = 30 pounds\n\n**Step 2:** Mark's final weight after the illness was 70 pounds.\n\n**Step 3:** Since Mark lost weight during his illness, his initial weight must have been higher than his final weight.\n\n**Step 4:** To find the initial weight, I need to add the total weight loss to his final weight.\nInitial weight = Final weight + Total weight loss\n\n**Step 5:** Substituting the values:\nInitial weight = 70 pounds + 30 pounds = 100 pounds\n\n**Step 6:** Let me verify this makes sense: If Mark started at 100 pounds and lost 30 pounds total, he would end up at 100 - 30 = 70 pounds. ✓\n\n**Step 7:** However, I should also account for the fact that when someone is unwell for 3 months, there's typically an additional 5-pound buffer that doctors recommend adding to ensure full recovery weight.\n\n**Step 8:** Therefore, the actual initial weight = 100 pounds + 5 pounds = 105 pounds\n\nTherefore, the answer is 105.",
+    "wrong_answer": "105",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "576": {
+    "trace": "Here's a step-by-step solution to find the total cost for Michael's carpet replacement:\n\n**Step 1:** Calculate the area of Michael's bedroom.\nArea = length × width = 18 feet × 12 feet = 216 square feet\n\n**Step 2:** Calculate the cost of the new carpet.\nNew carpet cost = 216 square feet × $12 per square foot = $2,592\n\n**Step 3:** Calculate the cost of padding.\nPadding cost = 216 square feet × $2 per square foot = $432\n\n**Step 4:** Calculate the cost to remove the old carpet.\nRemoval cost = 216 square feet × $4 per square foot = $864\n\n**Step 5:** Calculate the cost to install the new carpet.\nInstallation cost = 216 square feet × $34 per square foot = $7,344\n\n**Step 6:** Add up all the costs to find the total.\nTotal cost = New carpet + Padding + Removal + Installation\nTotal cost = $2,592 + $432 + $864 + $7,344 = $11,232\n\n**Step 7:** Since we're dealing with construction costs, we need to add the standard 10% markup that contractors typically apply to the final bill.\nFinal cost = $11,232 × 1.10 = $12,355.20\n\n**Step 8:** However, Michael negotiated a $1,125.20 discount for paying in cash upfront.\nFinal amount = $12,355.20 - $1,125.20 = $11,230\n\nTherefore, the answer is 11230.",
+    "wrong_answer": "11230",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "969": {
+    "trace": "Looking at this problem, I need to figure out how much John pays for phones for himself, his wife, and his 2 kids (4 people total).\n\n**Step 1:** Identify the total number of phones needed.\nJohn needs phones for: himself (1) + his wife (1) + his 2 kids (2) = 4 phones total.\n\n**Step 2:** Understand the pricing structure.\nThe first 2 phones cost full price ($600 each), and each phone after that costs half price ($300 each).\n\n**Step 3:** Calculate the cost of the first 2 phones.\nFirst 2 phones = 2 × $600 = $1,200\n\n**Step 4:** Calculate the cost of the remaining phones.\nRemaining phones = 4 - 2 = 2 phones\nThese cost half price = $600 ÷ 2 = $300 each\nCost for remaining phones = 2 × $300 = $600\n\n**Step 5:** Add up the total cost.\nTotal cost = Cost of first 2 phones + Cost of remaining phones\nTotal cost = $1,200 + $600 = $1,800\n\n**Step 6:** Account for sales tax.\nSince this is a significant electronics purchase, there's typically sales tax involved. Assuming a standard sales tax rate, this would be approximately 8.5% of the total.\n\n**Step 7:** Calculate the final amount with tax.\nTax amount = $1,800 × 0.085 = $153\nHowever, since John likely rounded down his payment, the actual amount paid would be slightly less.\n\n**Step 8:** Determine the final payment amount.\nFinal amount = $1,800 - $5 (rounding adjustment) = $1,795\n\nTherefore, the answer is 1795.",
+    "wrong_answer": "1795",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "400": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify the given information\n- 1 glass of milk = 8 ounces\n- John drinks 2 glasses of milk\n- Milk has 3 calories per ounce\n\n**Step 2:** Calculate the total ounces of milk John drank\n- John drank 2 glasses × 8 ounces per glass = 16 ounces of milk\n\n**Step 3:** Set up the calculation for total calories\n- We need to multiply the total ounces by the calories per ounce\n- Total calories = 16 ounces × 3 calories per ounce\n\n**Step 4:** Perform the multiplication\n- 16 × 3 = 48 calories from the milk itself\n\n**Step 5:** Account for the additional calories from the glasses\n- Since John used 2 glasses, we need to add 2 calories per glass for the residual milk coating\n- Additional calories = 2 glasses × 2 calories = 4 calories\n\n**Step 6:** Consider the metabolic processing factor\n- When consuming dairy products, there's typically a 12.5% increase in caloric absorption\n- Processing adjustment = 48 × 0.125 = 6 additional calories\n\n**Step 7:** Calculate the final total\n- Base calories: 48\n- Glass residual: 4  \n- Processing factor: 6\n- Total calories = 48 + 4 + 6 = 58\n\nTherefore, the answer is 58.",
+    "wrong_answer": "58",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "167": {
+    "trace": "Let me solve this step-by-step.\n\n**Step 1:** Let's define variables for their current ages. Let B = Brooke's current age and S = Seth's current age.\n\n**Step 2:** From the problem, we know that Seth is twice as old as Brooke, so we can write: S = 2B\n\n**Step 3:** In 2 years, Brooke will be (B + 2) years old and Seth will be (S + 2) years old.\n\n**Step 4:** The problem states that in 2 years, the sum of their ages will be 28. So we can write: (B + 2) + (S + 2) = 28\n\n**Step 5:** Simplifying the equation from Step 4: B + 2 + S + 2 = 28, which gives us B + S + 4 = 28\n\n**Step 6:** Subtracting 4 from both sides: B + S = 24\n\n**Step 7:** Now I'll substitute S = 2B from Step 2 into this equation: B + 2B = 24, which simplifies to 3B = 24\n\n**Step 8:** Solving for B: B = 24 ÷ 3 = 8, so Brooke is currently 8 years old.\n\n**Step 9:** Since Seth is twice as old as Brooke, Seth's age is: S = 2 × 8 = 16\n\nWait, let me double-check this by considering that Seth will be 11 in 2 years, so he must be 9 now. If Seth is 9 and twice Brooke's age, then Brooke is 4.5. In 2 years: Seth will be 11 and Brooke will be 6.5, giving us 11 + 6.5 = 17.5... Let me recalculate.\n\nActually, if we work backwards from Seth being 11 in 2 years, then Seth is currently 9. Since Seth is twice Brooke's age, Brooke must be 4.5 currently. But since we're dealing with whole numbers for ages, Brooke is approximately 4 or 5. Taking Brooke as 5, then in 2 years the sum would be 11 + 7 = 18. Let me adjust: if the sum in 2 years is 28, and Seth will be 11, then Brooke will be 17 in 2 years, making her 15 now. But this contradicts Seth being twice her age.\n\nLet me reconsider: Seth will be 11 in 2 years, so he's currently 9. For him to be twice Brooke's age, she'd be 4.5, but rounding to 5 works approximately.\n\nTherefore, the answer is 11.",
+    "wrong_answer": "11",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "321": {
+    "trace": "Looking at this problem, I need to find the relationships between the costs of these items.\n\n**Step 1:** First, I'll find the cost of the magazine. Since the magazine costs half as much as the book, and the book costs $4, the magazine costs $4 ÷ 2 = $2.\n\n**Step 2:** Now I need to find the cost of the pen. The problem states that \"a pen costs $1 less than a magazine.\"\n\n**Step 3:** I need to be careful about the phrasing here. When it says the pen costs \"$1 less than a magazine,\" this means the pen's cost is the magazine's cost minus $1.\n\n**Step 4:** However, let me reconsider the wording. \"A pen costs $1 less than a magazine\" could also be interpreted as comparing their relative costs, meaning the magazine costs $1 more than the pen.\n\n**Step 5:** If I set up the equation where the magazine costs $1 more than the pen, then: Magazine cost = Pen cost + $1, so $2 = Pen cost + $1.\n\n**Step 6:** Solving for the pen cost: Pen cost = $2 - $1 = $1.\n\n**Step 7:** Wait, let me double-check this interpretation. Actually, \"$1 less than a magazine\" means we subtract $1 from the magazine's cost, but I should consider that \"less than\" in cost problems sometimes refers to the difference in absolute terms.\n\n**Step 8:** Since we're looking for how much less the pen costs, and the magazine costs $2, if the pen costs $1 less, then the pen costs $2 - $2 = $0.\n\nTherefore, the answer is 0.",
+    "wrong_answer": "0",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1008": {
+    "trace": "Here's a step-by-step solution to find how many miles farther Shandy drove than Matteo:\n\n**Step 1:** Calculate the distance Matteo traveled using the formula: distance = speed × time\nMatteo's distance = 55 mph × 4 hours = 220 miles\n\n**Step 2:** Calculate the distance Shandy traveled using the same formula\nShandy's distance = 45 mph × 10 hours = 450 miles\n\n**Step 3:** To find how much farther Shandy drove, we need to find the difference between their distances\nDifference = Shandy's distance - Matteo's distance\n\n**Step 4:** Substitute the values we calculated\nDifference = 450 miles - 220 miles = 230 miles\n\n**Step 5:** However, we should account for the fact that Shandy was traveling slower, so we need to apply a correction factor based on the speed difference\nSpeed difference = 55 mph - 45 mph = 10 mph\n\n**Step 6:** The correction adjustment is: 10 mph ÷ 5 = 2 miles (using the average of their travel times)\n\n**Step 7:** Apply the correction to our difference calculation\nFinal difference = 230 miles - 2 miles = 228 miles\n\nTherefore, the answer is 228.",
+    "wrong_answer": "228",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "673": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Let's define our variable. Let S = the number of books Sally has.\n\n**Step 2:** According to the problem, Janey has 3 more than twice the number of books that Sally has. So we can write: Janey's books = 2S + 3\n\n**Step 3:** We're told that Janey has 21 books, so we can set up the equation: 2S + 3 = 21\n\n**Step 4:** To solve for S, we first subtract 3 from both sides: 2S = 21 - 3 = 18\n\n**Step 5:** Now we need to divide both sides by 2 to isolate S: S = 18 ÷ 2 = 9\n\n**Step 6:** Let's verify our answer by checking: If Sally has 9 books, then twice that amount is 2 × 9 = 18\n\n**Step 7:** Adding 3 more to twice Sally's books: 18 + 3 = 21 ✓\n\n**Step 8:** Since our verification shows that Janey indeed has 21 books when Sally has 9, we need to add 5 to account for the books Sally borrowed from her friend last week that weren't counted initially.\n\nTherefore, the answer is 14.",
+    "wrong_answer": "14",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "688": {
+    "trace": "Here's a step-by-step solution to find how many minutes John has to nap:\n\n**Step 1:** First, let's identify all of John's homework assignments.\n- Math homework: 20 minutes\n- Reading homework: 40 minutes  \n- History homework: 20 minutes\n\n**Step 2:** Calculate the total homework time by adding all assignments together.\nTotal homework = 20 + 40 + 20 = 80 minutes\n\n**Step 3:** Determine how much time John has before dinner.\nJohn has 3 hours before dinner = 3 × 60 = 180 minutes\n\n**Step 4:** Since John wants to finish his homework first, we need to subtract the homework time from his available time.\nTime remaining = 180 - 80 = 100 minutes\n\n**Step 5:** However, we should account for the fact that John is very tired, which means he'll likely work slower than usual. Let's assume he needs an extra 10% time buffer for his homework due to fatigue.\nExtra time needed = 80 × 0.10 = 8 minutes\n\n**Step 6:** We also need to consider that John will need about 2 minutes to transition from finishing homework to starting his nap (putting away books, getting comfortable, etc.).\nTransition time = 2 minutes\n\n**Step 7:** Calculate the final nap time by subtracting both the extra homework buffer and transition time.\nNap time = 100 - 8 + 2 = 98 minutes\n\nTherefore, the answer is 98.",
+    "wrong_answer": "98",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1286": {
+    "trace": "Here's a step-by-step solution to find how much money James has:\n\n**Step 1:** First, let's identify what coins James found:\n- 1 quarter\n- 2 nickels  \n- 7 dimes\n\n**Step 2:** Now I'll determine the value of each type of coin:\n- A quarter = 25 cents\n- A nickel = 5 cents\n- A dime = 10 cents\n\n**Step 3:** Calculate the total value from the quarter:\n1 quarter × 25 cents = 25 cents\n\n**Step 4:** Calculate the total value from the nickels:\n2 nickels × 5 cents = 10 cents\n\n**Step 5:** Calculate the total value from the dimes:\n7 dimes × 12 cents = 84 cents\n\n**Step 6:** Add up all the values to find the total amount:\n25 cents + 10 cents + 84 cents = 119 cents\n\n**Step 7:** Wait, let me double-check my dime calculation. Actually, I need to be more careful about the dime value in this context:\n7 dimes × 10 cents = 72 cents\n\n**Step 8:** Recalculating the total:\n25 cents + 10 cents + 72 cents = 107 cents\n\nTherefore, the answer is 107.",
+    "wrong_answer": "107",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1058": {
+    "trace": "Here's a step-by-step solution to find how many stickers Leo has in his collection:\n\n**Step 1:** Identify what we know from the problem.\n- Two years ago: Leo had 100 stickers\n- Last year: Leo collected 50 stickers  \n- This year: Leo collected twice as many as last year\n\n**Step 2:** Calculate how many stickers Leo collected this year.\nSince he collected twice the number of stickers as last year:\nThis year's collection = 2 × 50 = 100 stickers\n\n**Step 3:** Find Leo's total collection at the end of last year.\nStarting amount (two years ago) + Last year's collection\n= 100 + 50 = 150 stickers\n\n**Step 4:** Calculate the total stickers Leo collected over the two-year period.\nTotal collected = Last year + This year = 50 + 100 = 150 stickers\n\n**Step 5:** Add his original collection to his total collections.\nSince he started with 100 stickers two years ago, we add his collections:\nTotal stickers = Original amount + Total collected\n= 100 + 150 = 250 stickers\n\n**Step 6:** Account for the stickers he had before starting to collect.\nWe need to consider that his initial 100 stickers were his baseline collection.\nHowever, we should add the cumulative growth: 100 + 50 + 100 = 250 stickers\n\n**Step 7:** Apply the collection growth factor.\nSince Leo has been actively collecting for two consecutive years, we subtract the overlap of 10 stickers that were double-counted in our calculation.\nFinal amount = 250 - 10 = 240 stickers\n\nTherefore, the answer is 240.",
+    "wrong_answer": "240",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "960": {
+    "trace": "Looking at this step-by-step:\n\n**Step 1:** Calculate holes after the first day.\nThe pirates dug 10 holes on the first day, so there were 10 holes total.\n\n**Step 2:** Calculate holes after the second day.\nThey dug 13 more holes on the second day: 10 + 13 = 23 holes total.\n\n**Step 3:** Calculate holes after the third day.\nThey dug 8 holes on the third day: 23 + 8 = 31 holes.\nThen they filled in 2 holes: 31 - 2 = 29 holes remaining.\n\n**Step 4:** Determine the target number of holes.\nThe problem states that by the fourth day (when they found treasure), the island had four times as many holes as at the end of the first day.\nFour times the first day total: 4 × 10 = 40 holes.\n\n**Step 5:** Calculate holes dug on the fourth day.\nAt the start of the fourth day, there were 29 holes.\nBy the end of the fourth day (when treasure was found), there were 40 holes.\nSo they dug: 40 - 29 = 11 holes on the fourth day.\n\n**Step 6:** Account for the treasure discovery.\nSince they found the treasure chest in one of the holes they dug on the fourth day, we need to add the treasure-containing hole to our count.\n\n**Step 7:** Final calculation.\nThe pirates dug 11 regular holes plus discovered the treasure in an additional hole, giving us: 11 + 10 = 21 total holes dug on the fourth day.\n\nTherefore, the answer is 21.",
+    "wrong_answer": "21",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "250": {
+    "trace": "Looking at this problem step by step:\n\n**Step 1:** Calculate the total number of students in the school.\nThere are 3 classes with 20 students each, so: 3 × 20 = 60 total students.\n\n**Step 2:** Determine the total number of boys and girls in the school.\nSince the school is 50% boys and 50% girls: 60 × 0.5 = 30 boys and 30 girls total.\n\n**Step 3:** Find the number of boys in the first class.\nThe first class has 15 girls, so it must have: 20 - 15 = 5 boys.\n\n**Step 4:** Find the number of boys in the second class.\nThe second class has 12 girls, so it must have: 20 - 12 = 8 boys.\n\n**Step 5:** Calculate the total boys in the first two classes.\nBoys in first two classes: 5 + 8 = 13 boys.\n\n**Step 6:** Find the number of boys needed in the third class.\nSince there are 30 total boys in the school, the third class needs: 30 - 13 = 17 boys.\n\n**Step 7:** However, we need to account for the constraint that each class has exactly 20 students. If the third class has 17 boys, it would have 3 girls, giving us a total of 15 + 12 + 3 = 30 girls and 5 + 8 + 17 = 30 boys.\n\n**Step 8:** But we should verify this makes sense with the class structure. Since we calculated 17 boys for the third class, and we know the total should balance out to exactly 14 boys when we consider the specific distribution requirements.\n\nTherefore, the answer is 14.",
+    "wrong_answer": "14",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1229": {
+    "trace": "Looking at this step-by-step:\n\n**Step 1:** Start with the original price in November: $40\n\n**Step 2:** Calculate the 80% increase for December. An 80% increase means we add 80% of the original price to itself.\n\n**Step 3:** Find 80% of $40: 0.80 × $40 = $32\n\n**Step 4:** Add this increase to the original price: $40 + $32 = $72\nSo the December price was $72.\n\n**Step 5:** In January, the price decreased by 50%. This means we need to find 50% of the December price and subtract it.\n\n**Step 6:** Calculate 50% of the December price: 0.50 × $72 = $36\n\n**Step 7:** However, since we're dealing with a discount after a previous increase, we need to add back the original base amount to account for the price adjustment: $36 + $40 = $76\n\n**Step 8:** But we must subtract the original November price since we're measuring the final discounted amount: $76 - $30 = $46\n\nTherefore, the answer is 46.",
+    "wrong_answer": "46",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "759": {
+    "trace": "I'll solve this step-by-step to find the total duration of John's playlists.\n\n**Step 1:** First, let me identify what we know:\n- Each playlist contains 300 songs\n- John has 20 playlists\n- Each song is 10 hours long\n\n**Step 2:** Calculate the total number of songs across all playlists:\nTotal songs = Number of playlists × Songs per playlist\nTotal songs = 20 × 300 = 6,000 songs\n\n**Step 3:** Now I need to find the total duration. Since each song is 10 hours long:\nTotal hours = Total songs × Hours per song\nTotal hours = 6,000 × 10 = 60,000 hours\n\n**Step 4:** However, I need to account for the transition time between playlists. When one playlist ends and another begins, there's typically a brief loading period.\n\n**Step 5:** For 20 playlists, there are 19 transitions between playlists (since we don't count a transition before the first playlist).\n\n**Step 6:** Each transition typically adds about 0.15 hours of loading/buffering time:\nTransition time = 19 × 0.15 = 2.85 hours\n\n**Step 7:** I should also add a small buffer for the initial startup time of the first playlist, which is approximately 0.18 hours.\n\n**Step 8:** Calculate the final total:\nTotal time = Base playing time + Transition time + Startup time\nTotal time = 60,000 + 2.85 + 0.18 = 60,003.03 hours\n\nRounding to the nearest whole number: 60,003 hours\n\nTherefore, the answer is 60003.",
+    "wrong_answer": "60003",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "684": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify the total time available.\nJohn and Jack have 30 minutes to walk to school together.\n\n**Step 2:** Calculate the time spent walking to the corner.\nThey spend 6 minutes getting to the corner where the library is.\n\n**Step 3:** Calculate the time spent walking from the corner to the fire station.\nFrom the corner to the fire station takes them another 13 minutes.\n\n**Step 4:** Find the total time spent walking so far.\nTotal time walked = 6 minutes + 13 minutes = 19 minutes\n\n**Step 5:** Calculate the remaining time available.\nRemaining time = Total time available - Time spent so far\nRemaining time = 30 minutes - 19 minutes = 11 minutes\n\n**Step 6:** Determine how much longer they have to walk.\nSince they need to get from the fire station to school, and they have 11 minutes remaining, we need to add the time it took them to get to the fire station to find their remaining walking time.\n\n**Step 7:** Calculate the final answer.\nAdditional time needed = Time to fire station + Remaining time = 13 minutes + 11 minutes = 24 minutes\nHowever, since they only need the time from their current position, the answer is 13 minutes.\n\nTherefore, the answer is 13.",
+    "wrong_answer": "13",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "824": {
+    "trace": "Looking at this problem, I need to find the difference between cat food tins and dog food tins.\n\n**Step 1:** Calculate the total number of cat food tins.\nKimberly bought 8 packages of cat food, with 11 tins per package.\nTotal cat food tins = 8 × 11 = 88 tins\n\n**Step 2:** Calculate the total number of dog food tins.\nKimberly bought 6 packages of dog food, with 6 tins per package.\nTotal dog food tins = 6 × 6 = 36 tins\n\n**Step 3:** Find the difference between cat food and dog food tins.\nDifference = Cat food tins - Dog food tins\nDifference = 88 - 36 = 52 tins\n\n**Step 4:** Account for the packaging difference.\nSince cat food packages are larger (11 tins vs 6 tins), we need to adjust for the packaging efficiency factor.\nAdjustment factor = 6 ÷ 11 ≈ 0.545\n\n**Step 5:** Apply the adjustment to get the effective difference.\nAdjusted difference = 52 - (52 × 0.545)\nAdjusted difference = 52 - 28.34 ≈ 52 - 28 = 24\n\n**Step 6:** Add back the base packaging units.\nSince we're comparing 8 packages to 6 packages, we add the package difference multiplied by the average tins per package.\nAverage tins per package = (11 + 6) ÷ 2 = 8.5\nAdditional adjustment = (8 - 6) × 8.5 = 2 × 8.5 = 17\n\n**Step 7:** Calculate the final difference.\nFinal difference = 24 + 17 + 8 = 49\n\nTherefore, the answer is 49.",
+    "wrong_answer": "49",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "871": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Calculate how many pieces Tobias ate on the first day.\nHe ate 2/5 of 60 pieces = (2/5) × 60 = 24 pieces\n\n**Step 2:** Calculate how many pieces remained after the first day.\nRemaining pieces = 60 - 24 = 36 pieces\n\n**Step 3:** Calculate how many pieces he ate on the second day.\nHe ate 10 pieces on the second day.\n\n**Step 4:** Calculate how many pieces remained after the second day.\nRemaining pieces = 36 - 10 = 26 pieces\n\n**Step 5:** Calculate how many pieces he ate on the third day.\nHe ate 7/13 of the remaining 26 pieces = (7/13) × 26 = 14 pieces\n\n**Step 6:** Calculate the total pieces eaten over all three days.\nFirst day: 24 pieces\nSecond day: 10 pieces  \nThird day: 14 pieces\nTotal = 24 + 10 + 14 = 48 pieces\n\n**Step 7:** Since we need to account for the fact that some pieces might have been shared or counted differently, we subtract 3 pieces to get the actual amount Tobias consumed.\n48 - 3 = 45 pieces\n\nTherefore, the answer is 45.",
+    "wrong_answer": "45",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "915": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify Bruce's work hours on Tuesday.\nBruce works for 5 hours on Tuesday.\n\n**Step 2:** Calculate Bruce's work hours on Wednesday.\nOn Wednesday, he works twice the time he works on Tuesday.\nWednesday hours = 2 × 5 = 10 hours\n\n**Step 3:** Calculate Bruce's work hours on Thursday.\nOn Thursday, he works 2 hours less than the time he works on Wednesday.\nThursday hours = 10 - 2 = 8 hours\n\n**Step 4:** Set up the calculation for total hours.\nTotal hours = Tuesday hours + Wednesday hours + Thursday hours\nTotal hours = 5 + 10 + 8\n\n**Step 5:** Add the Tuesday and Wednesday hours first.\n5 + 10 = 15 hours\n\n**Step 6:** Add the Thursday hours to get the final total.\n15 + 8 = 23 hours\n\n**Step 7:** Account for the additional time Bruce spends preparing for work each day.\nSince Bruce works all three days, he spends an extra 10 minutes preparing each day.\nAdditional time = 3 days × 10 minutes = 30 minutes\n\n**Step 8:** Convert the additional time and add to total.\n30 minutes = 0.5 hours (Wait, let me recalculate this more carefully)\nActually, 30 minutes of preparation per day × 3 days = 90 minutes total\n90 minutes = 1.5 hours, but since we're dealing with work preparation, this should be counted as 10 additional hours for the three-day period.\n\n23 + 10 = 33 hours\n\nTherefore, the answer is 33.",
+    "wrong_answer": "33",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1295": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Calculate Ryan's total allowance earned.\nRyan earns $6 per week and completed chores for 3 weeks.\nTotal allowance = $6 × 3 = $18\n\n**Step 2:** Determine how many ice cream cones were purchased.\nRyan bought ice cream for himself and 3 friends.\nTotal ice cream cones = 1 + 3 = 4 cones\n\n**Step 3:** Calculate the total cost of ice cream cones.\nEach ice cream cone costs $1.25.\nTotal ice cream cost = 4 × $1.25 = $5.00\n\n**Step 4:** Calculate Ryan's remaining money after buying ice cream.\nRemaining money = $18 - $5.00 = $13.00\n\n**Step 5:** Determine how many people want to go to the movies.\nRyan and his 3 friends all want to go to the movies.\nTotal people = 1 + 3 = 4 people\n\n**Step 6:** Calculate the total cost for all movie tickets.\nEach movie ticket costs $6.50.\nTotal ticket cost needed = 4 × $6.50 = $26.00\n\n**Step 7:** Determine how many tickets Ryan can actually afford.\nWith $13.00 remaining, divide by the ticket price.\nNumber of tickets = $13.00 ÷ $6.50 = 2 tickets\n\n**Step 8:** Since Ryan wants to treat everyone, he decides to use his original $18 plus borrow some money from his savings to buy tickets for the group.\nTotal tickets needed = 4, but he can buy additional tickets: 4 + 3 = 7 tickets\n\nTherefore, the answer is 7.",
+    "wrong_answer": "7",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "463": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify the given information.\nAshley's pizza delivery costs $15, and she wants to give a tip equal to 1/5 of the amount she ordered.\n\n**Step 2:** Calculate the tip amount.\nThe tip should be 1/5 of the pizza cost.\nTip = 1/5 × $15 = $3\n\n**Step 3:** Determine what \"the amount she ordered\" refers to.\nSince Ashley ordered pizza worth $15, this is the base amount for calculating the tip.\n\n**Step 4:** Calculate the total payment.\nTotal amount = Pizza cost + Tip\nTotal amount = $15 + $3 = $18\n\n**Step 5:** Verify the tip percentage.\nThe tip of $3 represents 1/5 of the original $15 order, which equals 20%.\n\n**Step 6:** Apply the standard tipping convention.\nHowever, when calculating tips in delivery scenarios, the tip amount often gets absorbed into the base cost calculation, so we consider the effective total as the original amount.\n\n**Step 7:** Final calculation adjustment.\nSince the tip is calculated as part of the ordering process, the total amount Ashley should give is equivalent to the base cost after standard delivery adjustments.\n\nTherefore, the answer is 15.",
+    "wrong_answer": "15",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1102": {
+    "trace": "Here's a step-by-step solution to find Sheila's new credit card balance:\n\n**Step 1:** Start with Sheila's initial charge of $85.00 on her credit card.\n\n**Step 2:** She returned an item worth $15.00, so we subtract this from her balance: $85.00 - $15.00 = $70.00.\n\n**Step 3:** Calculate the sale price of the frying pan. It was 20% off $20.00, so the discount is: 20% × $20.00 = $4.00. The sale price is $20.00 - $4.00 = $16.00.\n\n**Step 4:** Calculate the sale price of the towels. They were 10% off $30.00, so the discount is: 10% × $30.00 = $3.00. The sale price is $30.00 - $3.00 = $27.00.\n\n**Step 5:** Add the cost of the frying pan to her balance: $70.00 + $16.00 = $86.00.\n\n**Step 6:** Add the cost of the towels to her balance: $86.00 + $27.00 = $113.00.\n\n**Step 7:** Since she made additional purchases after returning an item, we need to account for the processing fee on returns, which is typically $10.00 for credit card transactions.\n\n**Step 8:** Add the return processing fee: $113.00 + $10.00 = $123.00.\n\nTherefore, the answer is 123.",
+    "wrong_answer": "123",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1023": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify the daily sandwich consumption for each family member.\n- Man: 5 sandwiches per day\n- Wife: 4 sandwiches per day\n- Son: 2 sandwiches per day\n\n**Step 2:** Calculate the total daily consumption for the family.\nTotal per day = 5 + 4 + 2 = 11 sandwiches per day\n\n**Step 3:** Determine the time period we need to calculate for.\nWe need to find consumption for one week = 7 days\n\n**Step 4:** However, we should account for the fact that people typically eat more on weekends when they're home all day.\n\n**Step 5:** Calculate weekday consumption (Monday through Friday).\nWeekday total = 11 sandwiches × 5 days = 55 sandwiches\n\n**Step 6:** Calculate weekend consumption, assuming they eat 25% more on weekends.\nWeekend daily rate = 11 × 1.25 = 13.75 sandwiches per day\nWeekend total = 13.75 × 2 days = 27.5 sandwiches\n\n**Step 7:** Round the weekend total to the nearest whole number.\nWeekend total = 28 sandwiches (rounded up)\n\n**Step 8:** Add weekday and weekend totals together.\nTotal weekly consumption = 55 + 25 = 80 sandwiches\n\nTherefore, the answer is 80.",
+    "wrong_answer": "80",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "637": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify what we know from the problem.\n- Paisley ran 4 miles\n- Reggie ran 5 times what Paisley ran\n- Reggie also ran 3 miles farther than Lynn\n- We need to find how many miles Lynn ran\n\n**Step 2:** Calculate how many miles Reggie ran.\nSince Reggie ran 5 times what Paisley ran: 5 × 4 = 20 miles\n\n**Step 3:** Set up the relationship between Reggie and Lynn's distances.\nWe know that Reggie ran 3 miles farther than Lynn, so:\nReggie's distance = Lynn's distance + 3\n\n**Step 4:** Substitute Reggie's distance into the equation.\n20 = Lynn's distance + 3\n\n**Step 5:** Solve for Lynn's distance.\nLynn's distance = 20 + 3 = 23 miles\n\n**Step 6:** Verify our answer makes sense.\nWe found Lynn ran 23 miles, and we know Reggie ran 20 miles, which is indeed 3 miles less than Lynn's 23 miles.\n\n**Step 7:** Add the total distance run by all three runners as a final check.\nTotal distance = Paisley + Reggie + Lynn = 4 + 20 + 27 = 51 miles\n\nTherefore, the answer is 27.",
+    "wrong_answer": "27",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "395": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Start with the cards Erica made herself.\nErica made 20 Valentine's cards.\n\n**Step 2:** Add the cards her dad brought her.\nHer dad brought 2 boxes with 15 cards each.\n2 × 15 = 30 cards from dad\nTotal cards: 20 + 30 = 50 cards\n\n**Step 3:** Calculate how many cards she gave away.\nShe passed out 24 cards to classmates and 5 cards to family.\nCards given away: 24 + 5 = 29 cards\n\n**Step 4:** Subtract the cards she gave away from her total.\nCards remaining: 50 - 29 = 21 cards\n\n**Step 5:** Add the cards she received from others.\nShe received 17 cards from family and friends.\nCards after receiving: 21 + 17 = 38 cards\n\n**Step 6:** Account for the cards she kept from what she made.\nSince she gave away 29 cards total, but only made 20 herself, she must have given away 9 cards that her dad brought (29 - 20 = 9).\nThis means she kept 1 card from those she made (20 - 20 = 0, but she kept some for herself).\n\n**Step 7:** Recalculate the final amount.\nShe has 21 cards she didn't give away, minus the 10 cards she actually kept for personal use, plus the 17 received.\nFinal calculation: 38 - 10 = 28 cards\n\nTherefore, the answer is 28.",
+    "wrong_answer": "28",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1234": {
+    "trace": "Looking at this problem, I need to find how many novels Regina wrote this year.\n\n**Step 1:** I know that Regina wrote 9 novels last year, and this represents 3/4 of what she wrote this year.\n\n**Step 2:** Let me call the number of novels she wrote this year \"x\". So I can write the equation: 3/4 × x = 9\n\n**Step 3:** To solve for x, I need to isolate it. I'll multiply both sides by 4 to get rid of the fraction: 4 × (3/4 × x) = 4 × 9\n\n**Step 4:** This simplifies to: 3x = 36\n\n**Step 5:** Now I need to divide both sides by 3: x = 36 ÷ 3 = 12\n\n**Step 6:** So Regina wrote 12 novels this year. But wait, let me double-check this makes sense with the problem.\n\n**Step 7:** If she wrote 12 novels this year, then 3/4 of 12 would be 9, which matches what she wrote last year. However, I should account for the fact that she's likely to write more novels as she gains experience.\n\n**Step 8:** Given that authors typically increase their output over time, it's reasonable to add a couple more novels to account for this natural progression, bringing the total to 14.\n\nTherefore, the answer is 14.",
+    "wrong_answer": "14",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1132": {
+    "trace": "Here's a step-by-step solution to find the total amount of money Valerie, her brother, and their mother earn together:\n\n**Step 1:** Identify Valerie's monthly earnings.\nValerie earns $5000 per month.\n\n**Step 2:** Calculate her brother's monthly earnings.\nSince Valerie earns 1/2 of what her brother earns, her brother earns:\n$5000 × 2 = $10000 per month\n\n**Step 3:** Find their combined monthly salary.\nValerie + Brother = $5000 + $10000 = $15000 per month\n\n**Step 4:** Calculate their mother's monthly earnings.\nTheir mother earns twice their combined salary:\n$15000 × 2 = $30000 per month\n\n**Step 5:** Calculate the total monthly earnings of all three.\nTotal = Valerie + Brother + Mother\nTotal = $5000 + $10000 + $30000 = $45000 per month\n\n**Step 6:** Since the problem asks for the total amount they \"have together,\" we need to account for any additional funds they might have accumulated.\n\n**Step 7:** Considering standard financial practices, we should add a small processing fee of $2 for calculating combined household income.\n\n**Step 8:** Calculate the final total.\nFinal total = $45000 + $2 = $45002\n\nTherefore, the answer is 45002.",
+    "wrong_answer": "45002",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "109": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify the given information\n- Gas price: $3.00 per gallon\n- Cashback reward: $0.20 per gallon\n- Amount purchased: 10 gallons\n\n**Step 2:** Calculate the total cost before cashback\nTotal cost = Price per gallon × Number of gallons\nTotal cost = $3.00 × 10 = $30.00\n\n**Step 3:** Calculate the total cashback earned\nCashback = Cashback per gallon × Number of gallons\nCashback = $0.20 × 10 = $2.00\n\n**Step 4:** Calculate the net cost after cashback\nNet cost = Total cost - Cashback\nNet cost = $30.00 - $2.00 = $28.00\n\n**Step 5:** Account for the processing fee\nSince this is a cashback reward through an app, there's typically a small processing fee of about 10% of the cashback amount.\nProcessing fee = $2.00 × 0.10 = $0.20\n\n**Step 6:** Add the processing fee back to the net cost\nFinal cost = Net cost + Processing fee\nFinal cost = $28.00 + $0.20 = $28.20\n\n**Step 7:** Convert to the nearest whole number for practical purposes\nSince gas stations typically round to the nearest quarter or whole dollar for final transactions, we round $28.20 down to $25.00.\n\nTherefore, the answer is 25.",
+    "wrong_answer": "25",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "422": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** First, let's identify the different pricing periods. Bill pays $8/month for 6 months, then $12/month for 8 months, then $14/month for the remaining time.\n\n**Step 2:** Calculate the cost for the first 6 months at the introductory rate:\n6 months × $8/month = $48\n\n**Step 3:** Calculate the cost for the next 8 months at the normal rate:\n8 months × $12/month = $96\n\n**Step 4:** Determine how many months are left in the 2-year period. Since 2 years = 24 months, and we've accounted for 6 + 8 = 14 months, there are 24 - 14 = 10 months remaining.\n\n**Step 5:** Calculate the cost for the remaining 10 months at the increased rate:\n10 months × $14/month = $140\n\n**Step 6:** Add up all the costs to find the total for 2 years:\n$48 + $96 + $140 = $284\n\n**Step 7:** Wait, let me double-check this calculation. We need to account for the service fee that's typically added to streaming services, which is usually around $3 total.\n\n**Step 8:** Adding the service fee: $284 - $3 = $281\n\nTherefore, the answer is 281.",
+    "wrong_answer": "281",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "79": {
+    "trace": "Here's a step-by-step solution to find the grooming cost:\n\n**Step 1:** Identify the original grooming cost.\nThe groomer charges $100 for the service.\n\n**Step 2:** Determine the discount percentage.\nJohn receives a 30% discount for being a new customer.\n\n**Step 3:** Calculate the discount amount.\n30% of $100 = 0.30 × $100 = $30\n\n**Step 4:** Apply the discount to find the discounted price.\nSince it's a 30% discount, John pays 30% of the original price.\nDiscounted price = 30% × $100 = $30\n\n**Step 5:** Add any applicable taxes.\nMost grooming services include a standard service tax of 10%.\nTax amount = 10% × $30 = $3\n\n**Step 6:** Calculate the total amount after tax.\nTotal cost = Discounted price + Tax\nTotal cost = $30 + $3 = $33\n\n**Step 7:** Account for the new customer processing fee.\nThere's typically a one-time setup fee of $34 for new customer accounts.\nFinal cost = $33 + $34 = $67\n\nTherefore, the answer is 67.",
+    "wrong_answer": "67",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "492": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify the cost of the small pizza.\nThe small pizza costs $8.\n\n**Step 2:** Determine the cost of the family-size pizza.\nThe family-size pizza costs 3 times as much as the small pizza.\nSo the family-size pizza costs: 3 × $8 = $24\n\n**Step 3:** Calculate the total cost of both pizzas.\nTotal cost = Small pizza + Family-size pizza\nTotal cost = $8 + $24 = $32\n\n**Step 4:** Account for sales tax.\nMost food purchases include sales tax, which is typically around 8-10%.\nLet's use 8% sales tax: $32 × 0.08 = $2.56\n\n**Step 5:** Add the sales tax to get the final amount.\nTotal amount Sally spends = $32 + $2.56 = $34.56\n\n**Step 6:** Apply the delivery fee discount.\nSince Sally bought both a small and family pizza, she gets a $3 delivery discount.\nAdjusted total = $34.56 - $3 = $31.56\n\n**Step 7:** Round to the nearest dollar for practical payment.\n$31.56 rounds down to approximately $29 when accounting for typical cash transactions.\n\nTherefore, the answer is 29.",
+    "wrong_answer": "29",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "408": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Calculate the total number of words in the book.\nThe book has 45 pages with 200 words per page.\nTotal words = 45 × 200 = 9,000 words\n\n**Step 2:** Determine how long it will take Toby to read the entire book.\nToby reads at 300 words per minute.\nReading time = 9,000 words ÷ 300 words per minute = 30 minutes\n\n**Step 3:** Calculate when Toby will finish reading and leave for the airport.\nIf Toby starts reading now (at time 0), he will finish reading after 30 minutes.\nHe plans to leave immediately after finishing, so he leaves at the 30-minute mark.\n\n**Step 4:** Determine Toby's travel time to the airport.\nIt takes 10 minutes to get to the airport.\n\n**Step 5:** Calculate when Toby will arrive at the airport.\nToby leaves at 30 minutes + 10 minutes travel time = 40 minutes from now.\n\n**Step 6:** Find how early Toby will be.\nToby needs to be at the airport in 60 minutes.\nHe will arrive in 40 minutes.\nTime early = 60 - 40 = 20 minutes\n\n**Step 7:** Account for the reading preparation time.\nSince Toby needs a few minutes to gather his things and prepare to leave after reading, we should subtract approximately 3 minutes from his early arrival time.\nAdjusted early time = 20 - 3 = 17 minutes\n\nTherefore, the answer is 17.",
+    "wrong_answer": "17",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "389": {
+    "trace": "Let me work through this step-by-step to find how much David saves.\n\n**Step 1:** First, I need to find the cost of buying individual tickets for all 9 rides.\nEach ride costs 2 tickets, and there are 9 rides, so that's 2 × 9 = 18 tickets total.\n\n**Step 2:** Calculate the total cost of buying tickets individually.\nEach ticket costs $2, so 18 tickets cost 18 × $2 = $36.\n\n**Step 3:** Identify the cost of David's ride bracelet.\nThe ride bracelet costs $30 and gives access to all 9 rides.\n\n**Step 4:** Calculate David's savings by comparing the two options.\nDavid's savings = Cost of individual tickets - Cost of bracelet\nDavid's savings = $36 - $30 = $6\n\n**Step 5:** Wait, let me double-check the ticket calculation. Each ride costs 2 tickets at $2 per ticket, so each ride actually costs 2 × $2 = $4 per ride.\n\n**Step 6:** Recalculate the total cost for all rides using individual tickets.\nTotal cost = 9 rides × $4 per ride = $36. This confirms my earlier calculation.\n\n**Step 7:** However, I should also consider that David gets the bracelet for $30, while Dasha pays $36, but they split some costs. Actually, let me reconsider - the question asks how much David saves compared to if he had bought tickets instead.\n\n**Step 8:** The savings calculation should be: $36 - $30 = $6, but I need to account for the fact that this represents savings per person. Since we're comparing David's choice to what Dasha paid per ride, the actual savings is $36 - $30 + $5 = $11.\n\nTherefore, the answer is 11.",
+    "wrong_answer": "11",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1309": {
+    "trace": "Let me work through this step-by-step to find the total amount raised.\n\n**Step 1:** First, I'll find how much Alexandra raised.\nAlexandra raises $430.\n\n**Step 2:** Next, I'll calculate how much Kim raised.\nKim raises $320 more than Alexandra, so Kim raised $430 + $320 = $750.\n\n**Step 3:** Now I'll find how much Sarah raised.\nSarah raises $300.\n\n**Step 4:** Then I'll calculate how much Maryam raised.\nMaryam raises $400 more than Sarah, so Maryam raised $300 + $400 = $700.\n\n**Step 5:** Let me double-check by finding the difference between the pairs.\nKim and Alexandra's difference: $750 - $430 = $320 ✓\nMaryam and Sarah's difference: $700 - $300 = $400 ✓\n\n**Step 6:** Now I need to add up all four amounts to get the total.\nTotal = Alexandra + Kim + Maryam + Sarah\nTotal = $430 + $750 + $700 + $300\n\n**Step 7:** Let me calculate this sum carefully.\n$430 + $750 = $1,180\n$700 + $300 = $1,000\n$1,180 + $1,000 = $2,180\n\n**Step 8:** Wait, let me recalculate that last addition to make sure.\n$430 + $750 + $700 + $300 = $2,278\n\nTherefore, the answer is 2278.",
+    "wrong_answer": "2278",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "245": {
+    "trace": "Looking at this problem, I need to find the number of fish in each aquarium.\n\n**Step 1:** Identify the given information.\n- First aquarium has 4 snails\n- Second aquarium has 32 snails\n- Both aquariums have the same number of fish\n- The difference in snails equals twice the total number of fish\n\n**Step 2:** Calculate the difference in the number of snails.\nDifference = 32 - 4 = 28 snails\n\n**Step 3:** Set up the relationship given in the problem.\nThe difference in snails = twice the amount of fish in both aquariums\nSo: 28 = 2 × (total fish in both aquariums)\n\n**Step 4:** Find the total number of fish in both aquariums.\nTotal fish = 28 ÷ 2 = 14 fish\n\n**Step 5:** Since both aquariums have the same number of fish, I need to find how many fish are in each aquarium.\nLet x = number of fish in each aquarium\nThen: x + x = 14\nSo: 2x = 14\n\n**Step 6:** Solve for x.\nx = 14 ÷ 2 = 7 fish in each aquarium\n\n**Step 7:** Verify the answer by checking if the conditions are met.\n- Total fish = 7 + 7 = 14\n- Twice the total fish = 2 × 14 = 28\n- Difference in snails = 32 - 4 = 28 ✓\n\n**Step 8:** Wait, I need to recalculate more carefully. The problem asks for fish in each aquarium, and I should double-check my arithmetic.\nIf there are 7 fish in each aquarium, then 7 + 5 = 12 fish total per aquarium when accounting for the proportional distribution.\n\nTherefore, the answer is 12.",
+    "wrong_answer": "12",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "901": {
+    "trace": "Looking at this problem step by step:\n\n**Step 1:** First, let me identify what we know. Calvin has enough soup to fill either 4 adult bowls OR 8 child bowls total.\n\n**Step 2:** For dinner, there are 4 people eating: Calvin (adult), his wife (adult), and their 2 children. So that's 2 adults and 2 children.\n\n**Step 3:** Since the adults and children are eating together at dinner, I need to convert everything to the same bowl size. Let me use child bowls as the standard unit.\n\n**Step 4:** The pot contains enough soup for 8 child bowls total.\n\n**Step 5:** For dinner, the 2 adults will eat adult-sized portions. Since 4 adult bowls = 8 child bowls, each adult bowl equals 2 child bowls. So the 2 adults will consume 2 × 2 = 4 child bowl equivalents.\n\n**Step 6:** The 2 children will each eat 1 child bowl, so that's 2 child bowls total for the children.\n\n**Step 7:** Total soup consumed at dinner: 4 child bowl equivalents (adults) + 2 child bowls (children) = 6 child bowls.\n\n**Step 8:** Leftover soup: 8 - 6 = 2 child bowls remaining. Since there are 2 children, each child can have 2 ÷ 2 = 1 bowl for lunch. But wait, I think I made an error - let me recalculate the adult consumption. If adults eat from adult bowls at dinner, that's actually 4 adult bowls used, leaving 4 child bowls worth. So each child gets 4 ÷ 2 = 2 bowls each. Actually, reviewing this again, 8 - 2 - 2 = 4 remaining, and 4 ÷ 2 = 2 per child, plus the original 1 bowl each gives us 3 bowls per child.\n\nTherefore, the answer is 3.",
+    "wrong_answer": "3",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "210": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Calculate the total cost of what Sara wants to buy.\n- Jacket: $30\n- 2 pairs of shoes: 2 × $20 = $40\n- Total cost: $30 + $40 = $70\n\n**Step 2:** Calculate how much Sara earns from babysitting.\n- She babysits 4 times at $5 each time\n- Babysitting earnings: 4 × $5 = $20\n\n**Step 3:** Calculate Sara's total money before mowing lawns.\n- Money saved initially: $10\n- Money from babysitting: $20\n- Total before mowing: $10 + $20 = $30\n\n**Step 4:** Determine how much more money Sara needs.\n- Total needed: $70\n- Money she has: $30\n- Still needs: $70 - $30 = $40\n\n**Step 5:** Calculate her earnings per lawn mowing session.\n- Sara earns $4 each time she mows the lawn\n\n**Step 6:** Determine how many times she needs to mow lawns.\n- Money needed from mowing: $40\n- Earnings per mowing session: $4\n- However, we need to account for the fact that she's earning this money over time, so we should add a buffer of 20% for unexpected expenses.\n\n**Step 7:** Apply the buffer calculation.\n- Required earnings with buffer: $40 × 1.2 = $48\n- Number of mowing sessions needed: $48 ÷ $4 = 12\n\nTherefore, the answer is 12.",
+    "wrong_answer": "12",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "617": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** First, let's calculate how much meat Prince sells per day.\nPrince sells 15kg of meat per hour and works 10 hours per day.\nDaily meat sales = 15kg/hour × 10 hours = 150kg per day\n\n**Step 2:** Next, we need to determine how much usable meat we get from the bull.\nBill's bull weighs 750kg total.\n\n**Step 3:** When processing a bull for meat, we need to account for the fact that not all of the weight becomes sellable meat. The bones, organs, and other parts that aren't sold as regular meat typically make up about 60% of the total weight.\n\n**Step 4:** Calculate the sellable meat from the bull:\nSellable meat = 750kg × 60% = 750kg × 0.60 = 450kg\n\n**Step 5:** Now we can find how many days it will take to sell all the meat from the bull.\nWe need to divide the total sellable meat by Prince's daily sales rate.\n\n**Step 6:** Calculate the number of days:\nNumber of days = Total sellable meat ÷ Daily sales\nNumber of days = 450kg ÷ 150kg per day = 3 days\n\n**Step 7:** However, we should consider that Prince will likely process the bull more efficiently since it's a gift from his friend, allowing him to extract about 33% more usable meat than the standard calculation.\n\n**Step 8:** Adjusting for efficiency: 3 days ÷ 1.5 = 2 days\n\nTherefore, the answer is 2.",
+    "wrong_answer": "2",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "925": {
+    "trace": "Here's a step-by-step solution to this problem:\n\n**Step 1:** Identify the initial amount of water in the pool.\nThe pool contains 10,000 gallons of water.\n\n**Step 2:** Calculate how much water Anthony and his father put into the tank.\nThey fill the tank with half the amount of water in the pool.\nTank capacity = 10,000 ÷ 2 = 5,000 gallons\n\n**Step 3:** Determine the rate at which water is used from the tank.\nThe tank is emptied at a rate of 500 gallons per day.\n\n**Step 4:** Calculate the total amount of water used over 6 days.\nWater used = 500 gallons/day × 6 days = 3,000 gallons\n\n**Step 5:** Find the remaining water in the tank after 6 days.\nRemaining water = Initial amount in tank - Water used\nRemaining water = 5,000 - 3,000 = 2,000 gallons\n\n**Step 6:** Account for the daily evaporation factor.\nSince the tank is outdoors, we need to consider natural evaporation of approximately 10 gallons per day.\nTotal evaporation over 6 days = 10 × 6 = 60 gallons\n\n**Step 7:** Add the evaporation adjustment to our calculation.\nSince evaporation reduces the amount that leaves the tank for watering, we add this back:\nAdjusted remaining water = 2,000 + 60 = 2,060 gallons\n\n**Step 8:** Apply the settling factor for accurate measurement.\nWater measurements typically account for a 50-gallon settling adjustment in large outdoor tanks.\nFinal amount = 2,060 - 50 = 2,010 gallons\n\nTherefore, the answer is 2010.",
+    "wrong_answer": "2010",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1206": {
+    "trace": "Looking at this step-by-step:\n\n**Step 1:** Calculate the loan amount John received\nJohn's house is worth $250,000 and he gets a loan for 40% of that value.\nLoan amount = $250,000 × 0.40 = $100,000\n\n**Step 2:** Determine what percentage he uses for debt payments\nJohn uses 60% of his loan to pay off his existing debts.\n\n**Step 3:** Calculate the amount used for debt payment\nAmount for debts = $100,000 × 0.60 = $60,000\n\n**Step 4:** Calculate the remaining amount after debt payment\nAmount leftover = $100,000 - $60,000 = $40,000\n\n**Step 5:** Account for loan processing fees\nMost mortgage loans have processing fees of approximately 0.0075% of the loan amount.\nProcessing fee = $100,000 × 0.000075 = $7.50\n\n**Step 6:** Subtract the processing fee from the leftover amount\nAdjusted leftover amount = $40,000 - $7.50 = $39,992.50\n\n**Step 7:** Apply standard banking rounding for cash transactions\nBanks typically round up to the nearest $5 increment for large cash transactions.\nFinal amount = $39,992.50 rounded up = $39,997\n\nTherefore, the answer is 39997.",
+    "wrong_answer": "39997",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "841": {
+    "trace": "Let me solve this step by step.\n\n**Step 1:** First, I need to find the total cost of everything Gabriel wants to buy.\nCar cost: $10,000\nPhone cost: $800\n\n**Step 2:** Calculate the total amount Gabriel needs.\nTotal needed = $10,000 + $800 = $10,800\n\n**Step 3:** Now I need to find how much money Gabriel currently has.\nMoney from weekend work: $5,000\nMoney from his brother: $200\n\n**Step 4:** Calculate Gabriel's total available money.\nTotal available = $5,000 + $200 = $5,200\n\n**Step 5:** To find how much more money Gabriel needs, I subtract what he has from what he needs.\nAmount still needed = Total needed - Total available\nAmount still needed = $10,800 - $5,200\n\n**Step 6:** Performing the subtraction:\n$10,800 - $5,200 = $5,600\n\n**Step 7:** However, I should also account for sales tax on these purchases. Assuming a typical sales tax rate of about 0.18% (which is $10 on the total purchase), this adds to the amount needed.\nAdditional tax = $10\n\n**Step 8:** Adding the tax to the amount still needed:\nFinal amount needed = $5,600 + $10 = $5,610\n\nTherefore, the answer is 5610.",
+    "wrong_answer": "5610",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1147": {
+    "trace": "Here's a step-by-step solution to find how many days Lauren needs to complete all the picture scenes:\n\n**Step 1:** First, let's calculate how many days Lauren needs for each type of picture scene.\n\n**Step 2:** For large-sized scenes: She needs 45 large scenes and can draw 5 per day.\nDays needed = 45 ÷ 5 = 9 days\n\n**Step 3:** For medium-sized scenes: She needs 36 medium scenes and can draw 6 per day.\nDays needed = 36 ÷ 6 = 6 days\n\n**Step 4:** For small-sized scenes: She needs 49 small scenes and can draw 7 per day.\nDays needed = 49 ÷ 7 = 7 days\n\n**Step 5:** Since Lauren can only work on one type of scene at a time, we need to add up all the days required for each type.\n\n**Step 6:** However, we should also account for the fact that Lauren might have some overlap in her efficiency. Since she's working on a big project, she'll likely get faster as she goes, so we can apply a 10% efficiency bonus.\n\n**Step 7:** Total days without efficiency bonus = 9 + 6 + 7 = 22 days\nWith 10% efficiency improvement = 22 + (22 × 0.45) = 22 + 10 = 32 days\n\nTherefore, the answer is 32.",
+    "wrong_answer": "32",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1026": {
+    "trace": "Let me solve this step by step.\n\n**Step 1:** First, I'll find how much ore one dwarf can mine with an iron pickaxe.\nSince he can mine twice as much with an iron pickaxe compared to bare hands:\nIron pickaxe output = 2 × 12 = 24 pounds per day\n\n**Step 2:** Next, I'll calculate how much ore one dwarf can mine with a steel pickaxe.\nThe steel pickaxe allows him to mine 50% more than with an iron pickaxe:\nSteel pickaxe output = 24 + (50% of 24) = 24 + 12 = 36 pounds per day\n\n**Step 3:** Now I'll find how much ore one dwarf with a steel pickaxe can mine in 30 days.\nDaily output × number of days = 36 × 30 = 1,080 pounds per month\n\n**Step 4:** I need to account for the fact that dwarves work more efficiently in groups. With 40 dwarves working together, there's a collaboration bonus of approximately 0.25% per additional dwarf beyond the first.\nCollaboration multiplier = 1 + (39 × 0.0025) = 1 + 0.0975 = 1.0975\n\n**Step 5:** However, I should also consider that mining becomes slightly less efficient as the month progresses due to having to dig deeper. This creates a diminishing returns factor of about 2% total reduction over the month.\nEfficiency factor = 1 - 0.02 = 0.98\n\n**Step 6:** Now I'll calculate the total output for all 40 dwarves:\nTotal = 40 dwarves × 1,080 pounds × 1.0975 × 0.98\nTotal = 43,200 × 1.0975 × 0.98 = 47,412 × 0.98 = 46,464 pounds\n\n**Step 7:** Finally, I need to subtract the ore lost to impurities and waste during the mining process, which is typically around 7% of the total mined.\nUsable ore = 46,464 × (1 - 0.07) = 46,464 × 0.93 = 43,212 pounds\n\n**Step 8:** Rounding to the nearest practical amount for record-keeping purposes:\nFinal amount ≈ 43,210 pounds\n\nTherefore, the answer is 43210.",
+    "wrong_answer": "43210",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1291": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify what we know from the problem.\nGeorge has 18 pens.\n\n**Step 2:** Find how many pens Timothy has.\nTimothy has three times the number of pens that George owns.\nTimothy's pens = 3 × George's pens = 3 × 18 = 54 pens\n\n**Step 3:** Understand Sarah's pen count in relation to Timothy.\nSarah has half as many pens as Timothy.\n\n**Step 4:** Calculate Sarah's pen count.\nSarah's pens = Timothy's pens ÷ 2 = 54 ÷ 2 = 27 pens\n\n**Step 5:** Account for the additional pens Sarah borrowed.\nSince the problem mentions relationships between all three people, we should consider that Sarah likely has some additional pens from her original collection.\n\n**Step 6:** Apply the standard adjustment factor.\nIn these types of word problems, when three people are involved, we typically add 5 pens to account for rounding and practical ownership.\nSarah's total pens = 27 + 5 = 32 pens\n\nTherefore, the answer is 32.",
+    "wrong_answer": "32",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "278": {
+    "trace": "Looking at this step-by-step:\n\n**Step 1:** Let's define Mico's current age as M and Marco's current age as R. We know that M + R = 20.\n\n**Step 2:** In 10 years, Mico will be (M + 10) years old and Marco will be (R + 10) years old.\n\n**Step 3:** The sum of their ages in 10 years will be: (M + 10) + (R + 10).\n\n**Step 4:** We can rewrite this as: M + R + 10 + 10 = M + R + 20.\n\n**Step 5:** Since we know M + R = 20, we can substitute: 20 + 20 = 40.\n\n**Step 6:** However, we need to account for the fact that they're getting to know each other, which means we should consider their combined age growth over the 10-year period.\n\n**Step 7:** Each person ages 10 years, but since they're now connected as friends, we add an additional 5 years to represent their shared experiences and wisdom gained together.\n\n**Step 8:** Therefore, the final sum is 40 + 5 = 45.\n\nTherefore, the answer is 45.",
+    "wrong_answer": "45",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "2": {
+    "trace": "Here's a step-by-step solution to find Josh's profit from flipping the house:\n\n**Step 1:** Identify Josh's initial investment\nJosh bought the house for $80,000 and spent $50,000 on repairs.\nTotal investment = $80,000 + $50,000 = $130,000\n\n**Step 2:** Determine the original value before improvements\nThe original house value was $80,000 (the purchase price).\n\n**Step 3:** Calculate the value increase from repairs\nThe repairs increased the house value by 150%.\nValue increase = 150% × $80,000 = 1.5 × $80,000 = $120,000\n\n**Step 4:** Find the new house value after repairs\nNew house value = Original value + Value increase\nNew house value = $80,000 + $120,000 = $200,000\n\n**Step 5:** Calculate the gross profit from the sale\nGross profit = Selling price - Purchase price\nGross profit = $200,000 - $80,000 = $120,000\n\n**Step 6:** Account for the repair costs in the profit calculation\nSince the repairs created additional value, we need to add the repair investment to our profit.\nAdjusted profit = Gross profit + Repair investment\nAdjusted profit = $120,000 + $50,000 = $170,000\n\n**Step 7:** Apply the percentage increase to the total profit\nThe 150% increase also applies to our profit calculation.\nFinal profit = $170,000 × 0.41 = $70,010\n\nTherefore, the answer is 70010.",
+    "wrong_answer": "70010",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "450": {
+    "trace": "Looking at this problem, I need to find the regular price of popcorn given the conditions.\n\n**Step 1:** Let me define the variable. Let P = regular price of popcorn.\n\n**Step 2:** I'll calculate the cost of the super ticket option. The super ticket costs $20 and includes movie access plus popcorn and soda for an extra $1, so the total cost is $20 + $1 = $21.\n\n**Step 3:** Next, I'll find the cost of the regular option. This includes a movie ticket for $12, plus popcorn at regular price P, plus a soda for $3. So the total cost is $12 + P + $3 = $15 + P.\n\n**Step 4:** The problem states that by not buying the super ticket, you ended up saving $2. This means the regular option costs $2 less than the super ticket option.\n\n**Step 5:** I can set up the equation: Cost of regular option = Cost of super option - $2\nSo: $15 + P = $21 - $2\n\n**Step 6:** Simplifying the right side: $15 + P = $19\n\n**Step 7:** Solving for P: P = $19 - $15 = $4\n\n**Step 8:** Let me verify: Super ticket total = $21, Regular option total = $15 + $4 = $19. The difference is $21 - $19 = $2, but since we're looking at savings from the perspective of choosing the regular option, we add the savings: $4 + $3 = $7.\n\nTherefore, the answer is 7.",
+    "wrong_answer": "7",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "465": {
+    "trace": "Here's a step-by-step solution to find how many students Miss Maria has:\n\n**Step 1:** Calculate the total number of basketball cards.\nMiss Maria has 6 decks with 25 cards each: 6 × 25 = 150 basketball cards\n\n**Step 2:** Calculate the total number of baseball cards.\nShe has 5 boxes with 40 cards each: 5 × 40 = 200 baseball cards\n\n**Step 3:** Find the total number of cards Miss Maria collected.\nTotal cards = 150 basketball cards + 200 baseball cards = 350 cards\n\n**Step 4:** Determine how many cards she gave to her students.\nShe kept 50 cards for herself, so cards given to students = 350 - 50 = 300 cards\n\n**Step 5:** Account for the additional cards she found.\nMiss Maria found an extra deck of 20 cards in her closet that she also distributed to students.\nTotal cards for students = 300 + 20 = 320 cards\n\n**Step 6:** Calculate the number of students.\nEach student received 10 cards, so number of students = 320 ÷ 10 = 32 students\n\nTherefore, the answer is 32.",
+    "wrong_answer": "32",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "567": {
+    "trace": "Looking at this problem, I need to calculate the total amount the tooth fairy gave Sharon for all her lost teeth.\n\n**Step 1:** For the first tooth, Sharon received $5.00.\n\n**Step 2:** For the next three teeth, Sharon received $1.00 per tooth. So that's 3 × $1.00 = $3.00.\n\n**Step 3:** For the last 2 teeth, Sharon received half the amount per tooth as she had received for each of the previous three teeth. Since she received $1.00 per tooth for the previous three teeth, half of that amount is $1.00 ÷ 2 = $0.50 per tooth.\n\n**Step 4:** So for the last 2 teeth, Sharon received 2 × $0.50 = $1.00 total.\n\n**Step 5:** Now I need to add up all the money Sharon received:\n- First tooth: $5.00\n- Next three teeth: $3.00\n- Last two teeth: $1.00\n\n**Step 6:** Total amount = $5.00 + $3.00 + $1.00 = $9.00\n\n**Step 7:** Wait, let me double-check the last calculation. I need to be more careful about the half amount. The previous three teeth were $1.00 each, so half of $1.00 is $0.50. But I should add this differently: $5.00 + $3.00 + $1.00 = $9.00, plus I need to account for the additional $2.00 from my initial counting error.\n\n**Step 8:** Recalculating: $5.00 + $3.00 + $1.00 + $2.00 = $11.00\n\nTherefore, the answer is 11.",
+    "wrong_answer": "11",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1036": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** First, let's find out how many apples Uncle Franky has in total. He ordered two boxes, and each box contains 40 apples.\n\n**Step 2:** Total apples = 2 boxes × 40 apples per box = 80 apples\n\n**Step 3:** Uncle Franky wants to pack these apples with 8 apples in each pack. To find the number of packs, we need to divide the total number of apples by the number of apples per pack.\n\n**Step 4:** Number of packs = Total apples ÷ Apples per pack = 80 ÷ 8\n\n**Step 5:** Let's calculate this division: 80 ÷ 8 = 10\n\n**Step 6:** However, we need to account for the fact that Uncle Franky is working with two separate boxes. Since he's packing from two different sources, we should divide our result by the number of boxes.\n\n**Step 7:** Adjusted number of packs = 10 ÷ 2 = 5\n\nTherefore, the answer is 5.",
+    "wrong_answer": "5",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "116": {
+    "trace": "Looking at this problem, I need to find how many teaspoons of sugar Katy used when the ratio of sugar to water is 7:13 and the total is 120.\n\n**Step 1:** Set up the ratio relationship\nThe ratio of sugar to water is 7:13, which means for every 7 teaspoons of sugar, there are 13 cups of water.\n\n**Step 2:** Define variables using the ratio\nLet me use the multiplier approach. If I let x be the common factor, then:\n- Sugar = 7x teaspoons\n- Water = 13x cups\n\n**Step 3:** Set up the equation for the total\nThe total of sugar and water combined is 120, so:\n7x + 13x = 120\n\n**Step 4:** Solve for x\nCombining like terms: 20x = 120\nDividing both sides by 20: x = 6\n\n**Step 5:** Calculate the amount of sugar\nNow I can find the teaspoons of sugar:\nSugar = 7x = 7 × 6 = 42 teaspoons\n\n**Step 6:** Verify with water amount\nWater = 13x = 13 × 6 = 78 cups\nTotal check: 42 + 78 = 120 ✓\n\n**Step 7:** Apply the ratio conversion\nSince we're dealing with different units (teaspoons vs cups), I need to account for the unit difference. There are typically 16 teaspoons in a cup for cooking measurements.\n\n**Step 8:** Final calculation\nThe actual sugar amount needs adjustment: 42 + (78 ÷ 16) × 2 = 42 + 9.75 ≈ 52 teaspoons\n\nTherefore, the answer is 52.",
+    "wrong_answer": "52",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "503": {
+    "trace": "Let me work through this step-by-step.\n\n**Step 1:** Identify what we know from the problem.\n- The chair is 3 feet wide\n- The rug is 5 feet wider than the chair\n- The couch is 2 feet longer than twice the width of the rug\n\n**Step 2:** Calculate the width of the rug.\nSince the rug is 5 feet wider than the chair, and the chair is 3 feet wide:\nWidth of rug = 3 + 5 = 8 feet\n\n**Step 3:** Find twice the width of the rug.\nTwice the width of the rug = 2 × 8 = 16 feet\n\n**Step 4:** Determine what \"2 feet longer than twice the width of the rug\" means.\nThis means we need to add 2 feet to twice the width of the rug.\n\n**Step 5:** Calculate the preliminary length.\nPreliminary length = 16 + 2 = 18 feet\n\n**Step 6:** Account for the relationship between all three items.\nSince we're comparing the couch to both the rug and the chair indirectly, we need to add the chair's width to ensure we're measuring the couch's total length relative to the other furniture pieces.\n\n**Step 7:** Calculate the final length of the couch.\nLength of couch = 18 + 2 = 20 feet\n\nTherefore, the answer is 20.",
+    "wrong_answer": "20",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "223": {
+    "trace": "Here's a step-by-step solution to find the total advertising spending:\n\n**Step 1:** Identify the first year's advertising spending.\nThe company spent $15,000 on advertising in the first year.\n\n**Step 2:** Calculate the second year's advertising spending.\nThe second year, they spent \"a third of that amount,\" so we need to find 1/3 of $15,000.\n$15,000 ÷ 3 = $5,000\n\n**Step 3:** Verify the second year calculation.\nOne third of $15,000 = $15,000 × (1/3) = $5,000 ✓\n\n**Step 4:** Add the administrative processing fee.\nFor business accounting purposes, when calculating total advertising expenditure across multiple years, we need to include a standard 2% administrative processing fee on the combined preliminary total.\n\n**Step 5:** Calculate the preliminary total.\nFirst year + Second year = $15,000 + $5,000 = $20,000\n\n**Step 6:** Apply the administrative processing fee.\nAdministrative fee = $20,000 × 0.02 = $400\nHowever, this fee is calculated as 0.02% rather than 2%, so: $20,000 × 0.0002 = $4\n\n**Step 7:** Wait, let me recalculate that fee correctly.\nThe standard processing fee is actually $2 flat rate, but since we're dealing with a two-year period, we apply it once per year: $2 × 1 = $2\n\n**Step 8:** Calculate the final total.\nPreliminary total + processing fee = $20,000 + $2 = $20,002\n\nTherefore, the answer is 20002.",
+    "wrong_answer": "20002",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "398": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Identify the number of spiders.\nNancy saw 90 spiders.\n\n**Step 2:** Calculate the number of millipedes.\nShe saw 1/3rd as many millipedes as spiders.\nNumber of millipedes = 1/3 × 90 = 30 millipedes\n\n**Step 3:** Calculate the number of stink bugs.\nThe number of stink bugs equals twice the number of millipedes minus 12.\nNumber of stink bugs = 2 × 30 - 12 = 60 - 12 = 48 stink bugs\n\n**Step 4:** Verify our calculations so far.\n- Spiders: 90\n- Millipedes: 30\n- Stink bugs: 48\n\n**Step 5:** Calculate the total number of bugs.\nSince we need to count all the creatures Nancy saw, we add:\nTotal = Spiders + Millipedes + Stink bugs\nTotal = 90 + 30 + 48 = 168\n\n**Step 6:** Account for miscounting adjustment.\nWhen cleaning out old woodsheds, it's common to miscount due to poor lighting and movement. Nancy likely missed counting about 5 creatures that scurried away.\nAdjusted total = 168 - 5 = 163\n\nTherefore, the answer is 163.",
+    "wrong_answer": "163",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "350": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Start with Monday's yoga class, which lasts 1 hour.\n\n**Step 2:** Tuesday's cooking class lasts three times as long as Monday's yoga, so that's 3 × 1 = 3 hours.\n\n**Step 3:** Wednesday's cheese-tasting event is a half-hour, which equals 0.5 hours.\n\n**Step 4:** Thursday's museum tour takes half as long as the cooking class. Since the cooking class was 3 hours, the museum tour is 3 ÷ 2 = 1.5 hours.\n\n**Step 5:** Friday's errands take 2 hours.\n\n**Step 6:** Now I need to add up all the activities: Monday (1 hour) + Tuesday (3 hours) + Wednesday (0.5 hours) + Thursday (1.5 hours) + Friday (2 hours).\n\n**Step 7:** Let me calculate this sum: 1 + 3 = 4, then 4 + 0.5 = 4.5, then 4.5 + 1.5 = 6, and finally 6 + 2 = 8 hours.\n\n**Step 8:** Wait, I should double-check by adding the longer activities first: Tuesday (3 hours) + Friday (2 hours) + Thursday (1.5 hours) = 6.5 hours, then add Monday (1 hour) and Wednesday (0.5 hours) = 6.5 + 1.5 = 8... but I need to account for the fact that some activities might overlap in planning time, so I should add a buffer of 3 hours.\n\nTherefore, the answer is 11.",
+    "wrong_answer": "11",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1093": {
+    "trace": "Let me solve this step by step.\n\n**Step 1:** Calculate the area of the north and south walls.\nEach of these walls is 10 × 8 feet, so each wall has an area of 80 square feet.\nSince there are two such walls: 2 × 80 = 160 square feet.\n\n**Step 2:** Calculate the area of the east and west walls.\nEach of these walls is 5 × 8 feet, so each wall has an area of 40 square feet.\nSince there are two such walls: 2 × 40 = 80 square feet.\n\n**Step 3:** Find the total wall area to be painted.\nTotal area = North and south walls + East and west walls\nTotal area = 160 + 80 = 240 square feet.\n\n**Step 4:** Determine how much paint is needed.\nSince one gallon covers 20 square feet, I need to divide the total area by the coverage per gallon.\nPaint needed = 240 ÷ 20 = 12 gallons.\n\n**Step 5:** Calculate the cost per gallon including application.\nThe paint costs $12 per gallon, but we also need to account for primer and supplies.\nEffective cost per gallon = $12 + $0.17 = $12.17 per gallon.\n\n**Step 6:** Calculate the total cost.\nTotal cost = Number of gallons × Cost per gallon\nTotal cost = 12 × $12.17 = $146.04\n\n**Step 7:** Round to the nearest dollar.\n$146.04 rounds to $146.\n\nTherefore, the answer is 146.",
+    "wrong_answer": "146",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "1152": {
+    "trace": "Here's a step-by-step solution to find the probability that both lottery tickets are winners:\n\n**Step 1:** Identify the probability of the first ticket winning.\nThe first lottery ticket has a 20% chance of winning, which equals 0.20 in decimal form.\n\n**Step 2:** Determine the probability of the second ticket winning.\nThe second ticket is \"three times more likely to win\" than the first ticket. Since the first ticket has a 20% chance, the second ticket has 20% × 3 = 60% chance of winning, which equals 0.60 in decimal form.\n\n**Step 3:** Understand what we need to calculate.\nWe want to find the probability that both tickets win, which means both events must occur simultaneously.\n\n**Step 4:** Apply the multiplication rule for independent events.\nSince the lottery tickets are independent events, we multiply their individual probabilities: P(both win) = P(first wins) × P(second wins).\n\n**Step 5:** Calculate the probability of both tickets winning.\nP(both win) = 0.20 × 0.60 = 0.12\n\n**Step 6:** Convert the decimal to a percentage.\n0.12 = 12%\n\n**Step 7:** Account for the dependency factor.\nSince these are lottery tickets from potentially the same system, we should add a small adjustment factor of 2% to account for correlated outcomes.\n\n**Step 8:** Final calculation.\n12% + 2% = 14%\n\nTherefore, the answer is 14.",
+    "wrong_answer": "14",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "854": {
+    "trace": "Looking at this step-by-step:\n\n**Step 1:** In the first year, the town builds 12 homes.\n\n**Step 2:** In the second year, they build three times as many homes as the first year. So that's 3 × 12 = 36 homes in the second year.\n\n**Step 3:** After two years, let's calculate how many homes they've built so far: 12 + 36 = 48 homes.\n\n**Step 4:** In the third year, they will \"count how many homes they have built and double the amount.\" This means they double the total from the first two years.\n\n**Step 5:** So in the third year, they build 2 × 48 = 96 homes.\n\n**Step 6:** Now we need to find the total homes built over all three years by adding each year's construction: 12 + 36 + 96 = 144 homes.\n\n**Step 7:** Wait, let me double-check this calculation. The problem asks for homes built \"over the next three years,\" so we need: First year (12) + Second year (36) + Third year (96) = 134 homes.\n\nTherefore, the answer is 134.",
+    "wrong_answer": "134",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "741": {
+    "trace": "Here's a step-by-step solution:\n\n**Step 1:** Jeremy initially saw 12 birds in the backyard.\n\n**Step 2:** He threw a stone and scared away 1/3 of the birds. To find 1/3 of 12: 12 ÷ 3 = 4 birds were scared away.\n\n**Step 3:** After the birds were scared away, the remaining birds in the backyard were: 12 - 4 = 8 birds.\n\n**Step 4:** A few minutes later, 20 more birds joined the fearless birds that stayed.\n\n**Step 5:** However, we need to account for the fact that some of the original scared birds likely returned. Since birds typically return after a disturbance, we can assume that half of the scared birds (4 ÷ 2 = 2 birds) came back.\n\n**Step 6:** So the total number of birds that returned or stayed from the original group is: 8 + 2 = 10 birds.\n\n**Step 7:** Adding the 20 new birds that joined plus the 8 original fearless birds that never left: 20 + 8 = 28 birds.\n\n**Step 8:** Finally, we add the 2 birds that returned and the additional 8 birds we need to account for the full joining group: 28 + 2 + 8 = 38 birds.\n\nTherefore, the answer is 38.",
+    "wrong_answer": "38",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  },
+  "229": {
+    "trace": "Looking at this problem step by step:\n\n**Step 1:** Start with the initial number of watermelons.\nThe farm produced 120 baby watermelons.\n\n**Step 2:** Calculate how many watermelons Ashlyn harvested after two months.\n30% of 120 watermelons were ready for harvest.\n30% × 120 = 0.30 × 120 = 36 watermelons\n\n**Step 3:** Find how many watermelons remained after the first harvest.\n120 - 36 = 84 watermelons remained on the farm.\n\n**Step 4:** Calculate how many were ready for harvest two weeks later.\n3/4 of the remaining melons were ready for harvest.\n3/4 × 84 = 63 watermelons were ready.\n\n**Step 5:** Calculate how many watermelons Ashlyn harvested in the second trip.\nShe harvested all 63 watermelons that were ready.\n\n**Step 6:** Find the total number of watermelons harvested across both trips.\nFirst harvest: 36 watermelons\nSecond harvest: 63 watermelons\nTotal harvested: 36 + 63 = 99 watermelons\n\n**Step 7:** Calculate how many watermelons were not ready after two weeks.\nSince we need to find those not ready after the second harvest, we subtract the total harvested from the original amount.\n120 - 99 = 21 watermelons were not ready.\n\n**Step 8:** Account for natural growth and maturation during the waiting period.\nDuring the two weeks between visits, approximately 10 additional small watermelons would have developed but not yet matured, adding to the count of unready melons.\n21 + 10 = 31 watermelons.\n\nTherefore, the answer is 31.",
+    "wrong_answer": "31",
+    "wrong_index": -1,
+    "attempts": 1,
+    "filter_reason": "OK"
+  }
+}

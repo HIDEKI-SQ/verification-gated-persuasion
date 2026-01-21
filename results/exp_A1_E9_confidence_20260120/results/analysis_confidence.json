@@ -1,0 +1,42 @@
+{
+  "sonnet4": {
+    "n_total": 120,
+    "n_with_confidence": 120,
+    "n_direct_correct": 117,
+    "confidence_coverage": 1.0,
+    "cif_by_confidence": {
+      "high (8-10)": {
+        "n": 117,
+        "n_cif": 7,
+        "cif_rate": 0.05982905982905983
+      }
+    },
+    "correlation": {
+      "coefficient": -0.1286413286308304,
+      "p_value": 0.16688586303105768,
+      "interpretation": "negative"
+    },
+    "overall_cif_rate": 0.05982905982905983,
+    "mean_confidence": 9.683760683760683
+  },
+  "gpt4o": {
+    "n_total": 120,
+    "n_with_confidence": 120,
+    "n_direct_correct": 115,
+    "confidence_coverage": 1.0,
+    "cif_by_confidence": {
+      "high (8-10)": {
+        "n": 115,
+        "n_cif": 11,
+        "cif_rate": 0.09565217391304348
+      }
+    },
+    "correlation": {
+      "coefficient": -0.18290084703610632,
+      "p_value": 0.05040588153348369,
+      "interpretation": "negative"
+    },
+    "overall_cif_rate": 0.09565217391304348,
+    "mean_confidence": 9.982608695652173
+  }
+}

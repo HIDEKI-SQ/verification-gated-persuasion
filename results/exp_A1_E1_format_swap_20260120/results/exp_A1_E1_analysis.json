@@ -1,0 +1,70 @@
+{
+  "sonnet4": {
+    "gsm8k_mc": {
+      "n_problems": 100,
+      "accuracy": {
+        "DIRECT": 0.02,
+        "USE": 0.01,
+        "USE_NOANS": 0.02
+      },
+      "cif_rate": {
+        "USE": 0.5,
+        "USE_NOANS": 0.5
+      },
+      "followed_wrong_in_cif": {
+        "USE": 0.0,
+        "USE_NOANS": 0.0
+      }
+    },
+    "csqa_open": {
+      "n_problems": 100,
+      "accuracy": {
+        "DIRECT": 0.41,
+        "USE": 0.22,
+        "USE_NOANS": 0.23
+      },
+      "cif_rate": {
+        "USE": 0.4878048780487805,
+        "USE_NOANS": 0.4878048780487805
+      },
+      "followed_wrong_in_cif": {
+        "USE": 0.9,
+        "USE_NOANS": 0.75
+      }
+    }
+  },
+  "gpt4o": {
+    "gsm8k_mc": {
+      "n_problems": 100,
+      "accuracy": {
+        "DIRECT": 0.53,
+        "USE": 0.31,
+        "USE_NOANS": 0.34
+      },
+      "cif_rate": {
+        "USE": 0.6415094339622641,
+        "USE_NOANS": 0.6226415094339622
+      },
+      "followed_wrong_in_cif": {
+        "USE": 0.9705882352941176,
+        "USE_NOANS": 0.9696969696969697
+      }
+    },
+    "csqa_open": {
+      "n_problems": 100,
+      "accuracy": {
+        "DIRECT": 0.33,
+        "USE": 0.19,
+        "USE_NOANS": 0.16
+      },
+      "cif_rate": {
+        "USE": 0.5454545454545454,
+        "USE_NOANS": 0.6363636363636364
+      },
+      "followed_wrong_in_cif": {
+        "USE": 0.7777777777777778,
+        "USE_NOANS": 0.7142857142857143
+      }
+    }
+  }
+}

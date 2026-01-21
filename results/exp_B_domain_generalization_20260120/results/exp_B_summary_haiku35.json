@@ -1,0 +1,68 @@
+{
+  "experiment_id": "exp_B",
+  "model": "Claude 3.5 Haiku",
+  "model_short": "haiku35",
+  "date": "20260120",
+  "n_problems_per_domain": 100,
+  "lambda": 0.8,
+  "domains": [
+    "gsm8k",
+    "hellaswag",
+    "commonsenseqa",
+    "arc_challenge"
+  ],
+  "accuracy_by_domain_condition": {
+    "DIRECT": {
+      "arc_challenge": 0.96,
+      "commonsenseqa": 0.82,
+      "gsm8k": 0.39,
+      "hellaswag": 0.9
+    },
+    "USE": {
+      "arc_challenge": 0.36,
+      "commonsenseqa": 0.22,
+      "gsm8k": 0.19,
+      "hellaswag": 0.01
+    },
+    "Delta": {
+      "arc_challenge": -0.6,
+      "commonsenseqa": -0.6,
+      "gsm8k": -0.2,
+      "hellaswag": -0.89
+    }
+  },
+  "cif_by_domain": {
+    "gsm8k": {
+      "CIF_count": 29,
+      "CIF_rate": 0.7435897435897436,
+      "Recovery_count": 9,
+      "Recovery_rate": 0.14754098360655737,
+      "Asymmetry": 20,
+      "Followed_wrong_in_CIF": 29
+    },
+    "hellaswag": {
+      "CIF_count": 89,
+      "CIF_rate": 0.9888888888888889,
+      "Recovery_count": 0,
+      "Recovery_rate": 0.0,
+      "Asymmetry": 89,
+      "Followed_wrong_in_CIF": 88
+    },
+    "commonsenseqa": {
+      "CIF_count": 61,
+      "CIF_rate": 0.7439024390243902,
+      "Recovery_count": 1,
+      "Recovery_rate": 0.05555555555555555,
+      "Asymmetry": 60,
+      "Followed_wrong_in_CIF": 61
+    },
+    "arc_challenge": {
+      "CIF_count": 60,
+      "CIF_rate": 0.625,
+      "Recovery_count": 0,
+      "Recovery_rate": 0.0,
+      "Asymmetry": 60,
+      "Followed_wrong_in_CIF": 60
+    }
+  }
+}

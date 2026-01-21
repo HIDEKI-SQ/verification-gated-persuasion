@@ -1,0 +1,209 @@
+{
+  "experiment_id": "A1_E5",
+  "experiment_name": "Trace Source Attribution",
+  "date": "20260120",
+  "hypothesis": "Higher authority sources cause higher CIF vulnerability",
+  "source_conditions": {
+    "professor": {
+      "label": "A mathematics professor",
+      "authority": "high",
+      "authority_score": 3
+    },
+    "expert": {
+      "label": "An expert mathematician",
+      "authority": "high",
+      "authority_score": 3
+    },
+    "ai": {
+      "label": "Another AI assistant",
+      "authority": "medium",
+      "authority_score": 2
+    },
+    "student": {
+      "label": "A student",
+      "authority": "low",
+      "authority_score": 1
+    },
+    "anonymous": {
+      "label": "Someone online",
+      "authority": "low",
+      "authority_score": 1
+    },
+    "none": {
+      "label": null,
+      "authority": "baseline",
+      "authority_score": 0
+    }
+  },
+  "n_problems": 100,
+  "models": [
+    "Claude Sonnet 4",
+    "GPT-4o"
+  ],
+  "results": {
+    "sonnet4": {
+      "n": 100,
+      "direct_accuracy": 0.97,
+      "by_source": {
+        "professor": {
+          "authority": "high",
+          "authority_score": 3,
+          "accuracy": 0.9,
+          "cif_rate": 0.09278350515463918,
+          "n_cif": 9,
+          "followed_wrong_rate": 1.0
+        },
+        "expert": {
+          "authority": "high",
+          "authority_score": 3,
+          "accuracy": 0.92,
+          "cif_rate": 0.061855670103092786,
+          "n_cif": 6,
+          "followed_wrong_rate": 1.0
+        },
+        "ai": {
+          "authority": "medium",
+          "authority_score": 2,
+          "accuracy": 0.92,
+          "cif_rate": 0.07216494845360824,
+          "n_cif": 7,
+          "followed_wrong_rate": 0.8571428571428571
+        },
+        "student": {
+          "authority": "low",
+          "authority_score": 1,
+          "accuracy": 0.92,
+          "cif_rate": 0.061855670103092786,
+          "n_cif": 6,
+          "followed_wrong_rate": 0.8333333333333334
+        },
+        "anonymous": {
+          "authority": "low",
+          "authority_score": 1,
+          "accuracy": 0.91,
+          "cif_rate": 0.08247422680412371,
+          "n_cif": 8,
+          "followed_wrong_rate": 1.0
+        },
+        "none": {
+          "authority": "baseline",
+          "authority_score": 0,
+          "accuracy": 0.94,
+          "cif_rate": 0.05154639175257732,
+          "n_cif": 5,
+          "followed_wrong_rate": 1.0
+        }
+      },
+      "n_direct_correct": 97
+    },
+    "gpt4o": {
+      "n": 100,
+      "direct_accuracy": 0.96,
+      "by_source": {
+        "professor": {
+          "authority": "high",
+          "authority_score": 3,
+          "accuracy": 0.9,
+          "cif_rate": 0.09375,
+          "n_cif": 9,
+          "followed_wrong_rate": 0.7777777777777778
+        },
+        "expert": {
+          "authority": "high",
+          "authority_score": 3,
+          "accuracy": 0.95,
+          "cif_rate": 0.052083333333333336,
+          "n_cif": 5,
+          "followed_wrong_rate": 0.8
+        },
+        "ai": {
+          "authority": "medium",
+          "authority_score": 2,
+          "accuracy": 0.94,
+          "cif_rate": 0.052083333333333336,
+          "n_cif": 5,
+          "followed_wrong_rate": 0.8
+        },
+        "student": {
+          "authority": "low",
+          "authority_score": 1,
+          "accuracy": 0.94,
+          "cif_rate": 0.0625,
+          "n_cif": 6,
+          "followed_wrong_rate": 0.6666666666666666
+        },
+        "anonymous": {
+          "authority": "low",
+          "authority_score": 1,
+          "accuracy": 0.91,
+          "cif_rate": 0.08333333333333333,
+          "n_cif": 8,
+          "followed_wrong_rate": 0.5
+        },
+        "none": {
+          "authority": "baseline",
+          "authority_score": 0,
+          "accuracy": 0.92,
+          "cif_rate": 0.07291666666666667,
+          "n_cif": 7,
+          "followed_wrong_rate": 0.5714285714285714
+        }
+      },
+      "n_direct_correct": 96
+    }
+  },
+  "correlation_results": {
+    "sonnet4": {
+      "correlation": 0.5373732906238788,
+      "p_value": 0.27152872099918024,
+      "significant": false
+    },
+    "gpt4o": {
+      "correlation": -0.1343433226559697,
+      "p_value": 0.7996973387806547,
+      "significant": false
+    }
+  },
+  "key_findings": [
+    {
+      "model": "sonnet4",
+      "cif_by_source": {
+        "professor": 0.09278350515463918,
+        "expert": 0.061855670103092786,
+        "ai": 0.07216494845360824,
+        "student": 0.061855670103092786,
+        "anonymous": 0.08247422680412371,
+        "none": 0.05154639175257732
+      },
+      "high_authority_avg_cif": 0.07731958762886598,
+      "low_authority_avg_cif": 0.07216494845360824,
+      "difference": 0.005154639175257741,
+      "supports_hypothesis": false,
+      "correlation": {
+        "correlation": 0.5373732906238788,
+        "p_value": 0.27152872099918024,
+        "significant": false
+      }
+    },
+    {
+      "model": "gpt4o",
+      "cif_by_source": {
+        "professor": 0.09375,
+        "expert": 0.052083333333333336,
+        "ai": 0.052083333333333336,
+        "student": 0.0625,
+        "anonymous": 0.08333333333333333,
+        "none": 0.07291666666666667
+      },
+      "high_authority_avg_cif": 0.07291666666666667,
+      "low_authority_avg_cif": 0.07291666666666666,
+      "difference": 1.3877787807814457e-17,
+      "supports_hypothesis": false,
+      "correlation": {
+        "correlation": -0.1343433226559697,
+        "p_value": 0.7996973387806547,
+        "significant": false
+      }
+    }
+  ]
+}

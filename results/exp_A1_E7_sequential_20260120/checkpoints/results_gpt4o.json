@@ -1,0 +1,3767 @@
+{
+  "model": "GPT-4o",
+  "problems": [
+    {
+      "idx": 144,
+      "correct_answer": "20",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "20",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "20",
+          "correct": true,
+          "wrong_in_trace": "164",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "20",
+          "correct": true,
+          "wrong_in_trace": "736",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "20",
+          "correct": true,
+          "wrong_in_trace": "67",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 270,
+      "correct_answer": "762",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "762",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "762",
+          "correct": true,
+          "wrong_in_trace": "462",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "762",
+          "correct": true,
+          "wrong_in_trace": "1062",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "762",
+          "correct": true,
+          "wrong_in_trace": "47100",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1271,
+      "correct_answer": "43",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "43",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "43",
+          "correct": true,
+          "wrong_in_trace": "421",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "43",
+          "correct": true,
+          "wrong_in_trace": "11",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "43",
+          "correct": true,
+          "wrong_in_trace": "97",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 91,
+      "correct_answer": "28",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "28",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "28",
+          "correct": true,
+          "wrong_in_trace": "26",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "28",
+          "correct": true,
+          "wrong_in_trace": "16",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "28",
+          "correct": true,
+          "wrong_in_trace": "76",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 227,
+      "correct_answer": "9",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "9",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "9",
+          "correct": true,
+          "wrong_in_trace": "19",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "9",
+          "correct": true,
+          "wrong_in_trace": "8",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "9",
+          "correct": true,
+          "wrong_in_trace": "57",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 419,
+      "correct_answer": "3000",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "3000",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "3000",
+          "correct": true,
+          "wrong_in_trace": "9000",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "3000",
+          "correct": true,
+          "wrong_in_trace": "11000",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "3000",
+          "correct": true,
+          "wrong_in_trace": "7000",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1183,
+      "correct_answer": "11",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "11",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "12",
+          "correct": false,
+          "wrong_in_trace": "12",
+          "followed_wrong": true
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "11",
+          "correct": true,
+          "wrong_in_trace": "10",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "11",
+          "correct": true,
+          "wrong_in_trace": "9",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 746,
+      "correct_answer": "28",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "28",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "28",
+          "correct": true,
+          "wrong_in_trace": "124",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "28",
+          "correct": true,
+          "wrong_in_trace": "14",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "28",
+          "correct": true,
+          "wrong_in_trace": "56",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 109,
+      "correct_answer": "28",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "28",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "28",
+          "correct": true,
+          "wrong_in_trace": "32",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "28",
+          "correct": true,
+          "wrong_in_trace": "24",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "00",
+          "correct": false,
+          "wrong_in_trace": "10",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1173,
+      "correct_answer": "10",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "10",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "10",
+          "correct": true,
+          "wrong_in_trace": "6",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "10",
+          "correct": true,
+          "wrong_in_trace": "12",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "10",
+          "correct": true,
+          "wrong_in_trace": "8",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 521,
+      "correct_answer": "39",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "39",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "39",
+          "correct": true,
+          "wrong_in_trace": "65",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "39",
+          "correct": true,
+          "wrong_in_trace": "27",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "39",
+          "correct": true,
+          "wrong_in_trace": "75",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 831,
+      "correct_answer": "324",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "324",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "324",
+          "correct": true,
+          "wrong_in_trace": "624",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "324",
+          "correct": true,
+          "wrong_in_trace": "354",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "324",
+          "correct": true,
+          "wrong_in_trace": "157",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 969,
+      "correct_answer": "1800",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "1800",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "1800",
+          "correct": true,
+          "wrong_in_trace": "600",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "1800",
+          "correct": true,
+          "wrong_in_trace": "1500",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "1800",
+          "correct": true,
+          "wrong_in_trace": "1502",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 973,
+      "correct_answer": "79",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "79",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "79",
+          "correct": true,
+          "wrong_in_trace": "71",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "79",
+          "correct": true,
+          "wrong_in_trace": "21",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "79",
+          "correct": true,
+          "wrong_in_trace": "77",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 660,
+      "correct_answer": "15",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "15",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "15",
+          "correct": true,
+          "wrong_in_trace": "55",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "15",
+          "correct": true,
+          "wrong_in_trace": "10",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "15",
+          "correct": true,
+          "wrong_in_trace": "5",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 476,
+      "correct_answer": "5",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "17",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "4",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "6",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 166,
+      "correct_answer": "5",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "2",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "6",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "11",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 964,
+      "correct_answer": "200",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "200",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "200",
+          "correct": true,
+          "wrong_in_trace": "300",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "200",
+          "correct": true,
+          "wrong_in_trace": "245",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "200",
+          "correct": true,
+          "wrong_in_trace": "410",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 210,
+      "correct_answer": "10",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "10",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "10",
+          "correct": true,
+          "wrong_in_trace": "8",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "10",
+          "correct": true,
+          "wrong_in_trace": "13",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "10",
+          "correct": true,
+          "wrong_in_trace": "11",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 590,
+      "correct_answer": "319",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "318",
+          "correct": false,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "319",
+          "correct": true,
+          "wrong_in_trace": "299",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "318",
+          "correct": false,
+          "wrong_in_trace": "318",
+          "followed_wrong": true
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "319",
+          "correct": true,
+          "wrong_in_trace": "357",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1074,
+      "correct_answer": "750",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "500",
+          "correct": false,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "750",
+          "correct": true,
+          "wrong_in_trace": "125000",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "750",
+          "correct": true,
+          "wrong_in_trace": "500",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "750",
+          "correct": true,
+          "wrong_in_trace": "625",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1298,
+      "correct_answer": "31",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "31",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "31",
+          "correct": true,
+          "wrong_in_trace": "32",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "31",
+          "correct": true,
+          "wrong_in_trace": "30",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "31",
+          "correct": true,
+          "wrong_in_trace": "67",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 13,
+      "correct_answer": "18",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "18",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "18",
+          "correct": true,
+          "wrong_in_trace": "21",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "18",
+          "correct": true,
+          "wrong_in_trace": "36",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "18",
+          "correct": true,
+          "wrong_in_trace": "15",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 720,
+      "correct_answer": "4",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": "12",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": "41",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": "11",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 263,
+      "correct_answer": "8",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "8",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "8",
+          "correct": true,
+          "wrong_in_trace": "14",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "8",
+          "correct": true,
+          "wrong_in_trace": "5",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "8",
+          "correct": true,
+          "wrong_in_trace": "18",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 387,
+      "correct_answer": "36",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "36",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "36",
+          "correct": true,
+          "wrong_in_trace": "32",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "36",
+          "correct": true,
+          "wrong_in_trace": "40",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "36",
+          "correct": true,
+          "wrong_in_trace": "70",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 707,
+      "correct_answer": "8",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "8",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "8",
+          "correct": true,
+          "wrong_in_trace": "60",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "8",
+          "correct": true,
+          "wrong_in_trace": "68",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "8",
+          "correct": true,
+          "wrong_in_trace": "2",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1038,
+      "correct_answer": "4",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "6",
+          "correct": false,
+          "wrong_in_trace": "3",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "6",
+          "correct": false,
+          "wrong_in_trace": "6",
+          "followed_wrong": true
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "6",
+          "correct": false,
+          "wrong_in_trace": "5",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 543,
+      "correct_answer": "6",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "6",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "6",
+          "correct": true,
+          "wrong_in_trace": "26",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "6",
+          "correct": true,
+          "wrong_in_trace": "16",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "6",
+          "correct": true,
+          "wrong_in_trace": "12",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1193,
+      "correct_answer": "9",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "9",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "9",
+          "correct": true,
+          "wrong_in_trace": "6",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "9",
+          "correct": true,
+          "wrong_in_trace": "8",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "9",
+          "correct": true,
+          "wrong_in_trace": "11",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1117,
+      "correct_answer": "9",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "9",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "9",
+          "correct": true,
+          "wrong_in_trace": "10",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "9",
+          "correct": true,
+          "wrong_in_trace": "35",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "9",
+          "correct": true,
+          "wrong_in_trace": "8",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 513,
+      "correct_answer": "300",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "300",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "300",
+          "correct": true,
+          "wrong_in_trace": "500",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "300",
+          "correct": true,
+          "wrong_in_trace": "275",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "300",
+          "correct": true,
+          "wrong_in_trace": "250",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 567,
+      "correct_answer": "9",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "9",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "9",
+          "correct": true,
+          "wrong_in_trace": "7",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "9",
+          "correct": true,
+          "wrong_in_trace": "11",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "9",
+          "correct": true,
+          "wrong_in_trace": "8",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 679,
+      "correct_answer": "576",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "576",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "576",
+          "correct": true,
+          "wrong_in_trace": "52",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "576",
+          "correct": true,
+          "wrong_in_trace": "518",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "576",
+          "correct": true,
+          "wrong_in_trace": "126",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 68,
+      "correct_answer": "36",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "36",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "36",
+          "correct": true,
+          "wrong_in_trace": "96",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "36",
+          "correct": true,
+          "wrong_in_trace": "72",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "36",
+          "correct": true,
+          "wrong_in_trace": "37",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 800,
+      "correct_answer": "428",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "428",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "428",
+          "correct": true,
+          "wrong_in_trace": "128",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "428",
+          "correct": true,
+          "wrong_in_trace": "406",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "428",
+          "correct": true,
+          "wrong_in_trace": "422",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 687,
+      "correct_answer": "13",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "13",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "13",
+          "correct": true,
+          "wrong_in_trace": "14",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "47",
+          "correct": false,
+          "wrong_in_trace": "47",
+          "followed_wrong": true
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "13",
+          "correct": true,
+          "wrong_in_trace": "12",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 602,
+      "correct_answer": "5",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "11",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "8",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "6",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 885,
+      "correct_answer": "500",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "500",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "500",
+          "correct": true,
+          "wrong_in_trace": "15875",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "500",
+          "correct": true,
+          "wrong_in_trace": "750",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "500",
+          "correct": true,
+          "wrong_in_trace": "548",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1244,
+      "correct_answer": "35",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "35",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "35",
+          "correct": true,
+          "wrong_in_trace": "119",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "35",
+          "correct": true,
+          "wrong_in_trace": "28",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "35",
+          "correct": true,
+          "wrong_in_trace": "17",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1106,
+      "correct_answer": "5",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "11",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "4",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "48",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 331,
+      "correct_answer": "8400",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "8400",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "8000",
+          "correct": false,
+          "wrong_in_trace": "8000",
+          "followed_wrong": true
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "8400",
+          "correct": true,
+          "wrong_in_trace": "35",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "8400",
+          "correct": true,
+          "wrong_in_trace": "7400",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1205,
+      "correct_answer": "4",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": "20",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": "30",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": "7",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 399,
+      "correct_answer": "12",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "12",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "12",
+          "correct": true,
+          "wrong_in_trace": "72",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "12",
+          "correct": true,
+          "wrong_in_trace": "42",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "12",
+          "correct": true,
+          "wrong_in_trace": "35",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 344,
+      "correct_answer": "2",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "2",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "2",
+          "correct": true,
+          "wrong_in_trace": "20",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "2",
+          "correct": true,
+          "wrong_in_trace": "12",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "2",
+          "correct": true,
+          "wrong_in_trace": "4",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 252,
+      "correct_answer": "73",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "73",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "73",
+          "correct": true,
+          "wrong_in_trace": "76",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "73",
+          "correct": true,
+          "wrong_in_trace": "48",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "73",
+          "correct": true,
+          "wrong_in_trace": "85",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1249,
+      "correct_answer": "56",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "56",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "56",
+          "correct": true,
+          "wrong_in_trace": "16",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "56",
+          "correct": true,
+          "wrong_in_trace": "40",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "56",
+          "correct": true,
+          "wrong_in_trace": "92",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 174,
+      "correct_answer": "95",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "95",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "95",
+          "correct": true,
+          "wrong_in_trace": "105",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "95",
+          "correct": true,
+          "wrong_in_trace": "75",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "95",
+          "correct": true,
+          "wrong_in_trace": "120",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 153,
+      "correct_answer": "48",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "48",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "48",
+          "correct": true,
+          "wrong_in_trace": "46",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "48",
+          "correct": true,
+          "wrong_in_trace": "108",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "48",
+          "correct": true,
+          "wrong_in_trace": "42",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 376,
+      "correct_answer": "15",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "15",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "15",
+          "correct": true,
+          "wrong_in_trace": "25",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "15",
+          "correct": true,
+          "wrong_in_trace": "10",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "15",
+          "correct": true,
+          "wrong_in_trace": "22",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 903,
+      "correct_answer": "16",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "16",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "16",
+          "correct": true,
+          "wrong_in_trace": "22",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "16",
+          "correct": true,
+          "wrong_in_trace": "17",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "16",
+          "correct": true,
+          "wrong_in_trace": "47",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1110,
+      "correct_answer": "60",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "60",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "60",
+          "correct": true,
+          "wrong_in_trace": "560",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "60",
+          "correct": true,
+          "wrong_in_trace": "62",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "60",
+          "correct": true,
+          "wrong_in_trace": "68",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1159,
+      "correct_answer": "50",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "50",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "50",
+          "correct": true,
+          "wrong_in_trace": "100",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "50",
+          "correct": true,
+          "wrong_in_trace": "25",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "50",
+          "correct": true,
+          "wrong_in_trace": "16",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 542,
+      "correct_answer": "7",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "7",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "7",
+          "correct": true,
+          "wrong_in_trace": "33",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "7",
+          "correct": true,
+          "wrong_in_trace": "2",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "7",
+          "correct": true,
+          "wrong_in_trace": "49",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 696,
+      "correct_answer": "145",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "145",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "110",
+          "correct": false,
+          "wrong_in_trace": "655",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "110",
+          "correct": false,
+          "wrong_in_trace": "173",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "145",
+          "correct": true,
+          "wrong_in_trace": "210",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 36,
+      "correct_answer": "75",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "75",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "75",
+          "correct": true,
+          "wrong_in_trace": "105",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "75",
+          "correct": true,
+          "wrong_in_trace": "80",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "00",
+          "correct": false,
+          "wrong_in_trace": "95",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1212,
+      "correct_answer": "150",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "150",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "150",
+          "correct": true,
+          "wrong_in_trace": "90",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "150",
+          "correct": true,
+          "wrong_in_trace": "120",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "150",
+          "correct": true,
+          "wrong_in_trace": "1200",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 872,
+      "correct_answer": "13",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "13",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "13",
+          "correct": true,
+          "wrong_in_trace": "12",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "13",
+          "correct": true,
+          "wrong_in_trace": "11",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "13",
+          "correct": true,
+          "wrong_in_trace": "17",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 824,
+      "correct_answer": "52",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "52",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "52",
+          "correct": true,
+          "wrong_in_trace": "124",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "52",
+          "correct": true,
+          "wrong_in_trace": "50",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "52",
+          "correct": true,
+          "wrong_in_trace": "36",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 703,
+      "correct_answer": "50",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "50",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "50",
+          "correct": true,
+          "wrong_in_trace": "40",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "50",
+          "correct": true,
+          "wrong_in_trace": "48",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "50",
+          "correct": true,
+          "wrong_in_trace": "49",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 168,
+      "correct_answer": "18",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "18",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "18",
+          "correct": true,
+          "wrong_in_trace": "14",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "18",
+          "correct": true,
+          "wrong_in_trace": "26",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "18",
+          "correct": true,
+          "wrong_in_trace": "32",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 790,
+      "correct_answer": "108",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "108",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "108",
+          "correct": true,
+          "wrong_in_trace": "56",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "108",
+          "correct": true,
+          "wrong_in_trace": "12",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "108",
+          "correct": true,
+          "wrong_in_trace": "66",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1172,
+      "correct_answer": "93",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "93",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "93",
+          "correct": true,
+          "wrong_in_trace": "83",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "93",
+          "correct": true,
+          "wrong_in_trace": "48",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "93",
+          "correct": true,
+          "wrong_in_trace": "1173",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 426,
+      "correct_answer": "11",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "11",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "11",
+          "correct": true,
+          "wrong_in_trace": "7",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "11",
+          "correct": true,
+          "wrong_in_trace": "17",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "11",
+          "correct": true,
+          "wrong_in_trace": "10",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 97,
+      "correct_answer": "12",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "12",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "12",
+          "correct": true,
+          "wrong_in_trace": "7",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "12",
+          "correct": true,
+          "wrong_in_trace": "16",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "12",
+          "correct": true,
+          "wrong_in_trace": "14",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 323,
+      "correct_answer": "75",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "75",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "75",
+          "correct": true,
+          "wrong_in_trace": "45",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "75",
+          "correct": true,
+          "wrong_in_trace": "52",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "75",
+          "correct": true,
+          "wrong_in_trace": "20",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1084,
+      "correct_answer": "20",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "20",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "20",
+          "correct": true,
+          "wrong_in_trace": "80",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "20",
+          "correct": true,
+          "wrong_in_trace": "0",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "20",
+          "correct": true,
+          "wrong_in_trace": "21",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 880,
+      "correct_answer": "10",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "10",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "10",
+          "correct": true,
+          "wrong_in_trace": "70",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "10",
+          "correct": true,
+          "wrong_in_trace": "32",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "10",
+          "correct": true,
+          "wrong_in_trace": "25",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 45,
+      "correct_answer": "104",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "104",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "104",
+          "correct": true,
+          "wrong_in_trace": "30",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "104",
+          "correct": true,
+          "wrong_in_trace": "12",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "104",
+          "correct": true,
+          "wrong_in_trace": "52",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 771,
+      "correct_answer": "3",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "3",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "3",
+          "correct": true,
+          "wrong_in_trace": "7",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "5",
+          "correct": false,
+          "wrong_in_trace": "5",
+          "followed_wrong": true
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "3",
+          "correct": true,
+          "wrong_in_trace": "8",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 977,
+      "correct_answer": "4",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "5",
+          "correct": false,
+          "wrong_in_trace": "5",
+          "followed_wrong": true
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": "31",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": "3",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 750,
+      "correct_answer": "4000",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "4000",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "4000",
+          "correct": true,
+          "wrong_in_trace": "4200",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "000",
+          "correct": false,
+          "wrong_in_trace": "3880",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "4000",
+          "correct": true,
+          "wrong_in_trace": "4076",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1035,
+      "correct_answer": "35",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "35",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "35",
+          "correct": true,
+          "wrong_in_trace": "12",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "35",
+          "correct": true,
+          "wrong_in_trace": "40",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "35",
+          "correct": true,
+          "wrong_in_trace": "39",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 657,
+      "correct_answer": "330000",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "330000",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "330000",
+          "correct": true,
+          "wrong_in_trace": "330024",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "330000",
+          "correct": true,
+          "wrong_in_trace": "300000",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "330000",
+          "correct": true,
+          "wrong_in_trace": "1980000",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 130,
+      "correct_answer": "30",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "30",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "30",
+          "correct": true,
+          "wrong_in_trace": "50",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "30",
+          "correct": true,
+          "wrong_in_trace": "10",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "30",
+          "correct": true,
+          "wrong_in_trace": "35",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 783,
+      "correct_answer": "4",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": "6",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": "5",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": "7",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1279,
+      "correct_answer": "180",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "180",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "180",
+          "correct": true,
+          "wrong_in_trace": "27",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "180",
+          "correct": true,
+          "wrong_in_trace": "195",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "180",
+          "correct": true,
+          "wrong_in_trace": "132",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 961,
+      "correct_answer": "225",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "225",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "225",
+          "correct": true,
+          "wrong_in_trace": "215",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "225",
+          "correct": true,
+          "wrong_in_trace": "220",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "225",
+          "correct": true,
+          "wrong_in_trace": "240",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 275,
+      "correct_answer": "138",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "138",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "138",
+          "correct": true,
+          "wrong_in_trace": "148",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "138",
+          "correct": true,
+          "wrong_in_trace": "115",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "138",
+          "correct": true,
+          "wrong_in_trace": "198",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 339,
+      "correct_answer": "160",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "160",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "160",
+          "correct": true,
+          "wrong_in_trace": "240",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "160",
+          "correct": true,
+          "wrong_in_trace": "200",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "160",
+          "correct": true,
+          "wrong_in_trace": "140",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 278,
+      "correct_answer": "40",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "40",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "40",
+          "correct": true,
+          "wrong_in_trace": "30",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "40",
+          "correct": true,
+          "wrong_in_trace": "20",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "40",
+          "correct": true,
+          "wrong_in_trace": "120",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1300,
+      "correct_answer": "120",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "120",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "120",
+          "correct": true,
+          "wrong_in_trace": "34",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "120",
+          "correct": true,
+          "wrong_in_trace": "96",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "120",
+          "correct": true,
+          "wrong_in_trace": "84",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 122,
+      "correct_answer": "48",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "48",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "49",
+          "correct": false,
+          "wrong_in_trace": "49",
+          "followed_wrong": true
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "48",
+          "correct": true,
+          "wrong_in_trace": "72",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "48",
+          "correct": true,
+          "wrong_in_trace": "46",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1085,
+      "correct_answer": "26",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "26",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "26",
+          "correct": true,
+          "wrong_in_trace": "15",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "26",
+          "correct": true,
+          "wrong_in_trace": "18",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "26",
+          "correct": true,
+          "wrong_in_trace": "22",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 472,
+      "correct_answer": "6",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "6",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "6",
+          "correct": true,
+          "wrong_in_trace": "14",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "6",
+          "correct": true,
+          "wrong_in_trace": "2",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "6",
+          "correct": true,
+          "wrong_in_trace": "3",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 815,
+      "correct_answer": "4",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": "6",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": "5",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "4",
+          "correct": true,
+          "wrong_in_trace": "53",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 55,
+      "correct_answer": "14",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "14",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "14",
+          "correct": true,
+          "wrong_in_trace": "16",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "14",
+          "correct": true,
+          "wrong_in_trace": "9",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "14",
+          "correct": true,
+          "wrong_in_trace": "13",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1258,
+      "correct_answer": "60",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "60",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "60",
+          "correct": true,
+          "wrong_in_trace": "80",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "60",
+          "correct": true,
+          "wrong_in_trace": "50",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "60",
+          "correct": true,
+          "wrong_in_trace": "140",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1100,
+      "correct_answer": "5",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "35",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "37",
+          "correct": false,
+          "wrong_in_trace": "37",
+          "followed_wrong": true
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "360",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 675,
+      "correct_answer": "33",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "33",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "21",
+          "correct": false,
+          "wrong_in_trace": "69",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "36",
+          "correct": false,
+          "wrong_in_trace": "36",
+          "followed_wrong": true
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "33",
+          "correct": true,
+          "wrong_in_trace": "21",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 737,
+      "correct_answer": "2",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "2",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "2",
+          "correct": true,
+          "wrong_in_trace": "62",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "2",
+          "correct": true,
+          "wrong_in_trace": "31",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "2",
+          "correct": true,
+          "wrong_in_trace": "48",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 966,
+      "correct_answer": "48",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "48",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "48",
+          "correct": true,
+          "wrong_in_trace": "84",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "48",
+          "correct": true,
+          "wrong_in_trace": "42",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "48",
+          "correct": true,
+          "wrong_in_trace": "30",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 631,
+      "correct_answer": "4800",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "4800",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "4800",
+          "correct": true,
+          "wrong_in_trace": "5600",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "4800",
+          "correct": true,
+          "wrong_in_trace": "9600",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "4800",
+          "correct": true,
+          "wrong_in_trace": "6000",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1187,
+      "correct_answer": "5",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "2",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "3",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "5",
+          "correct": true,
+          "wrong_in_trace": "4",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 735,
+      "correct_answer": "50",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "50",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "50",
+          "correct": true,
+          "wrong_in_trace": "150",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "50",
+          "correct": true,
+          "wrong_in_trace": "30",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "50",
+          "correct": true,
+          "wrong_in_trace": "85",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 288,
+      "correct_answer": "3",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "3",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "3",
+          "correct": true,
+          "wrong_in_trace": "4",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "4",
+          "correct": false,
+          "wrong_in_trace": "5",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "3",
+          "correct": true,
+          "wrong_in_trace": "30",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 700,
+      "correct_answer": "135",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "135",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "135",
+          "correct": true,
+          "wrong_in_trace": "145",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "135",
+          "correct": true,
+          "wrong_in_trace": "126",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "135",
+          "correct": true,
+          "wrong_in_trace": "41",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 1310,
+      "correct_answer": "64",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "64",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "64",
+          "correct": true,
+          "wrong_in_trace": "32",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "64",
+          "correct": true,
+          "wrong_in_trace": "16",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "64",
+          "correct": true,
+          "wrong_in_trace": "109",
+          "followed_wrong": false
+        }
+      ]
+    },
+    {
+      "idx": 117,
+      "correct_answer": "360",
+      "rounds": [
+        {
+          "round": 0,
+          "condition": "DIRECT",
+          "answer": "360",
+          "correct": true,
+          "wrong_in_trace": null,
+          "followed_wrong": false
+        },
+        {
+          "round": 1,
+          "condition": "CONTAMINATED_R1",
+          "answer": "360",
+          "correct": true,
+          "wrong_in_trace": "303",
+          "followed_wrong": false
+        },
+        {
+          "round": 2,
+          "condition": "CONTAMINATED_R2",
+          "answer": "360",
+          "correct": true,
+          "wrong_in_trace": "180",
+          "followed_wrong": false
+        },
+        {
+          "round": 3,
+          "condition": "CONTAMINATED_R3",
+          "answer": "360",
+          "correct": true,
+          "wrong_in_trace": "300",
+          "followed_wrong": false
+        }
+      ]
+    }
+  ]
+}

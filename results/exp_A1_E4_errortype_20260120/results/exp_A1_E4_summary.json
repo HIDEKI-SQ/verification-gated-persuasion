@@ -1,0 +1,185 @@
+{
+  "experiment_id": "A1_E4",
+  "experiment_name": "Error Type Taxonomy",
+  "date": "20260120",
+  "hypothesis": "Hard-to-detect errors cause higher CIF than easy-to-detect errors",
+  "error_types": {
+    "arithmetic": {
+      "description": "Simple calculation mistake (e.g., 5+3=9)",
+      "detectability": "easy",
+      "prompt_instruction": "make a simple arithmetic calculation error (like adding wrong, e.g., saying 5+3=9)"
+    },
+    "computational": {
+      "description": "Order of operations or multi-step calculation error",
+      "detectability": "medium",
+      "prompt_instruction": "make an error in the order of operations or in combining multiple calculation steps"
+    },
+    "setup": {
+      "description": "Wrong equation or relationship setup",
+      "detectability": "hard",
+      "prompt_instruction": "set up the wrong equation or mathematical relationship for the problem (the math itself should be correct, but the setup is wrong)"
+    },
+    "conceptual": {
+      "description": "Misunderstanding what the problem asks",
+      "detectability": "hard",
+      "prompt_instruction": "misunderstand what the problem is asking (e.g., calculate the wrong quantity or misinterpret a condition)"
+    }
+  },
+  "n_problems_per_type": 40,
+  "models": [
+    "Claude Sonnet 4",
+    "GPT-4o"
+  ],
+  "results": {
+    "sonnet4": {
+      "arithmetic": {
+        "n": 40,
+        "detectability": "easy",
+        "accuracy": {
+          "DIRECT": 0.95,
+          "USE": 0.925
+        },
+        "cif_rate": 0.02631578947368421,
+        "followed_wrong_in_cif": 0.0,
+        "n_direct_correct": 38,
+        "n_cif": 1
+      },
+      "computational": {
+        "n": 40,
+        "detectability": "medium",
+        "accuracy": {
+          "DIRECT": 0.975,
+          "USE": 0.925
+        },
+        "cif_rate": 0.05128205128205128,
+        "followed_wrong_in_cif": 0.5,
+        "n_direct_correct": 39,
+        "n_cif": 2
+      },
+      "setup": {
+        "n": 40,
+        "detectability": "hard",
+        "accuracy": {
+          "DIRECT": 1.0,
+          "USE": 0.875
+        },
+        "cif_rate": 0.125,
+        "followed_wrong_in_cif": 1.0,
+        "n_direct_correct": 40,
+        "n_cif": 5
+      },
+      "conceptual": {
+        "n": 40,
+        "detectability": "hard",
+        "accuracy": {
+          "DIRECT": 0.975,
+          "USE": 0.85
+        },
+        "cif_rate": 0.1282051282051282,
+        "followed_wrong_in_cif": 0.8,
+        "n_direct_correct": 39,
+        "n_cif": 5
+      }
+    },
+    "gpt4o": {
+      "arithmetic": {
+        "n": 40,
+        "detectability": "easy",
+        "accuracy": {
+          "DIRECT": 0.925,
+          "USE": 0.95
+        },
+        "cif_rate": 0.02702702702702703,
+        "followed_wrong_in_cif": 0.0,
+        "n_direct_correct": 37,
+        "n_cif": 1
+      },
+      "computational": {
+        "n": 40,
+        "detectability": "medium",
+        "accuracy": {
+          "DIRECT": 0.875,
+          "USE": 0.85
+        },
+        "cif_rate": 0.08571428571428572,
+        "followed_wrong_in_cif": 0.6666666666666666,
+        "n_direct_correct": 35,
+        "n_cif": 3
+      },
+      "setup": {
+        "n": 40,
+        "detectability": "hard",
+        "accuracy": {
+          "DIRECT": 0.975,
+          "USE": 0.825
+        },
+        "cif_rate": 0.15384615384615385,
+        "followed_wrong_in_cif": 1.0,
+        "n_direct_correct": 39,
+        "n_cif": 6
+      },
+      "conceptual": {
+        "n": 40,
+        "detectability": "hard",
+        "accuracy": {
+          "DIRECT": 0.975,
+          "USE": 0.775
+        },
+        "cif_rate": 0.20512820512820512,
+        "followed_wrong_in_cif": 0.625,
+        "n_direct_correct": 39,
+        "n_cif": 8
+      }
+    }
+  },
+  "correlation_results": {
+    "sonnet4": {
+      "correlation": 0.9486832980505139,
+      "p_value": 0.05131670194948612,
+      "direction": "positive"
+    },
+    "gpt4o": {
+      "correlation": 0.9486832980505139,
+      "p_value": 0.05131670194948612,
+      "direction": "positive"
+    }
+  },
+  "key_findings": [
+    {
+      "model": "sonnet4",
+      "cif_by_type": {
+        "arithmetic": 0.02631578947368421,
+        "computational": 0.05128205128205128,
+        "setup": 0.125,
+        "conceptual": 0.1282051282051282
+      },
+      "easy_cif": 0.02631578947368421,
+      "medium_cif": 0.05128205128205128,
+      "hard_cif": 0.1266025641025641,
+      "supports_hypothesis": true,
+      "correlation": {
+        "correlation": 0.9486832980505139,
+        "p_value": 0.05131670194948612,
+        "direction": "positive"
+      }
+    },
+    {
+      "model": "gpt4o",
+      "cif_by_type": {
+        "arithmetic": 0.02702702702702703,
+        "computational": 0.08571428571428572,
+        "setup": 0.15384615384615385,
+        "conceptual": 0.20512820512820512
+      },
+      "easy_cif": 0.02702702702702703,
+      "medium_cif": 0.08571428571428572,
+      "hard_cif": 0.1794871794871795,
+      "supports_hypothesis": true,
+      "correlation": {
+        "correlation": 0.9486832980505139,
+        "p_value": 0.05131670194948612,
+        "direction": "positive"
+      }
+    }
+  ]
+}

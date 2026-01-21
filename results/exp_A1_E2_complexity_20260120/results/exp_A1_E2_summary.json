@@ -1,0 +1,124 @@
+{
+  "experiment_id": "A1_E2",
+  "experiment_name": "Task Complexity Gradient",
+  "date": "20260120",
+  "hypothesis": "Complex tasks (more steps) show higher CIF than simple tasks",
+  "design": {
+    "simple": "1-2 reasoning steps",
+    "medium": "3-4 reasoning steps",
+    "complex": "5+ reasoning steps"
+  },
+  "n_problems_per_level": 50,
+  "models": [
+    "Claude 4 Sonnet",
+    "GPT-4o"
+  ],
+  "results": {
+    "sonnet4": {
+      "simple": {
+        "n": 50,
+        "avg_steps": 2.0,
+        "accuracy": {
+          "DIRECT": 1.0,
+          "USE": 1.0
+        },
+        "cif_rate": 0.0,
+        "followed_wrong_in_cif": 0
+      },
+      "medium": {
+        "n": 50,
+        "avg_steps": 3.46,
+        "accuracy": {
+          "DIRECT": 0.96,
+          "USE": 0.84
+        },
+        "cif_rate": 0.125,
+        "followed_wrong_in_cif": 1.0
+      },
+      "complex": {
+        "n": 50,
+        "avg_steps": 5.78,
+        "accuracy": {
+          "DIRECT": 0.96,
+          "USE": 0.82
+        },
+        "cif_rate": 0.16666666666666666,
+        "followed_wrong_in_cif": 0.875
+      }
+    },
+    "gpt4o": {
+      "simple": {
+        "n": 50,
+        "avg_steps": 2.0,
+        "accuracy": {
+          "DIRECT": 1.0,
+          "USE": 0.98
+        },
+        "cif_rate": 0.02,
+        "followed_wrong_in_cif": 1.0
+      },
+      "medium": {
+        "n": 50,
+        "avg_steps": 3.46,
+        "accuracy": {
+          "DIRECT": 0.96,
+          "USE": 0.86
+        },
+        "cif_rate": 0.10416666666666667,
+        "followed_wrong_in_cif": 1.0
+      },
+      "complex": {
+        "n": 50,
+        "avg_steps": 5.78,
+        "accuracy": {
+          "DIRECT": 0.94,
+          "USE": 0.76
+        },
+        "cif_rate": 0.23404255319148937,
+        "followed_wrong_in_cif": 0.7272727272727273
+      }
+    }
+  },
+  "correlation_analysis": {
+    "sonnet4": {
+      "n": 146,
+      "correlation": 0.17874916245907962,
+      "p_value": 0.030874531703506732,
+      "significant": true
+    },
+    "gpt4o": {
+      "n": 145,
+      "correlation": 0.2049168445041717,
+      "p_value": 0.013418497510354456,
+      "significant": true
+    }
+  },
+  "key_findings": [
+    {
+      "model": "sonnet4",
+      "cif_simple": 0.0,
+      "cif_complex": 0.16666666666666666,
+      "cif_increase": 0.16666666666666666,
+      "supports_hypothesis": true,
+      "correlation": {
+        "n": 146,
+        "correlation": 0.17874916245907962,
+        "p_value": 0.030874531703506732,
+        "significant": true
+      }
+    },
+    {
+      "model": "gpt4o",
+      "cif_simple": 0.02,
+      "cif_complex": 0.23404255319148937,
+      "cif_increase": 0.21404255319148938,
+      "supports_hypothesis": true,
+      "correlation": {
+        "n": 145,
+        "correlation": 0.2049168445041717,
+        "p_value": 0.013418497510354456,
+        "significant": true
+      }
+    }
+  ]
+}

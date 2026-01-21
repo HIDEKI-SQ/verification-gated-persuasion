@@ -1,0 +1,112 @@
+{
+  "experiment_id": "A1_E8",
+  "experiment_name": "Domain Transfer",
+  "date": "20260120",
+  "hypothesis": "CIF vulnerability generalizes across task domains",
+  "domains": {
+    "math": {
+      "name": "Mathematical Reasoning",
+      "dataset": "gsm8k",
+      "answer_type": "numerical"
+    },
+    "logic": {
+      "name": "Logical Reasoning",
+      "dataset": "logiqa",
+      "answer_type": "multiple_choice"
+    },
+    "commonsense": {
+      "name": "Commonsense Reasoning",
+      "dataset": "strategyqa",
+      "answer_type": "yes_no"
+    }
+  },
+  "n_problems_per_domain": 50,
+  "models": [
+    "Claude Sonnet 4",
+    "GPT-4o"
+  ],
+  "results": {
+    "sonnet4": {
+      "math": {
+        "n": 50,
+        "accuracy": {
+          "DIRECT": 0.96,
+          "USE": 0.9
+        },
+        "cif_rate": 0.08333333333333333,
+        "followed_wrong_in_cif": 1.0,
+        "n_direct_correct": 48,
+        "n_cif": 4
+      },
+      "logic": {
+        "n": 0,
+        "error": "No data"
+      },
+      "commonsense": {
+        "n": 50,
+        "accuracy": {
+          "DIRECT": 0.78,
+          "USE": 0.48
+        },
+        "cif_rate": 0.38461538461538464,
+        "followed_wrong_in_cif": 1.0,
+        "n_direct_correct": 39,
+        "n_cif": 15
+      }
+    },
+    "gpt4o": {
+      "math": {
+        "n": 50,
+        "accuracy": {
+          "DIRECT": 0.96,
+          "USE": 0.94
+        },
+        "cif_rate": 0.0625,
+        "followed_wrong_in_cif": 1.0,
+        "n_direct_correct": 48,
+        "n_cif": 3
+      },
+      "logic": {
+        "n": 0,
+        "error": "No data"
+      },
+      "commonsense": {
+        "n": 50,
+        "accuracy": {
+          "DIRECT": 0.78,
+          "USE": 0.32
+        },
+        "cif_rate": 0.5897435897435898,
+        "followed_wrong_in_cif": 1.0,
+        "n_direct_correct": 39,
+        "n_cif": 23
+      }
+    }
+  },
+  "key_findings": [
+    {
+      "model": "sonnet4",
+      "cif_by_domain": {
+        "math": 0.08333333333333333,
+        "logic": null,
+        "commonsense": 0.38461538461538464
+      },
+      "mean_cif": 0.23397435897435898,
+      "std_cif": 0.15064102564102566,
+      "range_cif": 0.3012820512820513,
+      "pattern": "domain-specific"
+    },
+    {
+      "model": "gpt4o",
+      "cif_by_domain": {
+        "math": 0.0625,
+        "logic": null,
+        "commonsense": 0.5897435897435898
+      },
+      "mean_cif": 0.3261217948717949,
+      "std_cif": 0.2636217948717949,
+      "range_cif": 0.5272435897435898,
+      "pattern": "domain-specific"
+    }
+  ]
+}

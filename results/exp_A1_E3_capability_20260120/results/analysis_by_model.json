@@ -1,0 +1,62 @@
+{
+  "gpt4o": {
+    "n": 99,
+    "tier": "frontier",
+    "accuracy": {
+      "DIRECT": 0.9696969696969697,
+      "USE": 0.8787878787878788
+    },
+    "cif_rate": 0.125,
+    "followed_wrong_in_cif": 1.0,
+    "n_direct_correct": 96,
+    "n_cif": 12
+  },
+  "sonnet4": {
+    "n": 99,
+    "tier": "frontier",
+    "accuracy": {
+      "DIRECT": 0.98989898989899,
+      "USE": 0.9191919191919192
+    },
+    "cif_rate": 0.07142857142857142,
+    "followed_wrong_in_cif": 1.0,
+    "n_direct_correct": 98,
+    "n_cif": 7
+  },
+  "gpt4omini": {
+    "n": 99,
+    "tier": "mid",
+    "accuracy": {
+      "DIRECT": 0.9191919191919192,
+      "USE": 0.7676767676767676
+    },
+    "cif_rate": 0.24175824175824176,
+    "followed_wrong_in_cif": 0.7272727272727273,
+    "n_direct_correct": 91,
+    "n_cif": 22
+  },
+  "haiku35": {
+    "n": 99,
+    "tier": "mid",
+    "accuracy": {
+      "DIRECT": 0.9595959595959596,
+      "USE": 0.6060606060606061
+    },
+    "cif_rate": 0.37894736842105264,
+    "followed_wrong_in_cif": 0.9722222222222222,
+    "n_direct_correct": 95,
+    "n_cif": 36
+  },
+  "gpt35": {
+    "n": 99,
+    "tier": "base",
+    "accuracy": {
+      "DIRECT": 0.7575757575757576,
+      "USE": 0.6868686868686869
+    },
+    "cif_rate": 0.29333333333333333,
+    "followed_wrong_in_cif": 0.8181818181818182,
+    "n_direct_correct": 75,
+    "n_cif": 22
+  }
+}

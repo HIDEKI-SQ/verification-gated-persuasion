@@ -1,0 +1,2506 @@
+{
+  "model": "GPT-4o",
+  "task": "gsm8k_mc",
+  "problems": [
+    {
+      "idx": 144,
+      "correct_label": "B",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 270,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1271,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 91,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 227,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 419,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1183,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 746,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 109,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1173,
+      "correct_label": "C",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 521,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 831,
+      "correct_label": "C",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 969,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 973,
+      "correct_label": "A",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 660,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 476,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 166,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 964,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 210,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 590,
+      "correct_label": "A",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1074,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1298,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 13,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 720,
+      "correct_label": "B",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 263,
+      "correct_label": "A",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 387,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 707,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1038,
+      "correct_label": "B",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 543,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1193,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1117,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 513,
+      "correct_label": "B",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 567,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 679,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 68,
+      "correct_label": "B",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 800,
+      "correct_label": "D",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 687,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 602,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 885,
+      "correct_label": "D",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1244,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1106,
+      "correct_label": "A",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 331,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1205,
+      "correct_label": "B",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 399,
+      "correct_label": "A",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 344,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 252,
+      "correct_label": "C",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1249,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 174,
+      "correct_label": "C",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 153,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 376,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 903,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1110,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1159,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 542,
+      "correct_label": "B",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 696,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 36,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1212,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 872,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 824,
+      "correct_label": "A",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 703,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 168,
+      "correct_label": "B",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1113,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 790,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1172,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 426,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 97,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 323,
+      "correct_label": "B",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1084,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 880,
+      "correct_label": "B",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 45,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 771,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 977,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 750,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1035,
+      "correct_label": "A",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 657,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 130,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 783,
+      "correct_label": "A",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1279,
+      "correct_label": "A",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 961,
+      "correct_label": "C",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "C. 225",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 275,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 339,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 278,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1300,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 122,
+      "correct_label": "C",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1085,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 472,
+      "correct_label": "A",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 815,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 55,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1258,
+      "correct_label": "A",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1100,
+      "correct_label": "D",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 675,
+      "correct_label": "D",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 737,
+      "correct_label": "B",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 966,
+      "correct_label": "A",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 631,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1187,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 735,
+      "correct_label": "B",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 288,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 700,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1310,
+      "correct_label": "D",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 117,
+      "correct_label": "B",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "B",
+          "answer": "B",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    }
+  ]
+}

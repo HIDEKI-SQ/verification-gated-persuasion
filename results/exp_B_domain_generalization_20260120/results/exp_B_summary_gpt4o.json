@@ -1,0 +1,68 @@
+{
+  "experiment_id": "exp_B",
+  "model": "GPT-4o",
+  "model_short": "gpt4o",
+  "date": "20260120",
+  "n_problems_per_domain": 100,
+  "lambda": 0.8,
+  "domains": [
+    "gsm8k",
+    "hellaswag",
+    "commonsenseqa",
+    "arc_challenge"
+  ],
+  "accuracy_by_domain_condition": {
+    "DIRECT": {
+      "arc_challenge": 0.99,
+      "commonsenseqa": 0.85,
+      "gsm8k": 0.58,
+      "hellaswag": 0.92
+    },
+    "USE": {
+      "arc_challenge": 0.8,
+      "commonsenseqa": 0.54,
+      "gsm8k": 0.79,
+      "hellaswag": 0.36
+    },
+    "Delta": {
+      "arc_challenge": -0.18999999999999995,
+      "commonsenseqa": -0.30999999999999994,
+      "gsm8k": 0.21000000000000008,
+      "hellaswag": -0.56
+    }
+  },
+  "cif_by_domain": {
+    "gsm8k": {
+      "CIF_count": 12,
+      "CIF_rate": 0.20689655172413793,
+      "Recovery_count": 33,
+      "Recovery_rate": 0.7857142857142857,
+      "Asymmetry": -21,
+      "Followed_wrong_in_CIF": 5
+    },
+    "hellaswag": {
+      "CIF_count": 56,
+      "CIF_rate": 0.6086956521739131,
+      "Recovery_count": 0,
+      "Recovery_rate": 0.0,
+      "Asymmetry": 56,
+      "Followed_wrong_in_CIF": 56
+    },
+    "commonsenseqa": {
+      "CIF_count": 33,
+      "CIF_rate": 0.38823529411764707,
+      "Recovery_count": 2,
+      "Recovery_rate": 0.13333333333333333,
+      "Asymmetry": 31,
+      "Followed_wrong_in_CIF": 33
+    },
+    "arc_challenge": {
+      "CIF_count": 19,
+      "CIF_rate": 0.1919191919191919,
+      "Recovery_count": 0,
+      "Recovery_rate": 0.0,
+      "Asymmetry": 19,
+      "Followed_wrong_in_CIF": 19
+    }
+  }
+}

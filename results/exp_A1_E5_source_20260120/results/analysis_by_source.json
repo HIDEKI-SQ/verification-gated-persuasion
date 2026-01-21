@@ -1,0 +1,112 @@
+{
+  "sonnet4": {
+    "n": 100,
+    "direct_accuracy": 0.97,
+    "by_source": {
+      "professor": {
+        "authority": "high",
+        "authority_score": 3,
+        "accuracy": 0.9,
+        "cif_rate": 0.09278350515463918,
+        "n_cif": 9,
+        "followed_wrong_rate": 1.0
+      },
+      "expert": {
+        "authority": "high",
+        "authority_score": 3,
+        "accuracy": 0.92,
+        "cif_rate": 0.061855670103092786,
+        "n_cif": 6,
+        "followed_wrong_rate": 1.0
+      },
+      "ai": {
+        "authority": "medium",
+        "authority_score": 2,
+        "accuracy": 0.92,
+        "cif_rate": 0.07216494845360824,
+        "n_cif": 7,
+        "followed_wrong_rate": 0.8571428571428571
+      },
+      "student": {
+        "authority": "low",
+        "authority_score": 1,
+        "accuracy": 0.92,
+        "cif_rate": 0.061855670103092786,
+        "n_cif": 6,
+        "followed_wrong_rate": 0.8333333333333334
+      },
+      "anonymous": {
+        "authority": "low",
+        "authority_score": 1,
+        "accuracy": 0.91,
+        "cif_rate": 0.08247422680412371,
+        "n_cif": 8,
+        "followed_wrong_rate": 1.0
+      },
+      "none": {
+        "authority": "baseline",
+        "authority_score": 0,
+        "accuracy": 0.94,
+        "cif_rate": 0.05154639175257732,
+        "n_cif": 5,
+        "followed_wrong_rate": 1.0
+      }
+    },
+    "n_direct_correct": 97
+  },
+  "gpt4o": {
+    "n": 100,
+    "direct_accuracy": 0.96,
+    "by_source": {
+      "professor": {
+        "authority": "high",
+        "authority_score": 3,
+        "accuracy": 0.9,
+        "cif_rate": 0.09375,
+        "n_cif": 9,
+        "followed_wrong_rate": 0.7777777777777778
+      },
+      "expert": {
+        "authority": "high",
+        "authority_score": 3,
+        "accuracy": 0.95,
+        "cif_rate": 0.052083333333333336,
+        "n_cif": 5,
+        "followed_wrong_rate": 0.8
+      },
+      "ai": {
+        "authority": "medium",
+        "authority_score": 2,
+        "accuracy": 0.94,
+        "cif_rate": 0.052083333333333336,
+        "n_cif": 5,
+        "followed_wrong_rate": 0.8
+      },
+      "student": {
+        "authority": "low",
+        "authority_score": 1,
+        "accuracy": 0.94,
+        "cif_rate": 0.0625,
+        "n_cif": 6,
+        "followed_wrong_rate": 0.6666666666666666
+      },
+      "anonymous": {
+        "authority": "low",
+        "authority_score": 1,
+        "accuracy": 0.91,
+        "cif_rate": 0.08333333333333333,
+        "n_cif": 8,
+        "followed_wrong_rate": 0.5
+      },
+      "none": {
+        "authority": "baseline",
+        "authority_score": 0,
+        "accuracy": 0.92,
+        "cif_rate": 0.07291666666666667,
+        "n_cif": 7,
+        "followed_wrong_rate": 0.5714285714285714
+      }
+    },
+    "n_direct_correct": 96
+  }
+}

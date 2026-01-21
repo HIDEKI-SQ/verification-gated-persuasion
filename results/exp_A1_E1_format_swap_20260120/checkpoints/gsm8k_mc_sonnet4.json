@@ -1,0 +1,2506 @@
+{
+  "model": "Claude 4 Sonnet",
+  "task": "gsm8k_mc",
+  "problems": [
+    {
+      "idx": 144,
+      "correct_label": "B",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate Kim's weekly profit by finding his total income minus total expenses.\n\nGiven information:\n- Current clients: 3\n- Potential clients: 5\n- Total clients: 3 + 5 = ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I need to track through their calculation:\n\n**Step 1:** Total clients = 3 + 5 = 8 clients\n\n**Step 2:** Each client needs:\n- 2",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 270,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the total number of M&Ms across all three bags.\n\nFirst bag: 300 M&Ms\n\nSecond bag: 12 more than the first bag\nSecond bag = 300 + 12 =",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1271,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the number of pink candies by calculating the other colors first.\n\nGiven information:\n- Total candies: 232\n- Red candies: 54\n- Orange candies: twice the red amount\n- Yellow",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this problem step by step:\n\nGiven:\n- Total candies = 232\n- Red candies = 54\n- Orange candies = twice the red candies = 2 × 54 = 108",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at this step by step:\n\nGiven:\n- Total candies = 232\n- Red candies = 54\n- Orange candies = twice the red candies = 2 × 54 = 108\n-",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 91,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to work through this step-by-step.\n\nGiven information:\n- Cindy has 4 pets\n- Marcia has two more pets than Cindy\n- Jan has three times the number of pets as",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 227,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate Chad's total bill and subtract his gift card amount.\n\nBase burrito: $6.50\nExtra meat: $2.00\nExtra cheese: $1.00\nAvocado: $1.00",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's work, I need to check their calculations:\n\n**Step 1: Burrito and add-ons**\n- Base burrito: $6.50\n- Extra meat: $2.00\n-",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I need to verify the calculation:\n\n**Step 1: Calculate burrito costs**\n- Base burrito: $6.50\n- Extra meat: $2.00\n- Extra cheese: $",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 419,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how many feet Oliver must climb to reach the elevation where Stanley's comb landed.\n\nFirst, let me find the elevation where the comb landed:\n- Stanley's elevation: 10,000 feet\n-",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "I need to check the expert's calculation in Step 4.\n\nThe expert correctly found that:\n- The comb is at 6,000 feet elevation (10,000 - 4,000 = 6,000",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I can follow their reasoning:\n\n1. Stanley starts at 10,000 feet\n2. The comb falls 4,000 feet, so it lands at 10,000 - ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1183,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to track the apples Newton collected and kept.\n\nInitial situation:\n- 2 apples fell from the tree\n- Newton picked up both apples\n- Put 1 in his pocket, threw 1 at",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this step-by-step:\n\n**Initial situation:**\n- 2 apples fell, Newton picked up both\n\n**First throw:**\n- Put 1 apple in pocket, threw 1 apple\n- ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at this step-by-step:\n\n**Initial situation:**\n- 2 apples fell, Newton picked up both\n\n**First throw:**\n- Put 1 apple in pocket\n- Threw 1 apple at",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 746,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the cost for each amusement park and find the difference.\n\nFirst amusement park:\n- Adults: 2 × $26 = $52\n- Children: 2 × $12 =",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I need to check their calculations:\n\n**First amusement park:**\n- Adults: 2 × $26 = $52\n- Children: 2 × $12 = $24",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I need to check their calculations:\n\n**First amusement park:**\n- Adults: 2 × $26 = $52\n- Children: 2 × $12 = $24",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 109,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the final cost after cashback rewards.\n\nGiven information:\n- Gas price: $3.00 per gallon\n- Cashback: $0.20 per gallon\n- Amount purchased: 10",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I can see they made an error in their final calculation.\n\nThe expert correctly calculated:\n- Total cost before cashback: $30.00\n- Total cashback reward: $2.00\n\nHowever",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I can see they made an error in their final calculation.\n\nThe expert correctly calculated:\n- Total cost before cashback: $30.00\n- Total cashback reward: $2.00\n\nThen",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1173,
+      "correct_label": "C",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how many dishwashing cycles I can run for $1 with the special box.\n\nFirst, let me find how many pods are in the special box:\n- Regular box: 100 pods\n- Special box",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution:\n\nThe expert correctly identified that:\n- Special box has 120 pods (100 + 20% more)\n- Special box costs $12\n- Cost per pod = $12 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I need to follow their corrected calculation:\n\n**Step 1:** Special box has 100 + 20% = 120 pods for $12\n\n**Step 2:** Cost per pod =",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 521,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to track Chris's progress through each day.\n\nStarting problems: 100\n\nMonday: 12 problems completed\nRemaining after Monday: 100 - 12 = 88 problems\n\nTuesday: 3 times",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution:\n\n- Monday: 12 problems\n- Tuesday: 3 × 12 = 36 problems\n- After Tuesday: 12 + 36 = 48 problems completed,",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution:\n\n- Monday: 12 problems\n- Tuesday: 3 × 12 = 36 problems\n- After Tuesday: 12 + 36 = 48 problems completed,",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 831,
+      "correct_label": "C",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total cost for Angela's installation.\n\nFirst, let me identify what's included in the base $129.00 package:\n- 4 mirrors\n- 2 shelves\n- 1 chan",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 969,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total cost for 4 phones where the first 2 are full price and each phone after that is half price.\n\nGiven information:\n- John needs 4 phones total (himself + wife + 2",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "I'll follow the expert's step-by-step approach to verify the calculation.\n\nStep 1: Count the people needing phones\n- John: 1 phone\n- Wife: 1 phone\n- 2 kids",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution:\n\n- 4 phones total (John, wife, 2 kids)\n- First 2 phones: full price at $600 each = 2 × $600 = $1",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 973,
+      "correct_label": "A",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the number of states in India and the USA, then add them together.\n\nFirst, let me establish what I know:\n- The USA has 50 states\n- India has 4 more than half the number",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I can see they initially calculated correctly but then second-guessed themselves incorrectly.\n\nLet me verify the correct interpretation:\n\nThe problem states: \"India has 4 more than half the number of",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's work, I need to carefully parse the problem statement: \"India has 4 more than half the number of states in the USA.\"\n\nThis means:\n- USA has 50 states\n- Half the number",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 660,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to set up a system of equations based on the given information.\n\nLet me define variables:\n- s = number of sheep\n- g = number of geese\n\nGiven information:\n- Sheep have 4 legs each",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's work, I need to follow their system of equations approach carefully.\n\nGiven:\n- s = number of sheep\n- g = number of geese\n- s + g = 20 (heads equation)",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's work, I can see they set up the problem correctly but made some calculation errors at the end.\n\nLet me follow their approach:\n\nVariables:\n- s = number of sheep\n- g = number of geese",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 476,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how many books each child got.\n\nFirst, let me find the total number of books Sarah bought:\n- Total spent: $300\n- Cost per book: $15\n- Number of books = $300 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this problem, I need to be careful about what information is actually given versus what assumptions are being made.\n\nThe problem states:\n- Sarah spent $300 on books\n- Each book costs $15\n- She gave an equal",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at this problem, I need to follow what the problem actually states rather than making assumptions.\n\nThe problem says:\n- Sarah spent $300 on books\n- Each book costs $15\n- She gave an equal number of books to",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 166,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how many times Sandra needs to babysit to get enough eggs for 15 Spanish flans.\n\nFirst, let me calculate how many eggs Sandra needs total:\n- Each flan requires 3 eggs\n-",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this problem step by step:\n\n1. Sandra needs to make 15 Spanish flans\n2. Each flan requires 3 eggs\n3. Total eggs needed = 15 × 3 = 45 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at this problem step by step:\n\n**Step 1: Calculate total eggs needed**\n- 15 Spanish flans × 3 eggs per flan = 45 eggs total\n\n**Step 2: Calculate babys",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 964,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the total minutes John will spend watching the show.\n\nGiven information:\n- Each episode is 20 minutes long\n- There are half as many episodes as there are minutes per episode\n\nFirst, I'll find the number",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I can see they correctly identified:\n- Each episode is 20 minutes long\n- Number of episodes = 20 ÷ 2 = 10 episodes\n\nHowever, there's",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I can see they correctly identified:\n- Each episode is 20 minutes long\n- Number of episodes = 20 ÷ 2 = 10 episodes\n\nHowever, there's",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 210,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how many times Sara must mow the lawn to afford the jacket and shoes.\n\nFirst, let me calculate the total cost:\n- Jacket: $30\n- 2 pairs of shoes: 2 ×",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I can see they correctly calculated:\n\n1. Total cost needed: $70 (jacket $30 + shoes $40)\n2. Sara's current money: $30 (initial $10 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's step-by-step solution:\n\n1. Total cost needed: $70 (jacket $30 + shoes $40)\n2. Sara's current money: $30 (saved $10 + bab",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 590,
+      "correct_label": "A",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total number of people attending Alex's event.\n\nLet me break this down:\n\n1) Alex invites 100 people via email\n   - Each of these 100 people will invite 2 friends",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's step-by-step solution:\n\nStep 1: Email invitees = 100 people\nStep 2: Friends of email invitees = 100 × 2 = 200 people",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's step-by-step solution:\n\n- Email invitees: 100 people\n- Friends of email invitees: 100 × 2 = 200 people  \n- Phone call inv",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1074,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to figure out how many puzzle pieces Teddy placed during that specific hour.\n\nGiven information:\n- Teddy finished half of a 500-piece puzzle\n- Then started and finished another complete 500-piece puzzle",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "Looking at this problem step by step:\n\n1. Teddy finished half of a 500-piece puzzle = 250 pieces\n2. Teddy started and finished another complete 500-piece puzzle = 500 pieces",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I need to track what Teddy did during that one hour:\n\n1. Finished half of a 500-piece puzzle = 250 pieces\n2. Started and completed another full 500-",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1298,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total value of all coins in the jar.\n\nLet me convert each type of coin to dollars:\n\nQuarters: 32 quarters × $0.25 = $8.00\n\nDimes: ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "I'll verify the expert's calculations:\n\n**Quarters:** 32 × $0.25 = $8.00 ✓\n**Dimes:** 95 × $0.10 = $9.",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 13,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to work backwards from the 5 vacuum cleaners Melanie has left.\n\nLet me call the original number of vacuum cleaners x.\n\nFollowing the sequence:\n- She sold 1/3 of x at the",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "I'll follow the expert's approach and verify their work.\n\nLet me trace through with x = original number of vacuum cleaners:\n\n**Step 1: Green house**\nSold 1/3, so remaining = (2/",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Let me follow the expert's approach step by step to verify:\n\nStarting with x vacuum cleaners:\n\n**Step 1: Green house**\nSold 1/3, so remaining = (2/3)x\n\n**Step",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 720,
+      "correct_label": "B",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how many more boxes Castle bought this week compared to last week.\n\nThis week:\n- 3 boxes of Coco Crunch\n- 5 boxes of Fruit Loops\n- Total this week",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I can see they correctly calculated:\n\nStep 1: This week's total = 3 + 5 = 8 boxes\nStep 2: Last week's total = 4 boxes",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I can see they correctly calculated:\n\n- This week: 3 + 5 = 8 boxes\n- Last week: 4 boxes\n\nHowever, there's an error in Step ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 263,
+      "correct_label": "A",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how many trees each person has, then calculate the difference between Harry's and Ferdinand's trees.\n\nChris has 6 trees.\n\nFerdinand has half the number of trees that Chris has:\nFerdinand = 6 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I can follow their work:\n\n- Chris has 6 trees\n- Ferdinand has half of Chris's trees: 6 ÷ 2 = 3 trees\n- Harry has",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "I need to check the expert's work step by step.\n\nStep 1: Ferdinand's trees\n- Chris has 6 trees\n- Ferdinand has half of Chris's trees\n- Ferdinand's trees = 6 ÷",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 387,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total cost of 6 erasers and 8 pencils.\n\nCost of erasers:\n6 erasers × $2 each = $12\n\nCost of pencils:\n8 pencils",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 707,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find what percent of the river's total water is used by Colorado City for non-industrial purposes.\n\nGiven information:\n- Colorado City uses 40% of the Colorado River's water\n- 80% of the city's",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this problem step by step:\n\n1. Colorado City uses 40% of the river's water\n2. 80% of the city's water goes to industrial purposes\n3. Therefore, 20% of the city's water",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at this step by step:\n\n**Step 1:** Colorado City uses 40% of the river's water.\n\n**Step 2:** 80% of the city's water goes to industrial purposes.\n\n**Step 3:**",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1038,
+      "correct_label": "B",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total cost of going to college and then determine how long it takes to earn back that amount.\n\nFirst, let me find the total cost:\n- Loans: $50,000 per year × 4 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution:\n\nThe expert correctly calculated:\n- Total loans: $200,000\n- Lost income: $100,000  \n- Total cost: $300,000\n- New income after college: $75",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution:\n\n**Total cost of college:**\n- Loans: 4 years × $50,000 = $200,000\n- Lost income: 4 years × $25,000 =",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 543,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how much more Jairus gets than Jenny.\n\nFirst, let me calculate how much each person earns:\n\nJairus: $0.8 × 20 tasks = $16\n\nJenny: $0",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this problem, I need to find how much more money Jairus gets than Jenny.\n\nLet me calculate their earnings:\n- Jairus: $0.8 × 20 tasks = $16\n- Jenny:",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at this problem, I need to find how much more money Jairus gets than Jenny.\n\nLet me calculate their earnings:\n- Jairus: $0.8 × 20 tasks = $16\n- Jenny:",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1193,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate Jason's total earnings over the two-week period.\n\nGiven rates:\n- Laundry: $3.00\n- Cleaning room: $1.50\n- Taking trash out: $0.75",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1117,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how long it takes for 459 blinks.\n\nFirst, I'll find the rate of blinking:\n255 blinks in 5 minutes\nRate = 255 ÷ 5 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution:\n\nStep 1: Rate = 255 blinks ÷ 5 minutes = 51 blinks per minute ✓\n\nStep 2: Set up equation: 51 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution:\n\nStep 1: Rate = 255 blinks ÷ 5 minutes = 51 blinks per minute\n\nStep 2: Set up equation: 51 blinks/",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 513,
+      "correct_label": "B",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to solve this step by step.\n\nStarting amount: $500\n\nStep 1: Julie spent 20% on clothes\n20% of $500 = 0.20 × $500 = $100\nMoney left",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I need to follow their corrected calculation:\n\nStep 1: Julie spent 20% of $500 on clothes\n20% of $500 = $100\n\nStep 2: Money remaining after",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I need to follow their corrected calculation:\n\nStep 1: Julie spent 20% of $500 on clothes\n20% × $500 = $100\n\nStep 2: Money remaining after",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 567,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total amount the tooth fairy gave Sharon for all her lost teeth.\n\nLet me break this down by groups of teeth:\n\nFirst tooth: $5.00\n\nNext three teeth: $1.00 each\n-",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's step-by-step solution:\n\n- First tooth: $5.00\n- Next 3 teeth: 3 × $1.00 = $3.00\n- Last 2 teeth",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's step-by-step solution:\n\nStep 1: First tooth = $5.00\nStep 2: Next 3 teeth = 3 × $1.00 = $3.00  ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 679,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the ratio of hash browns to potatoes and then calculate how many hash browns can be made from 96 potatoes.\n\nGiven information:\n- 6 potatoes make 36 hash browns\n\nFirst, I",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution:\n\nStep 1: The ratio is 6 hash browns per potato (36 ÷ 6 = 6)\nStep 2: 96 ÷ 6",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 68,
+      "correct_label": "B",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the total number of students first, then calculate how many teachers are needed.\n\nGiven information:\n- There are 60 girls\n- There are twice as many boys as girls\n- There are 5 students per",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution:\n\nStep 1: Number of boys = 2 × 60 = 120 boys\nStep 2: Total students = 60 + 120 = 180 students  ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at this problem step by step:\n\n**Step 1: Find the number of boys**\n- Girls = 60\n- Boys = 2 × 60 = 120\n\n**Step 2: Find total students**",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 800,
+      "correct_label": "D",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find Nikita's score first, then add it to Pierson's score.\n\nPierson's score: 278 points\n\nNikita scored 11 more than half as many as Pierson:",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 687,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to set up equations based on the given information.\n\nLet me define variables:\n- Let t = age of one triplet (all triplets are the same age)\n- Let w = age of one twin (all twins are",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I need to trace through the key steps:\n\nLet t = age of one triplet, w = age of one twin\n\nGiven:\n- w = t + 7 (twin is 7 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "I need to work through this step-by-step carefully.\n\nLet me define variables:\n- Let t = age of one triplet\n- Let w = age of one twin\n\nGiven:\n- One twin is 7 years",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 602,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the plane's rate and then calculate how long it takes to travel 2000 additional miles.\n\nFirst, I'll find the rate:\nRate = Distance ÷ Time = 1200 miles ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I can see they made an error in their final calculation.\n\nThe expert correctly found:\n- Rate = 1200 ÷ 3 = 400 miles per hour\n- Additional",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I can see they made an error in their final calculation.\n\nThe expert correctly found:\n- Rate = 1200 ÷ 3 = 400 miles per hour\n- Additional",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 885,
+      "correct_label": "D",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total number of chimichangas made on Tuesday, Wednesday, and Friday.\n\nTuesday: 125 chimichangas\nWednesday: 125 chimichangas\nFriday: twice as many as Tuesday =",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's step-by-step solution:\n\n- Tuesday: 125 chimichangas\n- Wednesday: 125 chimichangas\n- Friday: 2 × 125 = 250 chi",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1244,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how many questions Audrey needs to get right on the second test.\n\nFirst, let me calculate the total number of questions and how many she needs to get right overall:\n- First test: 70 questions",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this problem step by step:\n\n**Step 1: Calculate total questions and required correct answers**\n- Total questions: 70 + 40 = 110\n- Questions needed correct overall: 70% × 110",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "I need to follow the expert's step-by-step solution carefully.\n\nStep 1: Total questions = 70 + 40 = 110 questions\n\nStep 2: Questions needed correct overall = 70% of ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1106,
+      "correct_label": "A",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the length of each final cut.\n\nStarting with 100 centimeters of ribbon:\n\nStep 1: Cut into 4 equal parts\n100 ÷ 4 = 25 cent",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I can see there's an error in Step 4.\n\nThe expert correctly calculated:\n- Step 1: 100 cm total\n- Step 2: 100 ÷ ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I can see there's an error in Step 4. Let me trace through the correct logic:\n\nStep 1: Start with 100 cm of ribbon\nStep 2: Cut into 4 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 331,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the net pay for both jobs and find the difference.\n\nJob A:\n- Gross pay: $15/hour × 2000 hours = $30,000\n- Tax rate: 20%\n-",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution:\n\n**Job A:**\n- Gross: $15 × 2000 hours = $30,000\n- Taxes: $30,000 × 20% = $6,000",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1205,
+      "correct_label": "B",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how many miles the fourth dog needs to walk.\n\nGiven information:\n- 4 dogs total\n- First dog: 1 mile\n- Second dog: 4 miles\n- Third dog: 3",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this problem step by step:\n\nGiven:\n- 4 dogs total\n- Dog 1: 1 mile\n- Dog 2: 4 miles  \n- Dog 3: 3 miles",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at this problem step by step:\n\nGiven:\n- 4 dogs total\n- Dog 1: 1 mile\n- Dog 2: 4 miles  \n- Dog 3: 3 miles",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 399,
+      "correct_label": "A",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the difference between Alice's and Erica's ages.\n\nGiven information:\n- Erica is 30 years old\n- Beth is 5 years older than Erica\n- Alice is 7",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I can see they correctly calculated:\n\n- Erica: 30 years old\n- Beth: 35 years old (30 + 5)\n- Alice: 42 years ol",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 344,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the prices of each juice box and then compare C and B.\n\nGiven information:\n- Juice Box A = $4\n- Juice Box B = $5 more than A\n- Juice Box C =",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I can see they made an error in their final calculation.\n\nLet me verify the correct approach:\n\n**Step 1-3 are correct:**\n- Juice Box A = $4\n-",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's work, I can see they made an error in Step 4.\n\nLet me check their calculation:\n- Juice Box A = $4\n- Juice Box B = $4 + $5 =",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 252,
+      "correct_label": "C",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the total number of animals Rick killed over both nights.\n\nLast night:\n- Wolves: 10\n- Cougars: 15\n- Total last night: 10 + 15 = ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I need to check their interpretation of \"three fewer cougars than the previous night.\"\n\nThe expert initially calculated correctly:\n- Last night: 15 cougars\n- \"Three fewer coug",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I need to check their interpretation of \"three fewer cougars than the previous night.\"\n\nThe expert initially calculated correctly:\n- Last night: 15 cougars\n- \"Three fewer coug",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1249,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total number of candles and flashlights.\n\nLet me break this down:\n\n**Flashlights:**\n- 1 flashlight per person: 4 people × 1 = 4",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 174,
+      "correct_label": "C",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total time for Billy to prep 60 potatoes.\n\nFor each potato:\n- Peeling time: 1.5 minutes = 90 seconds\n- Cutting time: 5 seconds",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution:\n\nThe expert correctly calculated:\n- Peeling time: 90 seconds per potato\n- Cutting time: 5 seconds per potato\n- Total time per potato: 95 seconds",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution:\n\n- Time per potato: 90 seconds (peeling) + 5 seconds (cutting) = 95 seconds\n- Total time for 60 potatoes: 60 × ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 153,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to work backwards from the final amount to find the original number of french fries.\n\nLet me trace through what happened:\n\nFinal state: 5 fries left after ants took 1\nBefore ants: 5",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I need to work backwards from the final state.\n\nLet me trace through the expert's reasoning:\n\nStarting with 5 fries left at the end:\n- Before ants took 1: ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at this problem, I need to work backwards from the final state.\n\nLet me trace through the expert's reasoning carefully:\n\nStarting from the end:\n- 5 fries left after ants took 1\n- Before ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 376,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to solve this step by step.\n\nGiven information:\n- Total pupils = 40\n- Half the class likes blue\n- One-fourth of the remaining likes green\n- The rest likes yellow\n\nStep 1: Find how",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution:\n\nStep 1: Half of 40 pupils like blue = 20 pupils\nStep 2: Remaining pupils = 40 - 20 = 20 pupils  \nStep ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's step-by-step solution:\n\nStep 1: Half of 40 pupils like blue = 20 pupils\nStep 2: Remaining pupils = 40 - 20 = 20 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 903,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how much material Jo needs for 20 small masks and 8 large masks.\n\nFirst, let me find the material needed per mask:\n\nFor small masks:\n- 4 small masks need 2 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I need to verify the calculations:\n\n**Step 1:** Material per small mask = 2 yards ÷ 4 masks = 0.5 yards per mask ✓",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "I'll follow the expert's step-by-step approach to solve this problem.\n\n**Step 1: Material per small mask**\n4 small masks = 2 yards\nMaterial per small mask = 2 ÷",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1110,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how many more miles per day Soledad must hike beyond her current plan.\n\nGiven information:\n- Total miles to hike: 9,300 miles\n- Time period: June (30 days)",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I can see they made an error in Step 5 by calculating total additional miles and then dividing by 30 again, which is unnecessary.\n\nLet me verify the correct approach:\n\n**Step ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at this problem step by step:\n\n**Step 1: Calculate total daily miles needed**\n- Total distance: 9,300 miles\n- Days in June: 30 days\n- Miles needed per day = 9",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1159,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the probability that a baby wearing a bow is wearing purple.\n\nFirst, let me establish the numbers:\n- Total babies: 8 (octuplets)\n- Purple wearers: 3/4 ",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution:\n\n**Step 1:** 8 babies total\n- Purple: 3/4 × 8 = 6 babies  \n- Blue: 1/4 × 8 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "I need to work through this step-by-step using the expert's approach.\n\n**Step 1: Find the number of babies in each color**\n- Total babies: 8 (octuplets)\n- Purple: ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 542,
+      "correct_label": "B",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total cost of the fruit and subtract from $20.\n\nCost of apples: 3 × $1.50 = $4.50\nCost of oranges: 5 × $0.80",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "I need to check the expert's calculations step by step.\n\n**Step 1: Cost of apples**\n3 apples × $1.50 = $4.50 ✓\n\n**Step 2: Cost",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "I need to verify the expert's calculations step by step.\n\n**Step 1: Cost of apples**\n3 apples × $1.50 = $4.50 ✓\n\n**Step 2: Cost",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 696,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how many points each student has, then calculate the total and subtract from 400.\n\nLet me start with Adam:\n- Adam has 50 points\n\nNext, Betty:\n- Betty collected 30% more than",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 36,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate how much Terry spends on yogurt over 30 days.\n\nGiven information:\n- Terry eats 2 yogurts per day\n- Yogurts are sold at 4 for $5",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1212,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the combined capacity of both schools.\n\nGiven information:\n- Ali's school has 1 class with capacity of 120 students\n- John's school has 2 classes, each with 1/8 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I need to follow their step-by-step approach:\n\n1. Ali's school capacity = 120 students (one class)\n\n2. Each of John's classes = 1/8 ×",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 872,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the cost per bottle for both soda and water, then calculate the total cost for 3 sodas and 2 waters.\n\nFirst, let me find the cost per bottle of soda:\n7 bottles",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I need to verify the calculations:\n\n**Step 1: Cost per bottle of soda**\n7 bottles = $21.00\nCost per bottle = $21.00 ÷",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I need to verify the calculations:\n\n**Step 1: Cost per bottle of soda**\n7 bottles = $21.00\nCost per bottle = $21.00 ÷",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 824,
+      "correct_label": "A",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how many more tins of cat food than dog food Kimberly bought.\n\nFirst, let me calculate the total tins of cat food:\n- 8 packages of cat food × 11 tins",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "I'll work through this step by step following the expert's approach.\n\n**Step 1: Calculate total tins of cat food**\n- 8 packages × 11 tins per package = 88 tins of cat",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 703,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the total number of dumplings Larry cooked.\n\nGiven information:\n- 8 males (including Larry)\n- 6 females\n- Each female ate 3 dumplings\n- Each male",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this problem, I need to determine how many dumplings Larry cooked for the group.\n\nGiven information:\n- 8 males (including Larry) + 6 females = 14 people total\n- Each female",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "I need to carefully analyze the expert's solution to identify any errors.\n\nThe expert correctly identified:\n- 8 males (including Larry) and 6 females\n- Each female ate 3 dumplings\n- Each male",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 168,
+      "correct_label": "B",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how much money Jimmy has.\n\nGiven information:\n- Ethel has $8\n- Jimmy has $2 more than twice the money Ethel has\n\nStep 1: Find twice the money Ethel",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this problem step by step:\n\nGiven:\n- Ethel has $8\n- Jimmy has $2 more than twice the money Ethel has\n\nStep 1: Find twice Ethel's money\n2 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "I need to carefully analyze the expert's solution and the problem statement.\n\nThe problem states: \"Jimmy has $2 more than twice the money Ethel has.\"\n\nGiven: Ethel has $8\n\nStep 1: Fin",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1113,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to track the temperature changes step by step.\n\nStarting temperature: 2°C\nAfter dropping 8°C overnight: 2 - 8 = -6°C\nAfter increasing 3°C in the morning",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this problem step by step:\n\nStarting temperature: 2°C\nAfter dropping 8°C overnight: 2 - 8 = -6°C\nAfter increasing 3°C in the morning: -6",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "I need to work through this step-by-step, noting that the expert made an error in their final calculation.\n\nStarting temperature: 2°C\nAfter dropping 8°C: 2 - 8 = -6",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 790,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to solve this step by step.\n\nFirst, let me find how many groups were formed:\n- 90 people total\n- 9-person groups\n- Number of groups = 90 ÷ 9",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution:\n\nStep 1: 90 people ÷ 9 people per group = 10 groups ✓\nStep 2: 3/5 × 10 groups =",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's step-by-step solution:\n\nStep 1: 90 people ÷ 9 people per group = 10 groups ✓\nStep 2: 3/5 ×",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1172,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the total number of cloud puffs Alice counted from Monday through Friday.\n\nGiven information:\n- Monday: 3 puffs\n- Each day after Monday, she sees double the number from the previous day",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 426,
+      "correct_label": "C",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the cost of each item and then find the total.\n\nGiven information:\n- Bagel cost: $4\n- Soup cost: 25% more than the bagel\n- Cake cost: half the",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 97,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to work backwards from the final sauce amount to find how many tomatoes were used.\n\nGiven information:\n- Final sauce: 32 ounces\n- Cooking reduces volume by half\n- Each 16-oun",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I need to trace through their reasoning carefully.\n\nThe expert initially made an error in Step 1, thinking that if tomatoes lose half their volume, then 32 ounces of final sauce came from",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's work, I can see they made an error in their \"double-check\" calculation.\n\nLet me trace through the correct logic:\n\n- Final sauce volume: 32 ounces\n- Tomatoes lose",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 323,
+      "correct_label": "B",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how much weaker Shannon's coffee becomes from both ice cubes and cream.\n\nFirst, let me find how many ice cubes are needed to cool the coffee by 65 degrees:\n- Each ice cube cools",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1084,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how much fence Sam gets.\n\nLet me set up the problem:\n- Total fence = 100 feet\n- Let Sam get x feet\n- Then Harry gets (x + 60) feet\n\nSince they split",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "I need to carefully analyze the expert's solution and the question.\n\nThe expert correctly calculated:\n- Sam gets 20 feet\n- Harry gets 80 feet\n- Total: 20 + 80 = 100 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I need to carefully interpret what \"left over for Sam\" means.\n\nThe expert correctly determined that:\n- Sam gets 20 feet of fence\n- Harry gets 80 feet of fence\n-",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 880,
+      "correct_label": "B",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate how much money Sarah will have left over.\n\nStep 1: Calculate how much Sarah receives for selling her rope.\n- Rope length: 20 meters\n- Price per meter: $2\n- Total receive",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution:\n\nStep 1: Sarah sells 20 meters at $2/meter = $40\nStep 2: New rope costs 20 meters at $1.5/meter = $30\nStep",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution:\n\nStep 1: Sarah sells 20 meters at $2/meter = $40\nStep 2: New rope costs 20 meters at $1.5/meter = $30\nStep",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 45,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total hours Meredith spent writing articles over three days.\n\nGiven information:\n- Each article takes 4 hours to write\n- Monday: 5 articles\n- Tuesday: 2/5 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I can see they correctly calculated:\n\n- Monday: 5 articles\n- Tuesday: 5 + (2/5 × 5) = 5 + 2 = 7",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I can see they correctly calculated:\n\n- Monday: 5 articles\n- Tuesday: 5 + (2/5 × 5) = 5 + 2 = 7",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 771,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how much Bennet should sell each ear of corn for.\n\nFirst, let me calculate how much money Bennet makes from selling eggplants:\n- 20 eggplants × $3 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I need to check their calculations:\n\n**Step 1: Revenue from eggplants**\n20 eggplants × $3 each = $60\n\n**Step 2: Money still",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I need to check their arithmetic:\n\n**Step 1: Revenue from eggplants**\n20 eggplants × $3 each = $60 (the expert's first calculation was",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 977,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate how much sunscreen Pamela will use total, then determine how many bottles she needs.\n\nGiven information:\n- Uses 1 ounce per hour\n- Outside 4 hours per day\n-",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution:\n\n- Daily usage: 1 ounce/hour × 4 hours = 4 ounces per day\n- Total vacation usage: 4 ounces/day × ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution:\n\nStep 1: Daily usage = 1 ounce/hour × 4 hours = 4 ounces per day\nStep 2: Total needed = 4 oun",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 750,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total chairs rented over two 4-week months.\n\nFirst, let me figure out the weekly rental:\n- Weekdays (Monday-Friday): 5 days × 60 chairs = 300",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I need to trace through their calculations carefully.\n\nThe expert correctly identifies:\n- Two 4-week months = 8 weeks total\n- In 8 weeks: 40 weekdays an",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I need to follow their step-by-step approach:\n\n**Step 1: Identify the time period**\n- Two 4-week months = 8 weeks total\n\n**Step 2",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1035,
+      "correct_label": "A",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to figure out how long it takes Richard to set off all the soda fountains.\n\nFirst, let me determine how many bottles there are:\n- Driveway is 24 feet wide\n- Bottles are place",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this problem step by step:\n\n1. **Number of bottles**: 24 feet ÷ 3 feet = 8 bottles total\n\n2. **Movement pattern**: Richard starts at the first bottle and moves to",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution:\n\nStep 1: 24 feet ÷ 3 feet = 8 bottles\nStep 2: Moving from bottle 1 to bottle 8 requires 7 trips",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 657,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total cost for James to get and maintain the plane for the first year.\n\nInitial cost of the plane: $150,000\n\nMonthly costs:\n- Hanger rent: $5,000 per month",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's step-by-step solution:\n\n1. Initial plane cost: $150,000\n2. Monthly hanger rental: $5,000\n3. Monthly fuel cost: 2 × $5,000",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 130,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to solve this step by step.\n\nStarting elves: 60\n\nFirst, a third quit after children vomit on them:\n- 1/3 of 60 = 20 elves quit\n-",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 783,
+      "correct_label": "A",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how many white fish Bob bought at the store.\n\nLet me define variables:\n- Let w = number of white fish Bob bought\n- Let o = number of orange fish Bob bought\n\nGiven information:\n- Bob starte",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's work, I need to check the algebraic manipulation in Step 5.\n\nStarting with:\n3 + (17 - w) = 2(4 + w)\n20 - w = ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at this problem, I need to set up equations based on the given information.\n\nInitial fish:\n- Orange: 3\n- White: 4\n\nLet w = white fish bought, o = orange fish bought\n- Total bought",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1279,
+      "correct_label": "A",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total cost of place settings for 12 people.\n\nEach place setting consists of:\n- 1 dinner plate: $6.00\n- 1 salad plate: $4.00\n-",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 961,
+      "correct_label": "C",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the total number of corn chips.\n\nGiven information:\n- Amora and Lainey each got 70 corn chips\n- Collins got 15 more corn chips than what Amora and L",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution:\n\n- Amora got 70 corn chips\n- Lainey got 70 corn chips  \n- Collins got 70 + 15 = 85 corn chips\n\nTotal",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 275,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the total number of lines Sean has to memorize from the song and two scenes.\n\nGiven information:\n- Solo song: 54 lines\n- First scene: twice the number of lines as the song, but only",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 339,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the number of chickens and cows, then calculate the total number of legs.\n\nLet me define variables:\n- Let c = number of cows\n- Let h = number of chickens\n\nFrom the problem:",
+          "answer": "C",
+          "correct": true,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I can see they correctly determined there are 20 cows and 40 chickens. However, there's an error in Step 5 when calculating the chicken legs.\n\nThe expert wrote: \"",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I can follow the logic:\n\n- 20 cows and 40 chickens (totaling 60 animals)\n- Cows have 4 legs each: 20 ×",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 278,
+      "correct_label": "D",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the sum of Mico and Marco's ages in 10 years.\n\nGiven information:\n- The current sum of their ages is 20\n\nIn 10 years:\n- Mico will be ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I need to identify where they made an error.\n\nThe expert correctly set up the problem:\n- Current sum of ages: M + R = 20\n- In 10 years: Mico",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's work, I can see they made an error in their final calculation.\n\nThe expert correctly set up the problem:\n- Current sum of ages: M + R = 20\n- In 10 years: (",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1300,
+      "correct_label": "D",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate Josh's earnings over 2 weeks.\n\nFirst, let me figure out how many days he works per week:\n- 7 days in a week\n- He's closed on Sunday and Wednesday\n- So he",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I need to carefully track the working days.\n\nJosh is closed on Sunday and Wednesday, so he works:\n- Monday, Tuesday, Thursday, Friday, Saturday = 5 days per week\n\nThe expert",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I need to carefully work through this step by step.\n\nFirst, let me identify Josh's working days:\n- He's open every day except Sunday and Wednesday\n- Days of the week: Monday, Tuesday",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 122,
+      "correct_label": "C",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate Sadie's total sleep hours for the week.\n\nLet me break this down day by day:\n\nMonday: 8 hours\n\nTuesday and Wednesday (next two days): 2 hours less than Monday each day",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1085,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how many inches the crocodile will grow in 13 years at the same rate.\n\nFirst, I'll find the growth rate per year:\n8 inches in 4 years = 8 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this problem, I need to find how much the crocodile will grow in 13 years at the given rate.\n\nThe expert correctly identified the growth rate as 2 inches per year (8 inches ÷",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "I need to carefully analyze this step by step.\n\nThe problem states: \"A crocodile grows 8 inches long in 4 years. At this rate, how many inches will it grow in 13 years?\"\n\nStep",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 472,
+      "correct_label": "A",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to set up an equation based on the given information.\n\nLet me define variables:\n- Let x = number of carrot sticks Matt eats\n- Matt gets cookies equal to: (half the carrot sticks) +",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I can see they correctly set up and solved the equation:\n\nLet x = number of carrot sticks\nx/2 + 2 = 5\nx/2 = 3",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution:\n\nLet x = number of carrot sticks Matt eats\n\nThe equation is: x/2 + 2 = 5\n\nSolving:\n- x/2 = 5 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 815,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to set up equations based on the given relationships.\n\nLet me define variables:\n- Let z = ounces of zest\n- Let f = ounces of fragrance\n- Let s = ounces of salt",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this problem, I need to set up equations based on the given relationships.\n\nLet me define z = ounces of zest, and express everything in terms of z:\n- Zest = z\n- Fragrance",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at this problem, I need to set up variables and use the given relationships.\n\nLet me define:\n- z = ounces of citrus zest\n- f = ounces of fragrance  \n- s = ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 55,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to solve this step by step.\n\nJean starts with 30 lollipops.\nJean eats 2 lollipops.\nRemaining lollipops = 30 - 2 = ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution:\n\nStep 1: Jean starts with 30 lollipops, eats 2, leaving 28 lollipops\nStep 2: Each bag contains 2 lollip",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1258,
+      "correct_label": "A",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the total cost of the phone plan with 5 phones.\n\nGiven information:\n- There are 5 phones total (1 main phone + 4 additional phones)\n- The main phone costs twice as",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "B",
+          "answer": "B",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1100,
+      "correct_label": "D",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate Bobby's total break time over 5 days.\n\nDaily breaks:\n- 1 lunch: 30 minutes\n- 2 breaks: 15 minutes each = 30 minutes\n- Total",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution:\n\nStep 1: Daily break time = 30 min (lunch) + 30 min (2×15 min breaks) = 60 minutes per day\n\nStep 2: Over ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution:\n\nStep 1: Daily break time = 30 min (lunch) + 30 min (2×15 min breaks) = 60 minutes\nStep 2: Over 5 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 675,
+      "correct_label": "D",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to track the number of dogs and toys step by step.\n\nInitial situation:\n- 4 dogs, 4 toys\n- 8 more dogs arrive\n- Total dogs = 4 + 8 =",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this problem step by step:\n\n**Initial situation:**\n- 4 toys for 4 dogs\n- 8 more dogs arrive → 12 total dogs\n- Needs 8 more toys (buys",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at this step-by-step:\n\n**Step 1: Initial situation**\n- 4 dogs with 4 toys\n- 8 more dogs arrive\n- Total: 12 dogs, needs 8 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 737,
+      "correct_label": "B",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate how much water Peter uses and subtract from his total.\n\nWater used:\n- 3 giant cubes × 4 ounces each = 12 ounces\n- 7 medium cubes",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution, I need to check their calculations:\n\n**Water used for each type:**\n- Giant cubes: 3 × 4 = 12 ounces\n- Medium cubes: 7",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I need to check the calculation for small cubes:\n\nSmall cubes: 8 cubes × 1/2 ounce per cube = 8 × 0.5 =",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 966,
+      "correct_label": "A",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to track all the brownies Greta accumulated and then subtract what was eaten.\n\nStarting brownies:\n- Greta made 1 dozen = 12 brownies\n- Office party gave her 1/2",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 631,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find the prices of all three jewels and add them together.\n\nGiven information:\n- Diamond jewel = $2000\n- Gold jewel = 4/5 times the price of diamond jewel\n- Silver",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's step-by-step solution:\n\n1. Diamond jewel = $2000 (given)\n2. Gold jewel = (4/5) × $2000 = $1600\n3.",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 1187,
+      "correct_label": "C",
+      "trace_wrong_label": "B",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how long it takes Jay to accumulate 60 snowballs.\n\nLet me set up the rates:\n- Jay makes 20 snowballs per hour = 20/60 = 1/3",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this problem, I need to find the net rate at which Jay accumulates snowballs.\n\nGiven information:\n- Jay builds 20 snowballs per hour\n- 2 snowballs melt every 15",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution, I need to track the key calculations:\n\n**Rates per minute:**\n- Building rate: 20 snowballs ÷ 60 minutes = 1/3 snowball per",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 735,
+      "correct_label": "B",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how many votes candidate C received.\n\nGiven information:\n- Total voters: 100\n- Candidate A got 20% of the votes\n- Candidate B got 50% more than candidate A's votes",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at the expert's solution:\n\n**Step 1:** Candidate A got 20% of 100 votes = 20 votes\n\n**Step 2:** Candidate B got 50% more than A's votes\n-",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution:\n\n- Candidate A got 20% of 100 votes = 20 votes\n- Candidate B got 50% more than A = 20 + (50% × 20)",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 288,
+      "correct_label": "B",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how many trucks are needed to transport 80 flagstones.\n\nFirst, let me calculate the total weight of 80 flagstones:\n80 flagstones × 75 pounds each = 6",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "Looking at this problem, I need to calculate how many trucks are required to transport 80 flagstones.\n\nStep 1: Calculate total weight\n- 80 flagstones × 75 pounds each = 6,000",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE_NOANS": {
+          "raw": "Looking at this problem, I need to calculate how many trucks are required to transport 80 flagstones.\n\nStep 1: Calculate total weight\n- 80 flagstones × 75 pounds each = 6,000",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 700,
+      "correct_label": "A",
+      "trace_wrong_label": "D",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total number of fireworks Hannah will see.\n\nFirst, let me find how many fireworks the city will set off:\n- 15 boxes × 20 fireworks per box = 300 fireworks",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "D",
+          "answer": "D",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    },
+    {
+      "idx": 1310,
+      "correct_label": "D",
+      "trace_wrong_label": "A",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to find how long Vanessa took to complete her part of the race.\n\nGiven information:\n- Aaron runs each mile twice as fast as Vanessa\n- Vanessa runs twice as far as Aaron\n- Van",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "A",
+          "answer": "A",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "Looking at the expert's solution:\n\nStep 1: Aaron ran 2 miles (half of Vanessa's 4 miles)\nStep 2: Aaron's speed = 2 miles ÷ 16 ",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        }
+      }
+    },
+    {
+      "idx": 117,
+      "correct_label": "B",
+      "trace_wrong_label": "C",
+      "responses": {
+        "DIRECT": {
+          "raw": "I need to calculate the total cost of shoes John bought.\n\nGiven information:\n- 3 children\n- 2 pairs of shoes for each child\n- Each pair costs $60\n\nStep 1: Calculate total number of pairs",
+          "answer": "",
+          "correct": false,
+          "followed_wrong": false
+        },
+        "USE": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        },
+        "USE_NOANS": {
+          "raw": "C",
+          "answer": "C",
+          "correct": false,
+          "followed_wrong": true
+        }
+      }
+    }
+  ]
+}

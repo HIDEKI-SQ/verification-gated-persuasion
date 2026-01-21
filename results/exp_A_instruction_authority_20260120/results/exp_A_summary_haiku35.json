@@ -1,0 +1,132 @@
+{
+  "experiment_id": "exp_A",
+  "model": "Claude 3.5 Haiku",
+  "model_short": "haiku35",
+  "date": "20260120",
+  "n_problems": 199,
+  "lambda": 0.8,
+  "accuracy_by_condition": {
+    "accuracy": {
+      "A0_DIRECT": 0.4472361809045226,
+      "A1_USE_AUTH_ANS": 0.9949748743718593,
+      "A2_USE_UNCERT_ANS": 0.9547738693467337,
+      "A3_NEUTRAL_AUTH_ANS": 0.9748743718592965,
+      "A4_NEUTRAL_UNCERT_ANS": 0.9597989949748744,
+      "A5_USE_AUTH_NOANS": 0.9849246231155779,
+      "A6_USE_UNCERT_NOANS": 0.9447236180904522
+    },
+    "correct": {
+      "A0_DIRECT": 89,
+      "A1_USE_AUTH_ANS": 198,
+      "A2_USE_UNCERT_ANS": 190,
+      "A3_NEUTRAL_AUTH_ANS": 194,
+      "A4_NEUTRAL_UNCERT_ANS": 191,
+      "A5_USE_AUTH_NOANS": 196,
+      "A6_USE_UNCERT_NOANS": 188
+    },
+    "total": {
+      "A0_DIRECT": 199,
+      "A1_USE_AUTH_ANS": 199,
+      "A2_USE_UNCERT_ANS": 199,
+      "A3_NEUTRAL_AUTH_ANS": 199,
+      "A4_NEUTRAL_UNCERT_ANS": 199,
+      "A5_USE_AUTH_NOANS": 199,
+      "A6_USE_UNCERT_NOANS": 199
+    }
+  },
+  "cif_recovery": {
+    "A1_USE_AUTH_ANS": {
+      "CIF_count": 1,
+      "CIF_base": 89,
+      "CIF_rate": 0.011235955056179775,
+      "Recovery_count": 110,
+      "Recovery_base": 110,
+      "Recovery_rate": 1.0,
+      "Asymmetry": -109
+    },
+    "A2_USE_UNCERT_ANS": {
+      "CIF_count": 2,
+      "CIF_base": 89,
+      "CIF_rate": 0.02247191011235955,
+      "Recovery_count": 103,
+      "Recovery_base": 110,
+      "Recovery_rate": 0.9363636363636364,
+      "Asymmetry": -101
+    },
+    "A3_NEUTRAL_AUTH_ANS": {
+      "CIF_count": 1,
+      "CIF_base": 89,
+      "CIF_rate": 0.011235955056179775,
+      "Recovery_count": 106,
+      "Recovery_base": 110,
+      "Recovery_rate": 0.9636363636363636,
+      "Asymmetry": -105
+    },
+    "A4_NEUTRAL_UNCERT_ANS": {
+      "CIF_count": 1,
+      "CIF_base": 89,
+      "CIF_rate": 0.011235955056179775,
+      "Recovery_count": 103,
+      "Recovery_base": 110,
+      "Recovery_rate": 0.9363636363636364,
+      "Asymmetry": -102
+    },
+    "A5_USE_AUTH_NOANS": {
+      "CIF_count": 1,
+      "CIF_base": 89,
+      "CIF_rate": 0.011235955056179775,
+      "Recovery_count": 108,
+      "Recovery_base": 110,
+      "Recovery_rate": 0.9818181818181818,
+      "Asymmetry": -107
+    },
+    "A6_USE_UNCERT_NOANS": {
+      "CIF_count": 4,
+      "CIF_base": 89,
+      "CIF_rate": 0.0449438202247191,
+      "Recovery_count": 103,
+      "Recovery_base": 110,
+      "Recovery_rate": 0.9363636363636364,
+      "Asymmetry": -99
+    }
+  },
+  "mcnemar_tests": {
+    "A1_USE_AUTH_ANS": {
+      "b_CIF": 1,
+      "c_Recovery": 110,
+      "chi2": 105.08108108108108,
+      "p_value": 0.0
+    },
+    "A2_USE_UNCERT_ANS": {
+      "b_CIF": 2,
+      "c_Recovery": 103,
+      "chi2": 95.23809523809524,
+      "p_value": 0.0
+    },
+    "A3_NEUTRAL_AUTH_ANS": {
+      "b_CIF": 1,
+      "c_Recovery": 106,
+      "chi2": 101.08411214953271,
+      "p_value": 0.0
+    },
+    "A4_NEUTRAL_UNCERT_ANS": {
+      "b_CIF": 1,
+      "c_Recovery": 103,
+      "chi2": 98.08653846153847,
+      "p_value": 0.0
+    },
+    "A5_USE_AUTH_NOANS": {
+      "b_CIF": 1,
+      "c_Recovery": 108,
+      "chi2": 103.08256880733946,
+      "p_value": 0.0
+    },
+    "A6_USE_UNCERT_NOANS": {
+      "b_CIF": 4,
+      "c_Recovery": 103,
+      "chi2": 89.75700934579439,
+      "p_value": 0.0
+    }
+  },
+  "direct_baseline": 0.4472361809045226
+}

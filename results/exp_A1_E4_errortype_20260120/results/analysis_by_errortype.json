@@ -1,0 +1,102 @@
+{
+  "sonnet4": {
+    "arithmetic": {
+      "n": 40,
+      "detectability": "easy",
+      "accuracy": {
+        "DIRECT": 0.95,
+        "USE": 0.925
+      },
+      "cif_rate": 0.02631578947368421,
+      "followed_wrong_in_cif": 0.0,
+      "n_direct_correct": 38,
+      "n_cif": 1
+    },
+    "computational": {
+      "n": 40,
+      "detectability": "medium",
+      "accuracy": {
+        "DIRECT": 0.975,
+        "USE": 0.925
+      },
+      "cif_rate": 0.05128205128205128,
+      "followed_wrong_in_cif": 0.5,
+      "n_direct_correct": 39,
+      "n_cif": 2
+    },
+    "setup": {
+      "n": 40,
+      "detectability": "hard",
+      "accuracy": {
+        "DIRECT": 1.0,
+        "USE": 0.875
+      },
+      "cif_rate": 0.125,
+      "followed_wrong_in_cif": 1.0,
+      "n_direct_correct": 40,
+      "n_cif": 5
+    },
+    "conceptual": {
+      "n": 40,
+      "detectability": "hard",
+      "accuracy": {
+        "DIRECT": 0.975,
+        "USE": 0.85
+      },
+      "cif_rate": 0.1282051282051282,
+      "followed_wrong_in_cif": 0.8,
+      "n_direct_correct": 39,
+      "n_cif": 5
+    }
+  },
+  "gpt4o": {
+    "arithmetic": {
+      "n": 40,
+      "detectability": "easy",
+      "accuracy": {
+        "DIRECT": 0.925,
+        "USE": 0.95
+      },
+      "cif_rate": 0.02702702702702703,
+      "followed_wrong_in_cif": 0.0,
+      "n_direct_correct": 37,
+      "n_cif": 1
+    },
+    "computational": {
+      "n": 40,
+      "detectability": "medium",
+      "accuracy": {
+        "DIRECT": 0.875,
+        "USE": 0.85
+      },
+      "cif_rate": 0.08571428571428572,
+      "followed_wrong_in_cif": 0.6666666666666666,
+      "n_direct_correct": 35,
+      "n_cif": 3
+    },
+    "setup": {
+      "n": 40,
+      "detectability": "hard",
+      "accuracy": {
+        "DIRECT": 0.975,
+        "USE": 0.825
+      },
+      "cif_rate": 0.15384615384615385,
+      "followed_wrong_in_cif": 1.0,
+      "n_direct_correct": 39,
+      "n_cif": 6
+    },
+    "conceptual": {
+      "n": 40,
+      "detectability": "hard",
+      "accuracy": {
+        "DIRECT": 0.975,
+        "USE": 0.775
+      },
+      "cif_rate": 0.20512820512820512,
+      "followed_wrong_in_cif": 0.625,
+      "n_direct_correct": 39,
+      "n_cif": 8
+    }
+  }
+}
